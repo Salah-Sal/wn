@@ -3,7 +3,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { lexiconApi } from '@/api/client'
 import { useAppStore } from '@/stores/appStore'
 import { cn } from '@/lib/utils'
-import { BookOpen, Download, ChevronDown, ChevronRight, Loader2, Check, Upload, AlertCircle } from 'lucide-react'
+import { BookOpen, Download, ChevronDown, ChevronRight, Loader2, Check, Upload, AlertCircle, Trash2 } from 'lucide-react'
 
 export function LexiconManager() {
   const queryClient = useQueryClient()
@@ -50,6 +50,23 @@ export function LexiconManager() {
     },
   })
 
+  const removeMutation = useMutation({
+    mutationFn: (lexiconId: string) => lexiconApi.remove(lexiconId),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['lexicons'] })
+      if (selectedLexicon) {
+        setSelectedLexicon(null)
+      }
+    },
+  })
+
+  const handleRemove = (e: React.MouseEvent, lexiconId: string) => {
+    e.stopPropagation()
+    if (confirm('Are you sure you want to remove this lexicon?')) {
+      removeMutation.mutate(lexiconId)
+    }
+  }
+
   const handleFileSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0]
     if (file) {
@@ -82,25 +99,41 @@ export function LexiconManager() {
         ) : (
           <ul className="space-y-1">
             {lexicons.map((lex) => (
-              <li key={`${lex.id}:${lex.version}`}>
-                <button
-                  onClick={() => setSelectedLexicon(lex.id)}
+              <li key={`${lex.id}:${lex.version}`} className="group">
+                <div
                   className={cn(
-                    'w-full flex items-center gap-2 px-3 py-2 rounded-lg text-left hover:bg-[hsl(var(--secondary))]',
+                    'flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[hsl(var(--secondary))]',
                     selectedLexicon === lex.id && 'bg-[hsl(var(--secondary))]'
                   )}
                 >
-                  <BookOpen className="w-4 h-4 text-[hsl(var(--primary))]" />
-                  <div className="flex-1 min-w-0">
-                    <div className="text-sm font-medium text-[hsl(var(--foreground))] truncate">
-                      {lex.label}
+                  <button
+                    onClick={() => setSelectedLexicon(lex.id)}
+                    className="flex items-center gap-2 flex-1 min-w-0 text-left"
+                  >
+                    <BookOpen className="w-4 h-4 text-[hsl(var(--primary))] flex-shrink-0" />
+                    <div className="flex-1 min-w-0">
+                      <div className="text-sm font-medium text-[hsl(var(--foreground))] truncate">
+                        {lex.label}
+                      </div>
+                      <div className="text-xs text-[hsl(var(--muted-foreground))]">
+                        {lex.language} · v{lex.version}
+                      </div>
                     </div>
-                    <div className="text-xs text-[hsl(var(--muted-foreground))]">
-                      {lex.language} · v{lex.version}
-                    </div>
-                  </div>
-                  {selectedLexicon === lex.id && <Check className="w-4 h-4 text-[hsl(var(--primary))]" />}
-                </button>
+                    {selectedLexicon === lex.id && <Check className="w-4 h-4 text-[hsl(var(--primary))]" />}
+                  </button>
+                  <button
+                    onClick={(e) => handleRemove(e, lex.id)}
+                    disabled={removeMutation.isPending}
+                    className="p-1 rounded opacity-0 group-hover:opacity-100 hover:bg-red-100 dark:hover:bg-red-900/30 transition-opacity disabled:opacity-50"
+                    title="Remove lexicon"
+                  >
+                    {removeMutation.isPending ? (
+                      <Loader2 className="w-4 h-4 animate-spin text-[hsl(var(--muted-foreground))]" />
+                    ) : (
+                      <Trash2 className="w-4 h-4 text-red-500" />
+                    )}
+                  </button>
+                </div>
               </li>
             ))}
           </ul>

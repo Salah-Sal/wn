@@ -95,6 +95,21 @@ async def download_lexicon(request: DownloadRequest):
         raise HTTPException(status_code=400, detail=str(e))
 
 
+@router.delete("/lexicons/{lexicon_id}")
+async def remove_lexicon(lexicon_id: str):
+    """Remove an installed lexicon."""
+    lex = wn_service.get_lexicon(lexicon_id)
+    if not lex:
+        raise HTTPException(status_code=404, detail=f"Lexicon '{lexicon_id}' not found")
+    
+    try:
+        lexicon_spec = f"{lex.id}:{lex.version}"
+        wn_service.remove_lexicon(lexicon_spec)
+        return {"status": "success", "message": f"Removed {lexicon_spec}"}
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
 @router.post("/lexicons/upload", response_model=UploadResponse)
 async def upload_lexicon(file: UploadFile = File(...)):
     """Upload a WordNet LMF file from local disk."""

@@ -138,6 +138,7 @@ export const lexiconApi = {
   list: () => api.get<{ lexicons: Lexicon[]; count: number }>('/lexicons'),
   get: (spec: string) => api.get<LexiconDetail>(`/lexicons/${spec}`),
   download: (projectId: string) => api.post('/lexicons/download', { project_id: projectId }),
+  remove: (lexiconId: string) => api.delete(`/lexicons/${encodeURIComponent(lexiconId)}`),
   listProjects: () => api.get<Project[]>('/projects'),
   upload: (file: File) => {
     const formData = new FormData()

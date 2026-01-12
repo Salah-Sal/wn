@@ -61,6 +61,10 @@ Both workflows run automatically:
 - Clipboard copy for IDs
 
 ## Recent Changes
+- January 2026: Lexicon management improvements
+  - Added ability to remove installed lexicons (DELETE endpoint + UI)
+  - Added file upload for local WN-LMF files
+  - Fixed *INFERRED* placeholder synset handling in Arabic WordNet
 - January 2026: Navigation UX improvements
   - Added BackButton component to all detail pages for easy navigation
   - Made senses clickable with "View Sense" links in WordPage

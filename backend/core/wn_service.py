@@ -27,6 +27,11 @@ class WnService:
         wn.download(project_id)
     
     @staticmethod
+    def remove_lexicon(lexicon_spec: str):
+        """Remove a lexicon from the database."""
+        wn.remove(lexicon_spec)
+    
+    @staticmethod
     def search_words(
         form: Optional[str] = None,
         pos: Optional[str] = None,
