@@ -1,0 +1,1215 @@
+# WordNet Explorer Frontend Specifications
+
+## Executive Summary
+
+This document specifies a comprehensive frontend application for exploring and managing WordNet data, built on top of the `wn` Python library. The target users are **linguists** and **wordnet engineers** who need powerful tools for browsing, analyzing, editing, and validating lexical semantic databases.
+
+---
+
+## 1. Project Overview
+
+### 1.1 Purpose
+
+Create a modern, feature-rich frontend that enables linguists and wordnet engineers to:
+
+- Browse and search wordnet data efficiently
+- Visualize semantic relationships and taxonomies
+- Analyze lexical similarities and information content
+- Validate and quality-check wordnet resources
+- Edit and extend wordnet lexicons
+- Manage multiple wordnets across languages
+- Export and share lexical resources
+
+### 1.2 Target Users
+
+| User Type | Primary Needs |
+|-----------|--------------|
+| **Lexicographers** | Create, edit, and maintain wordnet entries |
+| **Computational Linguists** | Analyze semantic relationships, run similarity metrics |
+| **NLP Researchers** | Query wordnets for experiments, export data |
+| **Wordnet Engineers** | Validate data, manage multiple lexicons, handle imports/exports |
+| **Language Educators** | Explore word meanings and relationships |
+
+### 1.3 Technology Stack Recommendations
+
+| Layer | Recommended Technology | Rationale |
+|-------|----------------------|-----------|
+| **Backend API** | FastAPI + `wn` library | Native Python, async support, OpenAPI docs |
+| **Frontend** | React + TypeScript | Component reusability, type safety |
+| **Visualization** | D3.js / Cytoscape.js | Graph visualization for relations |
+| **State Management** | Zustand or Redux Toolkit | Complex state for multi-panel views |
+| **Styling** | Tailwind CSS + shadcn/ui | Rapid development, accessibility |
+| **Database** | SQLite (via `wn`) | Built-in, zero configuration |
+
+---
+
+## 2. Core Features
+
+### 2.1 Lexicon Management
+
+#### 2.1.1 Lexicon Browser
+
+Display all installed lexicons with:
+
+| Field | Description | Source |
+|-------|-------------|--------|
+| ID | Lexicon identifier | `Lexicon.id` |
+| Version | Version string | `Lexicon.version` |
+| Label | Human-readable name | `Lexicon.label` |
+| Language | BCP-47 code + flag | `Lexicon.language` |
+| License | License URL/text | `Lexicon.license` |
+| Word Count | By POS | `Lexicon.describe()` |
+| Synset Count | By POS | `Lexicon.describe()` |
+| Modified | Local changes indicator | `Lexicon.modified()` |
+| Dependencies | Required lexicons | `Lexicon.requires()` |
+| Extensions | Child extensions | `Lexicon.extensions()` |
+
+**Actions:**
+- Download new lexicons from index (`wn.download()`)
+- Add local WN-LMF files (`wn.add()`)
+- Remove lexicons (`wn.remove()`)
+- Export lexicons (`wn.export()`)
+- View lexicon details and metadata
+
+#### 2.1.2 Lexicon Download Manager
+
+- List all available projects from `wn.projects()`
+- Show project metadata (label, language, license, versions)
+- Download with progress indicator (using `ProgressHandler`)
+- Handle multiple download URLs (fallback support)
+- Show cached status
+
+#### 2.1.3 Multi-Lexicon Workspace
+
+- Create named "workspaces" combining multiple lexicons
+- Configure expand lexicons for cross-lingual traversal
+- Save/load workspace configurations
+- Quick switch between workspaces
+
+---
+
+### 2.2 Search & Browse
+
+#### 2.2.1 Universal Search Bar
+
+**Search Modes:**
+
+| Mode | Input | Result |
+|------|-------|--------|
+| Word Form | `dog`, `running` | Words matching form |
+| Synset ID | `oewn-02083346-n` | Direct synset lookup |
+| ILI | `i67447` | Synsets across languages |
+| Definition | `"domestic animal"` | Full-text definition search |
+| Lemma Pattern | `dog*`, `*ology` | Wildcard matching |
+
+**Search Options:**
+- Part-of-speech filter (n, v, a, r, s)
+- Lexicon filter (multi-select)
+- Language filter
+- Normalize search (toggle)
+- Use lemmatizer (toggle, with `wn.morphy`)
+
+#### 2.2.2 Word Browser
+
+For each `Word` object, display:
+
+```
++--------------------------------------------------+
+| WORD: information                                |
+| ID: test-en-information-n                        |
+| POS: noun                    Lexicon: test-en:1  |
++--------------------------------------------------+
+| LEMMA                                            |
+| Form: information                                |
+| Script: Latn                                     |
+| Tags: [tag-category: tag-text]                   |
+| Pronunciations: /ˌɪnfərˈmeɪʃən/                  |
++--------------------------------------------------+
+| FORMS                                            |
+| - information (lemma)                            |
+| - informations                                   |
++--------------------------------------------------+
+| SENSES (1)                                       |
+| 1. test-en-information-n-0001-01                 |
+|    → Synset: test-en-0001-n                      |
+|    Definition: something that informs            |
+|    [View Synset] [View Relations]                |
++--------------------------------------------------+
+| DERIVED WORDS                                    |
+| - inform (v) [derivation]                        |
+| - informative (a) [derivation]                   |
++--------------------------------------------------+
+| TRANSLATIONS                                     |
+| es: información                                  |
+| ja: 情報                                         |
++--------------------------------------------------+
+```
+
+**Features:**
+- Collapsible sections
+- Click-through navigation to related entities
+- Copy ID to clipboard
+- View raw metadata (`Word.metadata()`)
+
+#### 2.2.3 Synset Browser
+
+For each `Synset` object, display:
+
+```
++--------------------------------------------------+
+| SYNSET: test-en-0001-n                           |
+| POS: noun                    Lexicon: test-en:1  |
+| ILI: i67447 (presupposed)                        |
+| Lexfile: noun.cognition                          |
++--------------------------------------------------+
+| DEFINITION                                       |
+| something that informs                           |
+| Source Sense: test-en-information-n-0001-01      |
++--------------------------------------------------+
+| EXAMPLES                                         |
+| - "this is information"                          |
++--------------------------------------------------+
+| MEMBERS (Words)                                  |
+| - information (n)                                |
+| - data (n)                                       |
+| - info (n)                                       |
++--------------------------------------------------+
+| SENSES (2)                                       |
+| 1. test-en-information-n-0001-01 [rank: 1]       |
+| 2. test-en-data-n-0001-01 [rank: 2]              |
++--------------------------------------------------+
+| RELATIONS                                        |
+| Hypernyms: (none - root)                         |
+| Hyponyms:                                        |
+|   - test-en-0002-n (example, illustration)       |
+|   - test-en-0006-n (datum)                       |
+| Holonyms: (none)                                 |
+| Meronyms: (none)                                 |
++--------------------------------------------------+
+| TAXONOMY                                         |
+| Depth (min/max): 0 / 0                           |
+| Is Root: Yes                                     |
+| Is Leaf: No                                      |
++--------------------------------------------------+
+```
+
+**Features:**
+- Inline relation expansion (lazy load)
+- Hypernym path visualization
+- Cross-lingual synset lookup via ILI
+- Lexicalized status indicator
+
+#### 2.2.4 Sense Browser
+
+For each `Sense` object, display:
+
+```
++--------------------------------------------------+
+| SENSE: test-en-illustrate-v-0003-01              |
+| Lexicon: test-en:1                               |
++--------------------------------------------------+
+| WORD                                             |
+| illustrate (v) → [View Word]                     |
++--------------------------------------------------+
+| SYNSET                                           |
+| test-en-0003-v: "providing an example"           |
+| → [View Synset]                                  |
++--------------------------------------------------+
+| EXAMPLES                                         |
+| - "This illustrates the point"                   |
++--------------------------------------------------+
+| FRAMES (Subcategorization)                       |
+| - Somebody ----s something                       |
+| - Something ----s something                      |
++--------------------------------------------------+
+| ADJPOSITION                                      |
+| (not applicable)                                 |
++--------------------------------------------------+
+| COUNTS                                           |
+| Corpus: SemCor, Count: 42                        |
++--------------------------------------------------+
+| RELATIONS                                        |
+| derivation:                                      |
+|   → test-en-illustration-n-0002-01               |
+| other (dc:type=result):                          |
+|   → test-en-illustration-n-0002-01               |
++--------------------------------------------------+
+```
+
+---
+
+### 2.3 Visualization
+
+#### 2.3.1 Taxonomy Tree View
+
+**Hypernym Tree:**
+- Root at top, expanding downward
+- Collapsible nodes
+- Breadcrumb path to current node
+- Highlight current synset
+- Show depth levels
+- Option to show all paths or shortest path
+
+**Features:**
+- Pan and zoom
+- Expand/collapse all
+- Search within tree
+- Export as SVG/PNG
+
+#### 2.3.2 Relation Graph
+
+Interactive graph visualization showing:
+
+| Relation Type | Edge Style | Color |
+|--------------|------------|-------|
+| hypernym/hyponym | Solid arrow | Blue |
+| holonym/meronym | Dashed arrow | Green |
+| derivation | Dotted line | Orange |
+| similar_to | Thin solid | Purple |
+| also | Thin dashed | Gray |
+
+**Graph Controls:**
+- Layout algorithms (hierarchical, force-directed, radial)
+- Filter by relation type
+- Depth limit slider (1-5 hops)
+- Node size by frequency/centrality
+- Edge thickness by relation strength
+
+#### 2.3.3 Cross-Lingual View
+
+Parallel display showing:
+
+```
++------------------+------------------+------------------+
+|    English       |    Spanish       |    Japanese      |
++------------------+------------------+------------------+
+| information (n)  | información (n)  | 情報 (n)          |
+| ↓ i67447         | ↓ i67447         | ↓ i67447         |
+| example (n)      | ejemplo (n)      | 例え (n)          |
+| ↓ i67469         | ↓ i67469         | ↓ i67469         |
++------------------+------------------+------------------+
+```
+
+**Features:**
+- ILI-aligned rows
+- Missing translation indicators
+- Click to add translation
+- Language column selector
+
+---
+
+### 2.4 Analysis Tools
+
+#### 2.4.1 Similarity Calculator
+
+**Input Panel:**
+```
+Synset 1: [____________________] [Browse]
+Synset 2: [____________________] [Browse]
+
+Metrics:
+[x] Path Similarity
+[x] Wu-Palmer (WUP)
+[x] Leacock-Chodorow (LCH)
+[ ] Resnik (requires IC)
+[ ] Jiang-Conrath (requires IC)
+[ ] Lin (requires IC)
+
+Options:
+[x] Simulate root for disconnected synsets
+Taxonomy depth (for LCH): [Auto-detect]
+IC Source: [Select corpus...]
+```
+
+**Results Panel:**
+```
++------------------+--------+
+| Metric           | Score  |
++------------------+--------+
+| Path Similarity  | 0.125  |
+| Wu-Palmer        | 0.667  |
+| Leacock-Chodorow | 1.386  |
+| Resnik           | 3.456  |
+| Jiang-Conrath    | 0.089  |
+| Lin              | 0.543  |
++------------------+--------+
+
+Shared Information:
+- Lowest Common Hypernym: entity (test-en-0001-n)
+- Shortest Path Length: 7
+```
+
+#### 2.4.2 Information Content Browser
+
+**IC Computation:**
+- Load existing IC files (NLTK format)
+- Compute from corpus text
+- Configure:
+  - Distribute weight (yes/no)
+  - Smoothing value
+  - Root synset handling
+
+**IC Viewer:**
+- Histogram of IC distribution by POS
+- Top N most/least informative synsets
+- Export IC data
+
+#### 2.4.3 Taxonomy Statistics
+
+For selected lexicon/wordnet:
+
+```
++----------------------------------+
+| TAXONOMY STATISTICS              |
++----------------------------------+
+| Part of Speech: noun             |
+| Taxonomy Depth: 19               |
+| Root Synsets: 1 (entity)         |
+| Leaf Synsets: 82,115             |
+| Intermediate Synsets: 37,234     |
+| Average Branching Factor: 4.2    |
+| Max Branching Factor: 397        |
++----------------------------------+
+| Deepest Synsets:                 |
+| 1. oewn-08278169-n (depth 19)    |
+| 2. oewn-08277638-n (depth 19)    |
+| ...                              |
++----------------------------------+
+```
+
+#### 2.4.4 Word Metrics
+
+For selected word:
+
+```
++----------------------------------+
+| WORD METRICS: bank               |
++----------------------------------+
+| Ambiguity: 18 synsets            |
+| Average Ambiguity of Synsets:    |
+|   Synset 1: 3.5                  |
+|   Synset 2: 2.1                  |
+| POS Distribution:                |
+|   noun: 10                       |
+|   verb: 8                        |
++----------------------------------+
+```
+
+---
+
+### 2.5 Validation & Quality
+
+#### 2.5.1 Validation Dashboard
+
+Run `wn.validate.validate()` and display results:
+
+**Validation Report:**
+
+| Code | Level | Count | Description |
+|------|-------|-------|-------------|
+| E101 | Error | 0 | ID is not unique |
+| W201 | Warning | 5 | Lexical entry has no senses |
+| W202 | Warning | 12 | Redundant sense |
+| W203 | Warning | 3 | Redundant lexical entry |
+| E204 | Error | 0 | Synset of sense is missing |
+| W301 | Warning | 45 | Empty synset |
+| W302 | Warning | 2 | ILI repeated |
+| W303 | Warning | 8 | Proposed ILI missing definition |
+| W304 | Warning | 0 | Spurious ILI definition |
+| W305 | Warning | 1 | Blank synset definition |
+| W306 | Warning | 0 | Blank synset example |
+| W307 | Warning | 3 | Repeated definition |
+| E401 | Error | 0 | Relation target missing |
+| W402 | Warning | 7 | Invalid relation type |
+| W403 | Warning | 15 | Redundant relation |
+| W404 | Warning | 23 | Missing reverse relation |
+| W501 | Warning | 4 | POS mismatch in hypernym |
+| W502 | Warning | 0 | Self-loop relation |
+
+**Features:**
+- Filter by error level (E/W)
+- Filter by category (100s, 200s, 300s, 400s, 500s)
+- Click issue to navigate to affected entity
+- Bulk fix suggestions where applicable
+- Export validation report
+
+#### 2.5.2 Consistency Checker
+
+Additional checks beyond `wn.validate`:
+
+- Orphan detection (synsets with no words)
+- Cycle detection in hypernym chains
+- Missing ILI assignments
+- Inconsistent POS across senses
+- Duplicate lemmas with different IDs
+- Relation symmetry verification
+
+---
+
+### 2.6 Editor (Requires wn-editor)
+
+#### 2.6.1 Entry Editor
+
+**Word Editor Form:**
+```
++--------------------------------------------------+
+| EDIT WORD                                        |
++--------------------------------------------------+
+| ID: test-en-newword-n (auto-generated)           |
+| Lemma: [________________]                        |
+| POS: [noun ▼]                                    |
+| Script: [Latn ▼]                                 |
++--------------------------------------------------+
+| FORMS                                            |
+| [+ Add Form]                                     |
+| - newword (lemma)                                |
+| - newwords [x Remove]                            |
++--------------------------------------------------+
+| TAGS                                             |
+| [+ Add Tag]                                      |
+| - category: [_____] value: [_____] [x]           |
++--------------------------------------------------+
+| PRONUNCIATIONS                                   |
+| [+ Add Pronunciation]                            |
+| - Value: [_____] IPA: [_____] Audio: [_____]     |
++--------------------------------------------------+
+| SENSES                                           |
+| [+ Add Sense]                                    |
+| 1. → Synset: [________] [Browse] [x]             |
++--------------------------------------------------+
+| [Cancel] [Save Draft] [Commit]                   |
++--------------------------------------------------+
+```
+
+#### 2.6.2 Synset Editor
+
+**Synset Editor Form:**
+```
++--------------------------------------------------+
+| EDIT SYNSET                                      |
++--------------------------------------------------+
+| ID: test-en-0099-n (auto-generated)              |
+| POS: [noun ▼]                                    |
+| ILI: [i99999 ▼] or [Propose New]                 |
+| Lexfile: [noun.cognition ▼]                      |
++--------------------------------------------------+
+| DEFINITIONS                                      |
+| [+ Add Definition]                               |
+| 1. [_________________________________]           |
+|    Language: [en ▼] Source Sense: [_____]        |
++--------------------------------------------------+
+| EXAMPLES                                         |
+| [+ Add Example]                                  |
+| 1. [_________________________________]           |
++--------------------------------------------------+
+| RELATIONS                                        |
+| [+ Add Relation]                                 |
+| - Type: [hypernym ▼]                             |
+|   Target: [________] [Browse]                    |
+|   [x Remove]                                     |
++--------------------------------------------------+
+| [Cancel] [Save Draft] [Commit]                   |
++--------------------------------------------------+
+```
+
+#### 2.6.3 Relation Editor
+
+**Quick Relation Add:**
+- Select source entity
+- Choose relation type from valid options
+- Search/browse for target
+- Automatic reverse relation creation (optional)
+- Validation before save
+
+#### 2.6.4 Batch Operations
+
+- Import from CSV/TSV
+- Bulk relation creation
+- Find & replace in definitions
+- Merge duplicate synsets
+- Split polysemous entries
+
+#### 2.6.5 Change Tracking
+
+- Local modification flag (`Lexicon.modified()`)
+- Undo/redo stack
+- Change history log
+- Diff viewer for exports
+
+---
+
+### 2.7 Import/Export
+
+#### 2.7.1 Import Wizard
+
+**Step 1: Source Selection**
+- Local file (XML, XML.gz, XML.xz)
+- Remote URL
+- Project from index
+- Directory/archive (collection)
+
+**Step 2: Preview**
+- Scan lexicons (`wn.lmf.scan_lexicons()`)
+- Show lexicon metadata
+- Conflict detection (existing lexicons)
+
+**Step 3: Options**
+- Overwrite vs. skip existing
+- Validate on import
+- Select specific lexicons from collection
+
+**Step 4: Progress**
+- Progress bar with `ProgressHandler`
+- Cancelable operation
+- Error reporting
+
+#### 2.7.2 Export Options
+
+**Export Dialog:**
+```
++--------------------------------------------------+
+| EXPORT LEXICONS                                  |
++--------------------------------------------------+
+| Select Lexicons:                                 |
+| [x] test-en:1                                    |
+| [x] test-es:1                                    |
+| [ ] test-ja:1                                    |
++--------------------------------------------------+
+| Output Format:                                   |
+| (*) WN-LMF 1.3 (recommended)                     |
+| ( ) WN-LMF 1.1                                   |
+| ( ) WN-LMF 1.0                                   |
++--------------------------------------------------+
+| Compression:                                     |
+| ( ) None (.xml)                                  |
+| (*) Gzip (.xml.gz)                               |
+| ( ) LZMA (.xml.xz)                               |
++--------------------------------------------------+
+| Include:                                         |
+| [x] Metadata                                     |
+| [x] Examples                                     |
+| [x] Pronunciations                               |
+| [x] Relations                                    |
++--------------------------------------------------+
+| [Cancel] [Export]                                |
++--------------------------------------------------+
+```
+
+#### 2.7.3 Custom Exports
+
+- Export to JSON (custom format)
+- Export to CSV (words, senses, synsets)
+- Export relation triples (RDF-style)
+- Export for NLTK compatibility
+- Export IC data
+
+---
+
+### 2.8 Sense Key Support
+
+Integration with `wn.compat.sensekey`:
+
+#### 2.8.1 Sense Key Lookup
+
+**Input:** Sense key (e.g., `ceramic%3:01:00::`)
+**Output:** Corresponding `Sense` object
+
+Support for:
+- OMW lexicons (metadata-based)
+- OEWN lexicons (ID-based)
+
+#### 2.8.2 Sense Key Display
+
+- Show original sense key alongside ID
+- Escape/unescape visualization
+- Copy sense key to clipboard
+
+---
+
+## 3. User Interface Design
+
+### 3.1 Layout
+
+**Three-Panel Layout:**
+
+```
++------------------+------------------------+------------------+
+|                  |                        |                  |
+|    NAVIGATION    |      MAIN CONTENT      |    DETAILS       |
+|                  |                        |                  |
+|  - Lexicons      |  - Search Results      |  - Entity Info   |
+|  - Workspaces    |  - Entity Browser      |  - Relations     |
+|  - Recent        |  - Graph View          |  - Metadata      |
+|  - Bookmarks     |  - Validation          |  - Actions       |
+|                  |                        |                  |
++------------------+------------------------+------------------+
+|                    STATUS BAR / BREADCRUMBS                  |
++--------------------------------------------------------------+
+```
+
+### 3.2 Navigation Patterns
+
+#### 3.2.1 Breadcrumb Trail
+
+```
+Home > oewn:2024 > Synsets > oewn-02083346-n > Relations
+```
+
+#### 3.2.2 History & Back/Forward
+
+- Browser-style navigation
+- Keyboard shortcuts (Alt+Left/Right)
+- History sidebar
+
+#### 3.2.3 Quick Jump
+
+- Cmd/Ctrl+K: Global search
+- Cmd/Ctrl+G: Go to ID
+- Cmd/Ctrl+P: Command palette
+
+### 3.3 Responsive Design
+
+| Breakpoint | Layout |
+|------------|--------|
+| Desktop (>1200px) | Three-panel |
+| Tablet (768-1199px) | Two-panel + drawer |
+| Mobile (<768px) | Single panel + navigation drawer |
+
+### 3.4 Accessibility
+
+- WCAG 2.1 AA compliance
+- Keyboard navigation throughout
+- Screen reader support
+- High contrast mode
+- Adjustable font sizes
+- Focus indicators
+
+### 3.5 Theming
+
+- Light/Dark mode toggle
+- Syntax highlighting for IDs
+- Color-coded relation types
+- Customizable accent colors
+
+---
+
+## 4. API Design
+
+### 4.1 REST API Endpoints
+
+Building on `wn.web`, extend with:
+
+#### 4.1.1 Core Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/lexicons` | List all lexicons |
+| GET | `/api/lexicons/{spec}` | Get lexicon details |
+| POST | `/api/lexicons/download` | Download lexicon |
+| DELETE | `/api/lexicons/{spec}` | Remove lexicon |
+| GET | `/api/words` | Search words |
+| GET | `/api/words/{id}` | Get word by ID |
+| GET | `/api/senses` | Search senses |
+| GET | `/api/senses/{id}` | Get sense by ID |
+| GET | `/api/synsets` | Search synsets |
+| GET | `/api/synsets/{id}` | Get synset by ID |
+| GET | `/api/ilis` | List ILIs |
+| GET | `/api/ilis/{id}` | Get ILI by ID |
+
+#### 4.1.2 Relation Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/synsets/{id}/relations` | Get all relations |
+| GET | `/api/synsets/{id}/hypernyms` | Get hypernyms |
+| GET | `/api/synsets/{id}/hyponyms` | Get hyponyms |
+| GET | `/api/synsets/{id}/holonyms` | Get holonyms |
+| GET | `/api/synsets/{id}/meronyms` | Get meronyms |
+| GET | `/api/synsets/{id}/hypernym-paths` | Get paths to root |
+| GET | `/api/senses/{id}/relations` | Get sense relations |
+
+#### 4.1.3 Analysis Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/similarity` | Compute similarity |
+| GET | `/api/taxonomy/roots` | Get root synsets |
+| GET | `/api/taxonomy/leaves` | Get leaf synsets |
+| GET | `/api/taxonomy/depth` | Get taxonomy depth |
+| POST | `/api/shortest-path` | Find shortest path |
+| POST | `/api/common-hypernyms` | Find common hypernyms |
+
+#### 4.1.4 Validation Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/validate` | Run validation |
+| GET | `/api/validate/codes` | List validation codes |
+
+#### 4.1.5 Import/Export Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/import` | Import WN-LMF file |
+| POST | `/api/export` | Export lexicons |
+| GET | `/api/projects` | List available projects |
+
+### 4.2 WebSocket API
+
+For long-running operations:
+
+| Channel | Purpose |
+|---------|---------|
+| `/ws/download` | Download progress |
+| `/ws/import` | Import progress |
+| `/ws/validation` | Validation progress |
+| `/ws/search` | Streaming search results |
+
+### 4.3 GraphQL API (Optional)
+
+For complex queries with nested relations:
+
+```graphql
+query {
+  synset(id: "oewn-02083346-n") {
+    id
+    pos
+    definitions { text }
+    members {
+      word { lemma }
+      sense { id }
+    }
+    hypernyms(depth: 3) {
+      id
+      definitions { text }
+      hypernyms {
+        id
+      }
+    }
+  }
+}
+```
+
+---
+
+## 5. Data Models
+
+### 5.1 Frontend Data Types
+
+```typescript
+interface Lexicon {
+  id: string;
+  version: string;
+  label: string;
+  language: string;
+  email: string;
+  license: string;
+  url?: string;
+  citation?: string;
+  logo?: string;
+  metadata: Record<string, string>;
+  specifier: string;
+  modified: boolean;
+  wordCount: Record<string, number>;
+  synsetCount: Record<string, number>;
+}
+
+interface Word {
+  id: string;
+  pos: string;
+  lexicon: string;
+  lemma: Form;
+  forms: Form[];
+  senses: Sense[];
+  metadata: Record<string, string>;
+}
+
+interface Form {
+  value: string;
+  id?: string;
+  script?: string;
+  pronunciations: Pronunciation[];
+  tags: Tag[];
+}
+
+interface Pronunciation {
+  value: string;
+  variety?: string;
+  notation?: string;
+  phonemic: boolean;
+  audio?: string;
+}
+
+interface Tag {
+  tag: string;
+  category: string;
+}
+
+interface Sense {
+  id: string;
+  wordId: string;
+  synsetId: string;
+  lexicon: string;
+  examples: Example[];
+  frames: string[];
+  adjposition?: string;
+  counts: Count[];
+  relations: Record<string, Sense[]>;
+  metadata: Record<string, string>;
+}
+
+interface Synset {
+  id: string;
+  pos: string;
+  ili?: ILI;
+  lexicon: string;
+  lexfile?: string;
+  definitions: Definition[];
+  examples: Example[];
+  members: Sense[];
+  relations: Record<string, Synset[]>;
+  lexicalized: boolean;
+  metadata: Record<string, string>;
+}
+
+interface ILI {
+  id?: string;
+  status: string;
+  definition?: string;
+}
+
+interface Definition {
+  text: string;
+  language?: string;
+  sourceSenseId?: string;
+  metadata: Record<string, string>;
+}
+
+interface Example {
+  text: string;
+  language?: string;
+  metadata: Record<string, string>;
+}
+
+interface Count {
+  value: number;
+  metadata: Record<string, string>;
+}
+
+interface Relation {
+  name: string;
+  sourceId: string;
+  targetId: string;
+  lexicon: string;
+  subtype?: string;
+  metadata: Record<string, string>;
+}
+```
+
+### 5.2 Search/Filter Types
+
+```typescript
+interface SearchParams {
+  form?: string;
+  pos?: 'n' | 'v' | 'a' | 'r' | 's';
+  lexicon?: string[];
+  language?: string;
+  ili?: string;
+  normalized?: boolean;
+  lemmatized?: boolean;
+  limit?: number;
+  offset?: number;
+}
+
+interface SimilarityRequest {
+  synset1: string;
+  synset2: string;
+  metrics: ('path' | 'wup' | 'lch' | 'res' | 'jcn' | 'lin')[];
+  simulateRoot?: boolean;
+  icSource?: string;
+}
+
+interface ValidationRequest {
+  lexicon: string;
+  select: string[];  // e.g., ['E', 'W'] or ['E101', 'W201']
+}
+```
+
+---
+
+## 6. Performance Requirements
+
+### 6.1 Response Times
+
+| Operation | Target | Maximum |
+|-----------|--------|---------|
+| Simple lookup (by ID) | <50ms | <200ms |
+| Word search (exact) | <100ms | <500ms |
+| Word search (normalized) | <200ms | <1s |
+| Relation traversal (1 hop) | <100ms | <500ms |
+| Hypernym path computation | <200ms | <1s |
+| Similarity (single pair) | <100ms | <500ms |
+| Validation (full lexicon) | <30s | <2min |
+| Graph render (100 nodes) | <500ms | <2s |
+
+### 6.2 Scalability
+
+- Support lexicons with 100k+ synsets
+- Handle 10+ concurrent users
+- Lazy loading for large result sets
+- Virtual scrolling for long lists
+- Pagination with 50-item default
+
+### 6.3 Caching Strategy
+
+| Data Type | Cache Duration | Invalidation |
+|-----------|----------------|--------------|
+| Lexicon list | 5 minutes | On add/remove |
+| Entity lookups | 10 minutes | On lexicon change |
+| Search results | 2 minutes | On query change |
+| Relation graphs | 5 minutes | On entity change |
+| Validation results | Until re-run | Manual |
+
+---
+
+## 7. Security Requirements
+
+### 7.1 Authentication
+
+- Optional authentication layer
+- Role-based access (viewer, editor, admin)
+- API key support for automation
+
+### 7.2 Authorization
+
+| Role | Permissions |
+|------|------------|
+| Viewer | Read all data, run analyses |
+| Editor | + Create/edit entries, validate |
+| Admin | + Manage lexicons, configure system |
+
+### 7.3 Data Protection
+
+- Read-only mode for production databases
+- Backup before destructive operations
+- Audit logging for edits
+- Input sanitization
+
+---
+
+## 8. Deployment
+
+### 8.1 Deployment Options
+
+| Option | Description | Use Case |
+|--------|-------------|----------|
+| Standalone Desktop | Electron app | Individual researchers |
+| Local Server | Docker container | Lab/team use |
+| Cloud Hosted | Kubernetes | Organization-wide |
+| Static + API | Separate frontend/backend | Custom setups |
+
+### 8.2 Configuration
+
+```yaml
+# config.yaml
+server:
+  host: 0.0.0.0
+  port: 8080
+  workers: 4
+
+database:
+  path: /data/wn.db
+  allow_multithreading: true
+
+lexicons:
+  index_url: https://example.com/index.toml
+  cache_directory: /data/cache
+
+features:
+  editing: true
+  validation: true
+  similarity: true
+
+auth:
+  enabled: false
+  provider: oauth2
+```
+
+### 8.3 Docker Setup
+
+```dockerfile
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY . .
+
+EXPOSE 8080
+
+CMD ["uvicorn", "app:main", "--host", "0.0.0.0", "--port", "8080"]
+```
+
+---
+
+## 9. Testing Strategy
+
+### 9.1 Test Coverage
+
+| Category | Target Coverage |
+|----------|----------------|
+| Unit Tests | 80% |
+| Integration Tests | 70% |
+| E2E Tests | Critical paths |
+
+### 9.2 Test Types
+
+- **Unit Tests**: Individual components, utility functions
+- **Integration Tests**: API endpoints, database operations
+- **E2E Tests**: User flows (search, browse, edit)
+- **Performance Tests**: Load testing, stress testing
+- **Accessibility Tests**: Automated a11y checks
+
+### 9.3 Test Data
+
+- Use existing `tests/data/mini-lmf-*.xml` fixtures
+- Generate larger synthetic datasets for performance tests
+- Snapshot testing for UI components
+
+---
+
+## 10. Documentation
+
+### 10.1 User Documentation
+
+- Getting Started Guide
+- Feature Tutorials (with screenshots)
+- Keyboard Shortcuts Reference
+- FAQ
+
+### 10.2 Developer Documentation
+
+- API Reference (OpenAPI/Swagger)
+- Architecture Overview
+- Contributing Guide
+- Extension/Plugin Development
+
+### 10.3 In-App Help
+
+- Contextual tooltips
+- Feature tours (onboarding)
+- Search within help
+- Link to online docs
+
+---
+
+## 11. Roadmap
+
+### Phase 1: Core Browser (MVP)
+
+- [ ] Lexicon management (list, download, remove)
+- [ ] Universal search
+- [ ] Word/Sense/Synset browsers
+- [ ] Basic relation navigation
+- [ ] Responsive layout
+
+### Phase 2: Visualization
+
+- [ ] Taxonomy tree view
+- [ ] Relation graph
+- [ ] Cross-lingual view
+
+### Phase 3: Analysis Tools
+
+- [ ] Similarity calculator
+- [ ] IC browser
+- [ ] Taxonomy statistics
+- [ ] Validation dashboard
+
+### Phase 4: Editor
+
+- [ ] Entry/synset editors
+- [ ] Relation editor
+- [ ] Batch operations
+- [ ] Change tracking
+
+### Phase 5: Advanced Features
+
+- [ ] Sense key support
+- [ ] Custom exports
+- [ ] GraphQL API
+- [ ] Plugin system
+
+---
+
+## 12. Appendix
+
+### A. WN-LMF Relation Types
+
+#### Synset Relations
+
+| Relation | Reverse | Description |
+|----------|---------|-------------|
+| hypernym | hyponym | "is a kind of" |
+| instance_hypernym | instance_hyponym | "is an instance of" |
+| mero_member | holo_member | "is a member of" |
+| mero_part | holo_part | "is a part of" |
+| mero_substance | holo_substance | "is made of" |
+| mero_location | holo_location | "is located in" |
+| mero_portion | holo_portion | "is a portion of" |
+| entails | is_entailed_by | "entails" |
+| causes | is_caused_by | "causes" |
+| similar | similar | "is similar to" |
+| also | also | "see also" |
+| attribute | attribute | "has attribute" |
+| domain_topic | has_domain_topic | "belongs to domain" |
+| domain_region | has_domain_region | "belongs to region" |
+| exemplifies | is_exemplified_by | "is an example of" |
+
+#### Sense Relations
+
+| Relation | Reverse | Description |
+|----------|---------|-------------|
+| antonym | antonym | "is opposite of" |
+| derivation | derivation | "is derived from" |
+| pertainym | - | "pertains to" |
+| participle | - | "is participle of" |
+
+### B. Part of Speech Codes
+
+| Code | Full Name |
+|------|-----------|
+| n | Noun |
+| v | Verb |
+| a | Adjective |
+| r | Adverb |
+| s | Adjective Satellite |
+
+### C. Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| Cmd/Ctrl + K | Global search |
+| Cmd/Ctrl + G | Go to ID |
+| Cmd/Ctrl + P | Command palette |
+| Alt + Left | Back |
+| Alt + Right | Forward |
+| Cmd/Ctrl + S | Save (in editor) |
+| Cmd/Ctrl + Z | Undo (in editor) |
+| Cmd/Ctrl + Shift + Z | Redo (in editor) |
+| Escape | Close modal/panel |
+| Tab | Navigate between panels |
+
+---
+
+## Document History
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | 2025-01-12 | AI Assistant | Initial specification |
+
+---
+
+*This specification is based on the `wn` Python library version 0.13.0.*
