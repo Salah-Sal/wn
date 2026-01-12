@@ -113,6 +113,7 @@ async def upload_lexicon(file: UploadFile = File(...)):
     suffix = '.xml.gz' if file.filename.lower().endswith('.gz') else '.xml'
 
     # Save to temporary file
+    tmp_path: Path | None = None
     try:
         with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
             content = await file.read()
@@ -141,5 +142,5 @@ async def upload_lexicon(file: UploadFile = File(...)):
 
     finally:
         # Clean up temp file
-        if 'tmp_path' in locals() and tmp_path.exists():
+        if tmp_path and tmp_path.exists():
             os.unlink(tmp_path)
