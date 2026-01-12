@@ -1,17 +1,8 @@
 import { useParams, Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { entityApi, relationsApi } from '@/api/client'
-import { cn } from '@/lib/utils'
 import { Loader2, Copy, Check, ChevronDown, ChevronRight, ExternalLink } from 'lucide-react'
 import { useState } from 'react'
-
-const POS_COLORS: Record<string, string> = {
-  n: 'bg-blue-500',
-  v: 'bg-green-500',
-  a: 'bg-orange-500',
-  r: 'bg-purple-500',
-  s: 'bg-orange-400',
-}
 
 export function SensePage() {
   const { id } = useParams<{ id: string }>()

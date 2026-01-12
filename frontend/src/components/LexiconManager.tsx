@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
-import { lexiconApi, type Lexicon, type Project } from '@/api/client'
+import { lexiconApi } from '@/api/client'
 import { useAppStore } from '@/stores/appStore'
 import { cn } from '@/lib/utils'
 import { BookOpen, Download, ChevronDown, ChevronRight, Loader2, Check } from 'lucide-react'

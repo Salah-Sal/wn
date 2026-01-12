@@ -2,7 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { entityApi, relationsApi } from '@/api/client'
 import { cn } from '@/lib/utils'
-import { Loader2, Copy, Check, ChevronDown, ChevronRight, ExternalLink } from 'lucide-react'
+import { Loader2, Copy, Check, ChevronDown, ChevronRight } from 'lucide-react'
 import { useState } from 'react'
 
 const POS_COLORS: Record<string, string> = {

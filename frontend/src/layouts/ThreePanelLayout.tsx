@@ -1,4 +1,4 @@
-import { ReactNode, useState } from 'react'
+import { type ReactNode, useState } from 'react'
 import { cn } from '@/lib/utils'
 import { ChevronLeft, ChevronRight, Menu } from 'lucide-react'
 

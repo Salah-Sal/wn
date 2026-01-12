@@ -30,7 +30,7 @@ export function Breadcrumbs() {
         <Home className="w-4 h-4" />
         <span>Home</span>
       </Link>
-      {breadcrumbs.map((crumb, index) => (
+      {breadcrumbs.map((crumb) => (
         <span key={crumb.path} className="flex items-center gap-1">
           <ChevronRight className="w-4 h-4 text-[hsl(var(--muted-foreground))]" />
           {crumb.isLast ? (
