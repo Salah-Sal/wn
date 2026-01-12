@@ -12,14 +12,14 @@ wn_service = get_wn_service()
 
 def lexicon_to_info(lex) -> LexiconInfo:
     return LexiconInfo(
-        id=lex.id(),
-        version=lex.version(),
-        label=lex.label() or lex.id(),
-        language=lex.language(),
-        license=lex.license(),
-        url=lex.url(),
-        email=lex.email(),
-        citation=lex.citation()
+        id=lex.id,
+        version=lex.version,
+        label=lex.label or lex.id,
+        language=lex.language,
+        license=lex.license,
+        url=lex.url,
+        email=lex.email,
+        citation=lex.citation
     )
 
 
@@ -37,17 +37,17 @@ def lexicon_to_detail(lex) -> LexiconDetail:
             synset_count[pos] = value
     
     return LexiconDetail(
-        id=lex.id(),
-        version=lex.version(),
-        label=lex.label() or lex.id(),
-        language=lex.language(),
-        license=lex.license(),
-        url=lex.url(),
-        email=lex.email(),
-        citation=lex.citation(),
+        id=lex.id,
+        version=lex.version,
+        label=lex.label or lex.id,
+        language=lex.language,
+        license=lex.license,
+        url=lex.url,
+        email=lex.email,
+        citation=lex.citation,
         word_count=word_count,
         synset_count=synset_count,
-        modified=lex.modified()
+        modified=lex.modified
     )
 
 

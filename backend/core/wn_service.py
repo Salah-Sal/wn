@@ -13,7 +13,7 @@ class WnService:
     def get_lexicon(spec: str):
         lexicons = list(wn.lexicons(lang=spec))
         if not lexicons:
-            lexicons = [lex for lex in wn.lexicons() if lex.id() == spec or f"{lex.id()}:{lex.version()}" == spec]
+            lexicons = [lex for lex in wn.lexicons() if lex.id == spec or f"{lex.id}:{lex.version}" == spec]
         return lexicons[0] if lexicons else None
     
     @staticmethod
@@ -21,8 +21,8 @@ class WnService:
         return wn.projects()
     
     @staticmethod
-    def download_lexicon(project_id: str, progress=None):
-        wn.download(project_id, progress=progress)
+    def download_lexicon(project_id: str):
+        wn.download(project_id)
     
     @staticmethod
     def search_words(
