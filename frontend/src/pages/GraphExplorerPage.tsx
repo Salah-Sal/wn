@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from 'react'
+import { useState, useCallback, useRef, useEffect } from 'react'
 import { useSearchParams, useNavigate } from 'react-router-dom'
 import type { Core } from 'cytoscape'
 import { GraphCanvas, GraphControls, GraphTooltip, GraphLegend } from '@/components/graph'
@@ -91,11 +91,15 @@ export function GraphExplorerPage() {
     [synsetId, clearGraph, fetchGraph]
   )
 
-  useState(() => {
+  const handleCyReady = useCallback((cy: Core) => {
+    cyRef.current = cy
+  }, [])
+
+  useEffect(() => {
     if (synsetId && elements.length === 0) {
       fetchGraph.mutate({ type: viewMode, synsetId })
     }
-  })
+  }, [synsetId])
 
   if (!synsetId) {
     return (
@@ -180,6 +184,7 @@ export function GraphExplorerPage() {
             onNodeClick={handleNodeClick}
             onNodeDoubleClick={handleNodeDoubleClick}
             onNodeHover={handleNodeHover}
+            onCyReady={handleCyReady}
           />
         )}
 

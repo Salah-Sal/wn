@@ -11,6 +11,7 @@ interface GraphCanvasProps {
   onNodeClick?: (nodeId: string) => void
   onNodeDoubleClick?: (nodeId: string) => void
   onNodeHover?: (nodeId: string | null, event?: MouseEvent) => void
+  onCyReady?: (cy: Core) => void
   className?: string
 }
 
@@ -21,6 +22,7 @@ export function GraphCanvas({
   onNodeClick,
   onNodeDoubleClick,
   onNodeHover,
+  onCyReady,
   className = '',
 }: GraphCanvasProps) {
   const cyRef = useRef<Core | null>(null)
@@ -28,6 +30,7 @@ export function GraphCanvas({
   const handleCy = useCallback(
     (cy: Core) => {
       cyRef.current = cy
+      onCyReady?.(cy)
 
       cy.on('tap', 'node', (event: EventObject) => {
         const nodeId = event.target.id()
@@ -52,7 +55,7 @@ export function GraphCanvas({
         cy.getElementById(centerNodeId).addClass('center')
       }
     },
-    [centerNodeId, onNodeClick, onNodeDoubleClick, onNodeHover]
+    [centerNodeId, onNodeClick, onNodeDoubleClick, onNodeHover, onCyReady]
   )
 
   useEffect(() => {
