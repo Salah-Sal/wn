@@ -114,13 +114,13 @@ class WnService:
         
         for word in words:
             form = word.lemma()
-            key = (form, word.pos())
+            key = (form, word.pos)
             if key not in seen:
                 seen.add(key)
                 matches.append({
                     'form': form,
-                    'pos': word.pos(),
-                    'id': word.id(),
+                    'pos': word.pos,
+                    'id': word.id,
                     'sense_count': len(word.senses())
                 })
                 if len(matches) >= limit:

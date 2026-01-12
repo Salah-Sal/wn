@@ -11,8 +11,8 @@ wn_service = get_wn_service()
 
 def synset_to_related(synset) -> RelatedSynset:
     return RelatedSynset(
-        id=synset.id(),
-        pos=synset.pos(),
+        id=synset.id,
+        pos=synset.pos,
         definition=synset.definition(),
         lemmas=synset.lemmas()[:5]
     )
@@ -20,9 +20,9 @@ def synset_to_related(synset) -> RelatedSynset:
 
 def sense_to_related(sense) -> RelatedSense:
     return RelatedSense(
-        id=sense.id(),
+        id=sense.id,
         word_form=sense.word().lemma(),
-        synset_id=sense.synset().id()
+        synset_id=sense.synset().id
     )
 
 
@@ -70,8 +70,8 @@ async def get_hypernyms(synset_id: str, depth: int = 1):
         next_level = []
         for s in current:
             for hyper in s.hypernyms():
-                if hyper.id() not in visited:
-                    visited.add(hyper.id())
+                if hyper.id not in visited:
+                    visited.add(hyper.id)
                     result.append(synset_to_related(hyper))
                     next_level.append(hyper)
         current = next_level
@@ -95,8 +95,8 @@ async def get_hyponyms(synset_id: str, depth: int = 1):
         next_level = []
         for s in current:
             for hypo in s.hyponyms():
-                if hypo.id() not in visited:
-                    visited.add(hypo.id())
+                if hypo.id not in visited:
+                    visited.add(hypo.id)
                     result.append(synset_to_related(hypo))
                     next_level.append(hypo)
         current = next_level

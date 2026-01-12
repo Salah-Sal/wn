@@ -26,9 +26,9 @@ async def search(
         if synset:
             results.append(SearchResult(
                 type="synset",
-                id=synset.id(),
-                label=", ".join(synset.lemmas()[:3]) if synset.lemmas() else synset.id(),
-                pos=synset.pos(),
+                id=synset.id,
+                label=", ".join(synset.lemmas()[:3]) if synset.lemmas() else synset.id,
+                pos=synset.pos,
                 definition=synset.definition()
             ))
     else:
@@ -40,9 +40,9 @@ async def search(
         for word in words:
             results.append(SearchResult(
                 type="word",
-                id=word.id(),
+                id=word.id,
                 label=word.lemma(),
-                pos=word.pos(),
+                pos=word.pos,
                 definition=None
             ))
         
@@ -53,12 +53,12 @@ async def search(
             )
             
             for synset in synsets:
-                if not any(r.id == synset.id() for r in results):
+                if not any(r.id == synset.id for r in results):
                     results.append(SearchResult(
                         type="synset",
-                        id=synset.id(),
-                        label=", ".join(synset.lemmas()[:3]) if synset.lemmas() else synset.id(),
-                        pos=synset.pos(),
+                        id=synset.id,
+                        label=", ".join(synset.lemmas()[:3]) if synset.lemmas() else synset.id,
+                        pos=synset.pos,
                         definition=synset.definition()
                     ))
     

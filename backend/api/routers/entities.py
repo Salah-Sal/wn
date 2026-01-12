@@ -13,9 +13,9 @@ def word_to_detail(word) -> WordDetail:
     senses = []
     for sense in word.senses():
         senses.append(SenseInfo(
-            id=sense.id(),
-            synset_id=sense.synset().id(),
-            lexicon=sense.lexicon().id()
+            id=sense.id,
+            synset_id=sense.synset().id,
+            lexicon=sense.lexicon().id
         ))
     
     derived = []
@@ -26,10 +26,10 @@ def word_to_detail(word) -> WordDetail:
                     derived.append(rel_sense.word().lemma())
     
     return WordDetail(
-        id=word.id(),
-        pos=word.pos(),
+        id=word.id,
+        pos=word.pos,
         lemma=word.lemma(),
-        lexicon=word.lexicon().id(),
+        lexicon=word.lexicon().id,
         forms=[f.form() for f in word.forms()],
         sense_count=len(word.senses()),
         senses=senses,
@@ -39,9 +39,9 @@ def word_to_detail(word) -> WordDetail:
 
 def synset_to_detail(synset) -> SynsetDetail:
     return SynsetDetail(
-        id=synset.id(),
-        pos=synset.pos(),
-        lexicon=synset.lexicon().id(),
+        id=synset.id,
+        pos=synset.pos,
+        lexicon=synset.lexicon().id,
         ili=synset.ili() if synset.ili() else None,
         definition=synset.definition(),
         definitions=[synset.definition()] if synset.definition() else [],
@@ -53,11 +53,11 @@ def synset_to_detail(synset) -> SynsetDetail:
 
 def sense_to_detail(sense) -> SenseDetail:
     return SenseDetail(
-        id=sense.id(),
-        word_id=sense.word().id(),
+        id=sense.id,
+        word_id=sense.word().id,
         word_form=sense.word().lemma(),
-        synset_id=sense.synset().id(),
-        lexicon=sense.lexicon().id(),
+        synset_id=sense.synset().id,
+        lexicon=sense.lexicon().id,
         definition=sense.synset().definition(),
         examples=sense.examples() if hasattr(sense, 'examples') else [],
         frames=sense.frames() if hasattr(sense, 'frames') else []
