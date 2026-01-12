@@ -61,6 +61,13 @@ Both workflows run automatically:
 - Clipboard copy for IDs
 
 ## Recent Changes
+- January 2026: Navigation UX improvements
+  - Added BackButton component to all detail pages for easy navigation
+  - Made senses clickable with "View Sense" links in WordPage
+  - Made derived words clickable (links to search)
+  - Made lemmas clickable in SynsetPage (links to search)
+  - Added Breadcrumbs component to ThreePanelLayout
+  - Added expand/collapse for truncated relations in SynsetPage
 - January 2026: Initial WordNet Explorer implementation
   - Backend API with FastAPI and wn integration
   - Frontend with React, TypeScript, Tailwind CSS
@@ -68,7 +75,6 @@ Both workflows run automatically:
   - Lexicon management with download capability
   - Universal search with autocomplete
   - Word, Synset, Sense detail pages
-  - Breadcrumb navigation
 
 ## User Preferences
 - Frontend must bind to 0.0.0.0:5000 with proxy to backend

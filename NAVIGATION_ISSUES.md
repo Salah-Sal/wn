@@ -148,12 +148,12 @@ const displayItems = showAll ? items : items.slice(0, 10);
 
 | Issue | Severity | Component | Status |
 |-------|----------|-----------|--------|
-| No back button | High | All pages | Open |
-| SensePage unreachable | High | Navigation flow | Open |
-| Derived Words not clickable | High | WordPage | Open |
-| Lemmas not clickable | High | SynsetPage | Open |
-| Breadcrumbs not rendered | Medium | ThreePanelLayout | Open |
-| Relations truncated | Medium | SynsetPage | Open |
+| No back button | High | All pages | **Fixed** |
+| SensePage unreachable | High | Navigation flow | **Fixed** |
+| Derived Words not clickable | High | WordPage | **Fixed** |
+| Lemmas not clickable | High | SynsetPage | **Fixed** |
+| Breadcrumbs not rendered | Medium | ThreePanelLayout | **Fixed** |
+| Relations truncated | Medium | SynsetPage | **Fixed** |
 | Senses not in search results | Low | SearchPage | Open |
 
 ## Additional Notes
