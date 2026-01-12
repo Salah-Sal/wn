@@ -44,9 +44,17 @@ _SCHEMAS = {
     '1.3': 'http://globalwordnet.github.io/schemas/WN-LMF-1.3.dtd',
     '1.4': 'http://globalwordnet.github.io/schemas/WN-LMF-1.4.dtd',
 }
+# Also accept HTTPS URLs (some files use https:// instead of http://)
+_SCHEMAS_HTTPS = {
+    version: schema.replace('http://', 'https://')
+    for version, schema in _SCHEMAS.items()
+}
 _DOCTYPES = {
     _DOCTYPE.format(schema=schema): version for version, schema in _SCHEMAS.items()
 }
+_DOCTYPES.update({
+    _DOCTYPE.format(schema=schema): version for version, schema in _SCHEMAS_HTTPS.items()
+})
 
 _DC_URIS = {
     '1.0': 'http://purl.org/dc/elements/1.1/',

@@ -1,9 +1,12 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, UploadFile, File
 from typing import List
+from pathlib import Path
+import tempfile
+import os
 from backend.core.wn_service import get_wn_service
 from backend.schemas.lexicon import (
     LexiconInfo, LexiconDetail, LexiconListResponse,
-    ProjectInfo, DownloadRequest
+    ProjectInfo, DownloadRequest, UploadResponse, UploadedLexiconInfo
 )
 
 router = APIRouter()
@@ -90,3 +93,53 @@ async def download_lexicon(request: DownloadRequest):
         return {"status": "success", "message": f"Downloaded {request.project_id}"}
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
+
+
+@router.post("/lexicons/upload", response_model=UploadResponse)
+async def upload_lexicon(file: UploadFile = File(...)):
+    """Upload a WordNet LMF file from local disk."""
+    # Validate file extension
+    if not file.filename:
+        raise HTTPException(status_code=400, detail="No filename provided")
+
+    valid_extensions = ('.xml', '.xml.gz', '.gz')
+    if not file.filename.lower().endswith(valid_extensions):
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid file type. Supported formats: {', '.join(valid_extensions)}"
+        )
+
+    # Determine suffix for temp file
+    suffix = '.xml.gz' if file.filename.lower().endswith('.gz') else '.xml'
+
+    # Save to temporary file
+    try:
+        with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
+            content = await file.read()
+            tmp.write(content)
+            tmp_path = Path(tmp.name)
+
+        # Add to wn database
+        result = wn_service.add_from_file(tmp_path)
+
+        if result["success"]:
+            return UploadResponse(
+                success=True,
+                message=result["message"],
+                lexicons=[UploadedLexiconInfo(**lex) for lex in result["lexicons"]],
+                filename=file.filename
+            )
+        else:
+            return UploadResponse(
+                success=False,
+                error=result["error"],
+                filename=file.filename
+            )
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Upload failed: {str(e)}")
+
+    finally:
+        # Clean up temp file
+        if 'tmp_path' in locals() and tmp_path.exists():
+            os.unlink(tmp_path)

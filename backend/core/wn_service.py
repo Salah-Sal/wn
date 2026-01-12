@@ -1,6 +1,8 @@
 import wn
+from wn import lmf
 from functools import lru_cache
 from typing import Optional, List
+from pathlib import Path
 
 
 class WnService:
@@ -102,16 +104,16 @@ class WnService:
     def autocomplete(query: str, limit: int = 10, lang: Optional[str] = None):
         if not query or len(query) < 2:
             return []
-        
+
         kwargs = {}
         if lang:
             kwargs['lang'] = lang
-        
+
         words = list(wn.words(query + '*', **kwargs))[:limit * 3]
-        
+
         seen = set()
         matches = []
-        
+
         for word in words:
             form = word.lemma()
             key = (form, word.pos)
@@ -125,8 +127,50 @@ class WnService:
                 })
                 if len(matches) >= limit:
                     break
-        
+
         return matches
+
+    @staticmethod
+    def validate_lmf_file(file_path: Path) -> dict:
+        """Validate an LMF file and return info about its lexicons."""
+        try:
+            infos = lmf.scan_lexicons(file_path)
+            if not infos:
+                return {"valid": False, "error": "No lexicons found in file"}
+
+            lexicons = []
+            for info in infos:
+                lexicons.append({
+                    "id": info.get("id"),
+                    "version": info.get("version"),
+                    "label": info.get("label"),
+                    "language": info.get("language"),
+                })
+            return {"valid": True, "lexicons": lexicons}
+        except Exception as e:
+            return {"valid": False, "error": str(e)}
+
+    @staticmethod
+    def add_from_file(file_path: Path) -> dict:
+        """Add a wordnet from a local file."""
+        try:
+            # First validate the file
+            validation = WnService.validate_lmf_file(file_path)
+            if not validation["valid"]:
+                return {"success": False, "error": validation["error"]}
+
+            # Add to database (progress_handler=None for API usage)
+            wn.add(file_path, progress_handler=None)
+
+            return {
+                "success": True,
+                "lexicons": validation["lexicons"],
+                "message": f"Successfully added {len(validation['lexicons'])} lexicon(s)"
+            }
+        except wn.Error as e:
+            return {"success": False, "error": str(e)}
+        except Exception as e:
+            return {"success": False, "error": f"Unexpected error: {str(e)}"}
 
 
 @lru_cache

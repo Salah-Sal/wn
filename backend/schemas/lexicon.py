@@ -37,3 +37,18 @@ class ProjectInfo(BaseModel):
 
 class DownloadRequest(BaseModel):
     project_id: str
+
+
+class UploadedLexiconInfo(BaseModel):
+    id: str
+    version: str
+    label: Optional[str] = None
+    language: Optional[str] = None
+
+
+class UploadResponse(BaseModel):
+    success: bool
+    message: Optional[str] = None
+    error: Optional[str] = None
+    lexicons: List[UploadedLexiconInfo] = []
+    filename: Optional[str] = None

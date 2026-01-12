@@ -119,11 +119,33 @@ export interface AutocompleteItem {
   sense_count: number
 }
 
+export interface UploadedLexiconInfo {
+  id: string
+  version: string
+  label?: string
+  language?: string
+}
+
+export interface UploadResponse {
+  success: boolean
+  message?: string
+  error?: string
+  lexicons: UploadedLexiconInfo[]
+  filename?: string
+}
+
 export const lexiconApi = {
   list: () => api.get<{ lexicons: Lexicon[]; count: number }>('/lexicons'),
   get: (spec: string) => api.get<LexiconDetail>(`/lexicons/${spec}`),
   download: (projectId: string) => api.post('/lexicons/download', { project_id: projectId }),
   listProjects: () => api.get<Project[]>('/projects'),
+  upload: (file: File) => {
+    const formData = new FormData()
+    formData.append('file', file)
+    return api.post<UploadResponse>('/lexicons/upload', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+    })
+  },
 }
 
 export const searchApi = {
