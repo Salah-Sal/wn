@@ -1,50 +1,76 @@
-# Wn - Python Wordnet Library
+# WordNet Explorer
 
 ## Overview
-Wn is a Python library for exploring information in wordnets. It provides a multilingual interface to wordnet databases with support for various wordnets around the world.
+WordNet Explorer is a web application for linguists and wordnet engineers to browse, search, and analyze lexical semantic databases. Built on top of the `wn` Python library, it provides an intuitive interface for exploring wordnet data.
 
 ## Project Structure
-- `wn/` - Main library source code
-- `tests/` - Test suite
-- `docs/` - Sphinx documentation
-- `bench/` - Benchmarking tests
-
-## Getting Started
-
-### Installation
-The package is installed in development mode with all dependencies.
-
-### Download WordNet Data
-Before using, download wordnet data:
-```bash
-python -m wn download oewn:2024  # Open English WordNet 2024
+```
+backend/
+  main.py           - FastAPI application entry point
+  api/
+    routers/        - API route handlers (lexicons, search, entities, relations)
+  core/
+    wn_service.py   - WordNet service wrapper for wn library
+frontend/
+  src/
+    api/            - API client and type definitions
+    components/     - React components (SearchBar, LexiconManager, etc.)
+    layouts/        - Layout components (ThreePanelLayout)
+    pages/          - Page components (Home, Search, Word, Synset, Sense)
+    lib/            - Utility functions
+wn/                 - Original wn library source code
 ```
 
-### Basic Usage
-```python
-import wn
+## Tech Stack
+- **Backend**: FastAPI (Python 3.11), running on port 8000
+- **Frontend**: React + TypeScript + Vite, running on port 5000
+- **Styling**: Tailwind CSS with custom CSS variables
+- **State**: Zustand (global), React Query (server state)
+- **WordNet**: wn Python library with OEWN support
 
-# List available projects
-wn.projects()
+## Running the Application
 
-# Download a wordnet
-wn.download('oewn:2024')
+### Development
+Both workflows run automatically:
+- Backend API: `python -m uvicorn backend.main:app --host localhost --port 8000 --reload`
+- Frontend: `npm run dev` (in frontend directory)
 
-# Query the wordnet
-en = wn.Wordnet('oewn:2024')
-synsets = en.synsets('dog')
-```
+### Getting Started
+1. Open the app in the webview
+2. Use the Lexicon Manager in the sidebar to download a WordNet (e.g., ewn:2020 or oewn:2024)
+3. Search for words, synsets, or browse lexical relations
 
-## CLI Commands
-- `python -m wn download <project>` - Download wordnet data
-- `python -m wn lexicons` - List installed lexicons
-- `python -m wn projects` - List known projects
-- `python -m wn validate <file>` - Validate a lexicon file
+## API Endpoints
+- `GET /api/lexicons` - List installed lexicons
+- `GET /api/projects` - List available projects for download
+- `POST /api/lexicons/download` - Download and install a project
+- `GET /api/search` - Search words and synsets
+- `GET /api/autocomplete` - Search autocomplete suggestions
+- `GET /api/words/{id}` - Get word details
+- `GET /api/synsets/{id}` - Get synset details
+- `GET /api/senses/{id}` - Get sense details
+- `GET /api/synsets/{id}/relations` - Get synset relations
 
-## Dependencies
-- httpx - HTTP client
-- tomli - TOML parser
-- starlette - Web framework (optional, for web features)
+## Key Features
+- Three-panel layout (Navigation | Content | Details)
+- Universal search with 150ms debounced autocomplete
+- POS filter (noun, verb, adjective, adverb)
+- Color-coded POS badges (noun=blue, verb=green, adj=orange, adv=purple)
+- Collapsible sections in entity browsers
+- Linked navigation between words, synsets, and senses
+- Clipboard copy for IDs
 
 ## Recent Changes
-- Initial Replit environment setup (January 2026)
+- January 2026: Initial WordNet Explorer implementation
+  - Backend API with FastAPI and wn integration
+  - Frontend with React, TypeScript, Tailwind CSS
+  - Three-panel responsive layout
+  - Lexicon management with download capability
+  - Universal search with autocomplete
+  - Word, Synset, Sense detail pages
+  - Breadcrumb navigation
+
+## User Preferences
+- Frontend must bind to 0.0.0.0:5000 with proxy to backend
+- All hosts must be allowed for Replit iframe preview
+- Using path alias `@/` for clean imports
