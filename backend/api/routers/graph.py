@@ -199,9 +199,16 @@ async def get_neighborhood(
         if len(all_nodes) >= limit:
             break
 
+    # Filter edges to only include those where both source and target exist as nodes
+    node_ids = {node.id for node in all_nodes}
+    filtered_edges = [
+        edge for edge in all_edges
+        if edge.source in node_ids and edge.target in node_ids
+    ]
+
     return GraphData(
         nodes=all_nodes,
-        edges=all_edges,
+        edges=filtered_edges,
         center_node=synset_id
     )
 
@@ -390,9 +397,16 @@ async def get_hyponym_tree(
 
         current_level = next_level
 
+    # Filter edges to only include those where both source and target exist as nodes
+    node_ids = {node.id for node in all_nodes}
+    filtered_edges = [
+        edge for edge in all_edges
+        if edge.source in node_ids and edge.target in node_ids
+    ]
+
     return GraphData(
         nodes=all_nodes,
-        edges=all_edges,
+        edges=filtered_edges,
         center_node=synset_id
     )
 
