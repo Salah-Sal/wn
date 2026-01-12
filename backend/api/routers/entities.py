@@ -30,7 +30,7 @@ def word_to_detail(word) -> WordDetail:
         pos=word.pos,
         lemma=word.lemma(),
         lexicon=word.lexicon().id,
-        forms=[f.form() for f in word.forms()],
+        forms=list(word.forms()),
         sense_count=len(word.senses()),
         senses=senses,
         derived_words=list(set(derived))
@@ -38,11 +38,13 @@ def word_to_detail(word) -> WordDetail:
 
 
 def synset_to_detail(synset) -> SynsetDetail:
+    ili = synset.ili
+    ili_str = str(ili) if ili else None
     return SynsetDetail(
         id=synset.id,
         pos=synset.pos,
         lexicon=synset.lexicon().id,
-        ili=synset.ili() if synset.ili() else None,
+        ili=ili_str,
         definition=synset.definition(),
         definitions=[synset.definition()] if synset.definition() else [],
         examples=synset.examples(),
