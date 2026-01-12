@@ -2,8 +2,9 @@ import { useParams, Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { entityApi } from '@/api/client'
 import { cn } from '@/lib/utils'
-import { Loader2, Copy, Check, ChevronDown, ChevronRight, ExternalLink } from 'lucide-react'
+import { Loader2, Copy, Check, ChevronDown, ChevronRight, ExternalLink, Eye } from 'lucide-react'
 import { useState } from 'react'
+import { BackButton } from '@/components/BackButton'
 
 const POS_COLORS: Record<string, string> = {
   n: 'bg-blue-500',
@@ -66,6 +67,7 @@ export function WordPage() {
 
   return (
     <div className="max-w-3xl mx-auto">
+      <BackButton />
       <div className="p-6 rounded-xl bg-[hsl(var(--card))] border border-[hsl(var(--border))] mb-6">
         <div className="flex items-start justify-between mb-4">
           <div>
@@ -143,13 +145,22 @@ export function WordPage() {
                 <span className="font-medium text-[hsl(var(--foreground))]">
                   {index + 1}. Sense
                 </span>
-                <Link
-                  to={`/synset/${encodeURIComponent(sense.synset_id)}`}
-                  className="flex items-center gap-1 text-sm text-[hsl(var(--primary))] hover:underline"
-                >
-                  View Synset
-                  <ExternalLink className="w-3 h-3" />
-                </Link>
+                <div className="flex items-center gap-3">
+                  <Link
+                    to={`/sense/${encodeURIComponent(sense.id)}`}
+                    className="flex items-center gap-1 text-sm text-[hsl(var(--primary))] hover:underline"
+                  >
+                    View Sense
+                    <Eye className="w-3 h-3" />
+                  </Link>
+                  <Link
+                    to={`/synset/${encodeURIComponent(sense.synset_id)}`}
+                    className="flex items-center gap-1 text-sm text-[hsl(var(--primary))] hover:underline"
+                  >
+                    View Synset
+                    <ExternalLink className="w-3 h-3" />
+                  </Link>
+                </div>
               </div>
               <p className="text-xs font-mono text-[hsl(var(--muted-foreground))]">
                 {sense.id}
@@ -171,12 +182,13 @@ export function WordPage() {
         >
           <div className="flex flex-wrap gap-2">
             {word.derived_words.map((derivedWord, i) => (
-              <span
+              <Link
                 key={i}
-                className="px-3 py-1 rounded-full bg-[hsl(var(--secondary))] text-sm"
+                to={`/search?q=${encodeURIComponent(derivedWord)}`}
+                className="px-3 py-1 rounded-full bg-[hsl(var(--secondary))] text-sm hover:bg-[hsl(var(--primary))] hover:text-white transition-colors"
               >
                 {derivedWord}
-              </span>
+              </Link>
             ))}
           </div>
         </CollapsibleSection>

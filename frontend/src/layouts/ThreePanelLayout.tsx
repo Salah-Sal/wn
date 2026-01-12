@@ -1,6 +1,7 @@
 import { type ReactNode, useState } from 'react'
 import { cn } from '@/lib/utils'
 import { ChevronLeft, ChevronRight, Menu } from 'lucide-react'
+import { Breadcrumbs } from '@/components/Breadcrumbs'
 
 interface ThreePanelLayoutProps {
   navigation: ReactNode
@@ -53,7 +54,10 @@ export function ThreePanelLayout({ navigation, main, details }: ThreePanelLayout
       )}
 
       <main className="flex-1 flex flex-col overflow-hidden">
-        <div className="flex-1 overflow-auto p-6 lg:pl-6 pl-16">{main}</div>
+        <div className="px-6 pt-4 lg:pl-6 pl-16">
+          <Breadcrumbs />
+        </div>
+        <div className="flex-1 overflow-auto p-6 pt-0 lg:pl-6 pl-16">{main}</div>
       </main>
 
       {details && (

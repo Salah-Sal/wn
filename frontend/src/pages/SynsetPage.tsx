@@ -4,6 +4,7 @@ import { entityApi, relationsApi } from '@/api/client'
 import { cn } from '@/lib/utils'
 import { Loader2, Copy, Check, ChevronDown, ChevronRight } from 'lucide-react'
 import { useState } from 'react'
+import { BackButton } from '@/components/BackButton'
 
 const POS_COLORS: Record<string, string> = {
   n: 'bg-blue-500',
@@ -81,6 +82,7 @@ export function SynsetPage() {
 
   return (
     <div className="max-w-3xl mx-auto">
+      <BackButton />
       <div className="p-6 rounded-xl bg-[hsl(var(--card))] border border-[hsl(var(--border))] mb-6">
         <div className="flex items-start justify-between mb-4">
           <div>
@@ -159,12 +161,13 @@ export function SynsetPage() {
       >
         <div className="flex flex-wrap gap-2">
           {synset.lemmas.map((lemma, i) => (
-            <span
+            <Link
               key={i}
-              className="px-3 py-1 rounded-full bg-[hsl(var(--secondary))] text-sm"
+              to={`/search?q=${encodeURIComponent(lemma)}`}
+              className="px-3 py-1 rounded-full bg-[hsl(var(--secondary))] text-sm hover:bg-[hsl(var(--primary))] hover:text-white transition-colors"
             >
               {lemma}
-            </span>
+            </Link>
           ))}
         </div>
       </CollapsibleSection>
@@ -241,13 +244,16 @@ function RelationGroup({
   title: string
   items: Array<{ id: string; pos: string; definition?: string; lemmas: string[] }>
 }) {
+  const [showAll, setShowAll] = useState(false)
+  const displayItems = showAll ? items : items.slice(0, 10)
+
   return (
     <div>
       <h4 className="text-sm font-semibold text-[hsl(var(--muted-foreground))] mb-2">
         {title} ({items.length})
       </h4>
       <div className="space-y-2">
-        {items.slice(0, 10).map((item) => (
+        {displayItems.map((item) => (
           <Link
             key={item.id}
             to={`/synset/${encodeURIComponent(item.id)}`}
@@ -274,9 +280,12 @@ function RelationGroup({
           </Link>
         ))}
         {items.length > 10 && (
-          <p className="text-sm text-[hsl(var(--muted-foreground))]">
-            +{items.length - 10} more...
-          </p>
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="text-sm text-[hsl(var(--primary))] hover:underline"
+          >
+            {showAll ? 'Show Less' : `View All ${items.length}`}
+          </button>
         )}
       </div>
     </div>

@@ -3,6 +3,7 @@ import { useQuery } from '@tanstack/react-query'
 import { entityApi, relationsApi } from '@/api/client'
 import { Loader2, Copy, Check, ChevronDown, ChevronRight, ExternalLink } from 'lucide-react'
 import { useState } from 'react'
+import { BackButton } from '@/components/BackButton'
 
 export function SensePage() {
   const { id } = useParams<{ id: string }>()
@@ -64,6 +65,7 @@ export function SensePage() {
 
   return (
     <div className="max-w-3xl mx-auto">
+      <BackButton />
       <div className="p-6 rounded-xl bg-[hsl(var(--card))] border border-[hsl(var(--border))] mb-6">
         <div className="flex items-start justify-between mb-4">
           <div>
