@@ -180,4 +180,39 @@ export const relationsApi = {
   getSenseRelations: (id: string) => api.get<SenseRelations>(`/senses/${id}/relations`),
 }
 
+import type { GraphData, PathResult, SimilarityResult } from './graphTypes'
+
+export const graphApi = {
+  getNeighborhood: (
+    synsetId: string,
+    options?: { depth?: number; relations?: string[]; limit?: number }
+  ) => {
+    const params = new URLSearchParams()
+    if (options?.depth) params.append('depth', options.depth.toString())
+    if (options?.relations) params.append('relations', options.relations.join(','))
+    if (options?.limit) params.append('limit', options.limit.toString())
+    const query = params.toString()
+    return api.get<GraphData>(`/graph/neighborhood/${encodeURIComponent(synsetId)}${query ? `?${query}` : ''}`)
+  },
+
+  getPath: (sourceId: string, targetId: string) =>
+    api.get<PathResult>(`/graph/path/${encodeURIComponent(sourceId)}/${encodeURIComponent(targetId)}`),
+
+  getHypernymTree: (synsetId: string, maxDepth?: number) => {
+    const params = maxDepth ? `?max_depth=${maxDepth}` : ''
+    return api.get<GraphData>(`/graph/hypernym-tree/${encodeURIComponent(synsetId)}${params}`)
+  },
+
+  getHyponymTree: (synsetId: string, options?: { maxDepth?: number; limit?: number }) => {
+    const params = new URLSearchParams()
+    if (options?.maxDepth) params.append('max_depth', options.maxDepth.toString())
+    if (options?.limit) params.append('limit', options.limit.toString())
+    const query = params.toString()
+    return api.get<GraphData>(`/graph/hyponym-tree/${encodeURIComponent(synsetId)}${query ? `?${query}` : ''}`)
+  },
+
+  getSimilarity: (synsetId1: string, synsetId2: string) =>
+    api.get<SimilarityResult>(`/graph/similarity/${encodeURIComponent(synsetId1)}/${encodeURIComponent(synsetId2)}`),
+}
+
 export default api

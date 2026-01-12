@@ -1,8 +1,8 @@
-import { useParams, Link } from 'react-router-dom'
+import { useParams, Link, useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { entityApi, relationsApi } from '@/api/client'
 import { cn } from '@/lib/utils'
-import { Loader2, Copy, Check, ChevronDown, ChevronRight } from 'lucide-react'
+import { Loader2, Copy, Check, ChevronDown, ChevronRight, Network } from 'lucide-react'
 import { useState } from 'react'
 import { BackButton } from '@/components/BackButton'
 
@@ -24,6 +24,7 @@ const POS_LABELS: Record<string, string> = {
 
 export function SynsetPage() {
   const { id } = useParams<{ id: string }>()
+  const navigate = useNavigate()
   const [copied, setCopied] = useState(false)
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     definition: true,
@@ -104,22 +105,31 @@ export function SynsetPage() {
               {synset.ili && <span>ILI: {synset.ili}</span>}
             </div>
           </div>
-          <button
-            onClick={copyId}
-            className="flex items-center gap-2 px-3 py-1.5 rounded-lg border border-[hsl(var(--border))] hover:bg-[hsl(var(--secondary))] text-sm"
-          >
-            {copied ? (
-              <>
-                <Check className="w-4 h-4 text-green-500" />
-                Copied!
-              </>
-            ) : (
-              <>
-                <Copy className="w-4 h-4" />
-                Copy ID
-              </>
-            )}
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => navigate(`/graph?synset=${encodeURIComponent(synset.id)}`)}
+              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[hsl(var(--primary))] text-white hover:opacity-90 text-sm"
+            >
+              <Network className="w-4 h-4" />
+              Explore Graph
+            </button>
+            <button
+              onClick={copyId}
+              className="flex items-center gap-2 px-3 py-1.5 rounded-lg border border-[hsl(var(--border))] hover:bg-[hsl(var(--secondary))] text-sm"
+            >
+              {copied ? (
+                <>
+                  <Check className="w-4 h-4 text-green-500" />
+                  Copied!
+                </>
+              ) : (
+                <>
+                  <Copy className="w-4 h-4" />
+                  Copy ID
+                </>
+              )}
+            </button>
+          </div>
         </div>
         <p className="text-xs font-mono text-[hsl(var(--muted-foreground))]">{synset.id}</p>
       </div>

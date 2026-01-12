@@ -7,6 +7,7 @@ import { SearchPage } from '@/pages/SearchPage'
 import { WordPage } from '@/pages/WordPage'
 import { SynsetPage } from '@/pages/SynsetPage'
 import { SensePage } from '@/pages/SensePage'
+import { GraphExplorerPage } from '@/pages/GraphExplorerPage'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -28,6 +29,7 @@ function AppRoutes() {
           <Route path="/word/:id" element={<WordPage />} />
           <Route path="/synset/:id" element={<SynsetPage />} />
           <Route path="/sense/:id" element={<SensePage />} />
+          <Route path="/graph" element={<GraphExplorerPage />} />
         </Routes>
       }
     />
