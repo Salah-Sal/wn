@@ -8,16 +8,20 @@ WordNet Explorer is a web application for linguists and wordnet engineers to bro
 backend/
   main.py           - FastAPI application entry point
   api/
-    routers/        - API route handlers (lexicons, search, entities, relations)
+    routers/        - API route handlers (lexicons, search, entities, relations, graph)
   core/
     wn_service.py   - WordNet service wrapper for wn library
 frontend/
   src/
-    api/            - API client and type definitions
+    api/            - API client and type definitions (including graphTypes.ts)
     components/     - React components (SearchBar, LexiconManager, etc.)
+      graph/        - Graph visualization components (GraphCanvas, GraphControls, etc.)
+    hooks/          - Custom React hooks (useGraphData.ts)
+    stores/         - Zustand stores (graphStore.ts)
     layouts/        - Layout components (ThreePanelLayout)
-    pages/          - Page components (Home, Search, Word, Synset, Sense)
+    pages/          - Page components (Home, Search, Word, Synset, Sense, GraphExplorer)
     lib/            - Utility functions
+    types/          - TypeScript type declarations
 wn/                 - Original wn library source code
 ```
 
@@ -26,6 +30,7 @@ wn/                 - Original wn library source code
 - **Frontend**: React + TypeScript + Vite, running on port 5000
 - **Styling**: Tailwind CSS with custom CSS variables
 - **State**: Zustand (global), React Query (server state)
+- **Graph Visualization**: Cytoscape.js with dagre, fcose, cose-bilkent layouts
 - **WordNet**: wn Python library with OEWN support
 
 ## Running the Application
@@ -50,6 +55,11 @@ Both workflows run automatically:
 - `GET /api/synsets/{id}` - Get synset details
 - `GET /api/senses/{id}` - Get sense details
 - `GET /api/synsets/{id}/relations` - Get synset relations
+- `GET /api/graph/neighborhood/{synset_id}` - Get graph neighborhood for a synset
+- `GET /api/graph/hypernym-tree/{synset_id}` - Get hypernym ancestry tree
+- `GET /api/graph/hyponym-tree/{synset_id}` - Get hyponym descendants tree
+- `GET /api/graph/path/{synset_id1}/{synset_id2}` - Find shortest path between synsets
+- `GET /api/graph/similarity/{synset_id1}/{synset_id2}` - Calculate similarity metrics
 
 ## Key Features
 - Three-panel layout (Navigation | Content | Details)
@@ -59,8 +69,22 @@ Both workflows run automatically:
 - Collapsible sections in entity browsers
 - Linked navigation between words, synsets, and senses
 - Clipboard copy for IDs
+- Interactive graph visualization with Cytoscape.js
+  - Neighborhood expansion (click nodes to explore)
+  - Hypernym tree view (ancestry)
+  - Hyponym tree view (descendants)
+  - Multiple layout algorithms (dagre, fcose, circle, breadthfirst, cose-bilkent)
+  - POS-colored nodes, relation-styled edges
+  - Zoom/pan controls and tooltip on hover
 
 ## Recent Changes
+- January 2026: Graph visualization feature
+  - Backend graph router with neighborhood, tree, path, and similarity endpoints
+  - Cytoscape.js integration with react-cytoscapejs
+  - GraphCanvas, GraphControls, GraphTooltip, GraphLegend components
+  - GraphExplorerPage with three view modes (neighborhood, hypernym-tree, hyponym-tree)
+  - Zustand store for graph state management
+  - "Explore Graph" button on SynsetPage as entry point
 - January 2026: Lexicon management improvements
   - Added ability to remove installed lexicons (DELETE endpoint + UI)
   - Added file upload for local WN-LMF files
