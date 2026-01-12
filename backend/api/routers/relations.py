@@ -9,6 +9,16 @@ router = APIRouter()
 wn_service = get_wn_service()
 
 
+def is_valid_synset(synset) -> bool:
+    """Filter out placeholder synsets like *INFERRED*"""
+    if not synset or not hasattr(synset, 'id'):
+        return False
+    synset_id = synset.id
+    if not synset_id or synset_id.startswith('*') or synset_id == '*INFERRED*':
+        return False
+    return True
+
+
 def synset_to_related(synset) -> RelatedSynset:
     return RelatedSynset(
         id=synset.id,
@@ -36,23 +46,23 @@ async def get_synset_relations(synset_id: str):
     
     return SynsetRelations(
         synset_id=synset_id,
-        hypernyms=[synset_to_related(s) for s in relations.get('hypernym', [])],
-        hyponyms=[synset_to_related(s) for s in relations.get('hyponym', [])],
+        hypernyms=[synset_to_related(s) for s in relations.get('hypernym', []) if is_valid_synset(s)],
+        hyponyms=[synset_to_related(s) for s in relations.get('hyponym', []) if is_valid_synset(s)],
         holonyms=[synset_to_related(s) for s in (
             relations.get('holo_member', []) +
             relations.get('holo_part', []) +
             relations.get('holo_substance', [])
-        )],
+        ) if is_valid_synset(s)],
         meronyms=[synset_to_related(s) for s in (
             relations.get('mero_member', []) +
             relations.get('mero_part', []) +
             relations.get('mero_substance', [])
-        )],
-        similar=[synset_to_related(s) for s in relations.get('similar', [])],
-        also=[synset_to_related(s) for s in relations.get('also', [])],
-        attributes=[synset_to_related(s) for s in relations.get('attribute', [])],
-        domain_topics=[synset_to_related(s) for s in relations.get('domain_topic', [])],
-        domain_regions=[synset_to_related(s) for s in relations.get('domain_region', [])]
+        ) if is_valid_synset(s)],
+        similar=[synset_to_related(s) for s in relations.get('similar', []) if is_valid_synset(s)],
+        also=[synset_to_related(s) for s in relations.get('also', []) if is_valid_synset(s)],
+        attributes=[synset_to_related(s) for s in relations.get('attribute', []) if is_valid_synset(s)],
+        domain_topics=[synset_to_related(s) for s in relations.get('domain_topic', []) if is_valid_synset(s)],
+        domain_regions=[synset_to_related(s) for s in relations.get('domain_region', []) if is_valid_synset(s)]
     )
 
 
