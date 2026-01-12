@@ -1,0 +1,29 @@
+modules = ["python-3.11"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Demo"
+
+[[workflows.workflow]]
+name = "Demo"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = '''python -c "import wn; print('Wn library loaded successfully!'); print('Version:', wn.__version__); print('\nAvailable commands:'); print('  python -m wn download oewn:2024  # Download English WordNet'); print('  python -m wn lexicons            # List installed lexicons'); print('  python -m wn projects            # List known projects')"'''
+
+[workflows.workflow.metadata]
+outputType = "console"

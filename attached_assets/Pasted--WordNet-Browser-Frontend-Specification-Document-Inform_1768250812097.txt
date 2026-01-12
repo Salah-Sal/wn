@@ -1,0 +1,897 @@
+# WordNet Browser Frontend Specification
+
+## Document Information
+
+| Item | Value |
+|------|-------|
+| Version | 1.0 |
+| Date | January 2026 |
+| Status | Draft |
+| Target Users | Linguists, WordNet Engineers |
+| Backend | `wn` Python Library |
+
+---
+
+## 1. Executive Summary
+
+This document specifies a web-based frontend for browsing, analyzing, and navigating WordNet data. The application prioritizes the workflows of professional linguists and WordNet engineers who require deep exploration of lexical-semantic networks, cross-lingual analysis, and data quality assessment.
+
+---
+
+## 2. User Personas
+
+### 2.1 Lexical Linguist (Primary)
+
+**Profile:** Academic researcher or lexicographer studying semantic relationships, word senses, and lexical patterns.
+
+**Goals:**
+- Explore semantic networks around concepts
+- Compare word senses across languages
+- Analyze relationship patterns (hypernymy chains, meronymy clusters)
+- Export data for research papers
+
+**Pain Points:**
+- Existing tools lack visualization of complex relationships
+- Difficulty tracing full hypernym/hyponym trees
+- No easy way to compare senses cross-lingually
+
+**Technical Comfort:** Moderate. Familiar with linguistic terminology but not necessarily programming.
+
+### 2.2 WordNet Engineer (Primary)
+
+**Profile:** Computational linguist or NLP engineer building, maintaining, or extending WordNet resources.
+
+**Goals:**
+- Audit data quality and completeness
+- Identify orphan synsets, missing relations, inconsistencies
+- Validate ILI mappings across languages
+- Debug specific entries reported as problematic
+
+**Pain Points:**
+- No dashboard for data health metrics
+- Difficult to trace why certain relations exist
+- Bulk operations require scripting
+
+**Technical Comfort:** High. Comfortable with technical interfaces, IDs, and raw data views.
+
+### 2.3 NLP Developer (Secondary)
+
+**Profile:** Software engineer integrating WordNet into applications.
+
+**Goals:**
+- Quickly look up synset IDs for integration
+- Understand relationship types for feature engineering
+- Test queries before implementing in code
+
+**Pain Points:**
+- Need both human-readable and machine-readable views
+- Want to copy IDs/data easily
+
+**Technical Comfort:** Very high.
+
+---
+
+## 3. Functional Requirements
+
+### 3.1 Search System
+
+#### 3.1.1 Search Modes
+
+| Mode | Description | Priority |
+|------|-------------|----------|
+| **Lemma Search** | Find words by written form | P0 |
+| **Synset ID Search** | Direct lookup by synset identifier (e.g., `oewn-00001740-n`) | P0 |
+| **Definition Search** | Full-text search in definitions and examples | P1 |
+| **ILI Search** | Search by Interlingual Index ID | P1 |
+| **Relation Search** | Find synsets by relationship patterns | P2 |
+| **Regex Search** | Pattern matching on lemmas | P2 |
+
+#### 3.1.2 Search Features
+
+| Feature | Description | Priority |
+|---------|-------------|----------|
+| **Autocomplete** | Suggest completions as user types (debounced, 150ms) | P0 |
+| **Fuzzy Matching** | Tolerate typos, suggest corrections | P1 |
+| **Language Filter** | Restrict search to specific language(s) | P0 |
+| **POS Filter** | Filter by part of speech (noun, verb, adj, adv) | P0 |
+| **Search History** | Recent searches accessible via dropdown | P1 |
+| **Saved Searches** | Bookmark complex queries (local storage) | P2 |
+
+#### 3.1.3 Arabic-Specific Search (if Arabic WordNet enabled)
+
+| Feature | Description | Priority |
+|---------|-------------|----------|
+| **Diacritics Normalization** | Search matches with/without tashkeel | P0 |
+| **Alef Normalization** | أ, إ, آ, ا treated equivalently | P0 |
+| **Buckwalter Input** | Accept transliterated input | P1 |
+| **Root Search** | Find words by Arabic root (ك-ت-ب) | P1 |
+
+### 3.2 Synset View (Core Display)
+
+The synset is the atomic unit of WordNet. This view must be comprehensive yet scannable.
+
+#### 3.2.1 Synset Header
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  [n] entity  ─────────────────────────────  oewn-00001740-n    │
+│  ILI: i1     │  Language: en   │  Source: OEWN 2025           │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Fields:**
+- Part of speech badge (color-coded: noun=blue, verb=green, adj=orange, adv=purple)
+- Primary lemma (most frequent or canonical)
+- Synset ID (copyable with click)
+- ILI ID (copyable, links to cross-lingual view)
+- Language code
+- Source lexicon and version
+
+#### 3.2.2 Definition Section
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  Definition                                                     │
+│  ─────────────────────────────────────────────────────────────  │
+│  That which is perceived or known or inferred to have its own   │
+│  distinct existence (living or nonliving).                      │
+│                                                                 │
+│  Examples                                                       │
+│  ─────────────────────────────────────────────────────────────  │
+│  • "The survey covered all entities in the district"            │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+#### 3.2.3 Lemmas/Synonyms Section
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  Synonyms (3)                                                   │
+│  ─────────────────────────────────────────────────────────────  │
+│  entity          [sense: oewn-entity-n-1]        freq: 847     │
+│  physical_thing  [sense: oewn-physical_thing-n-1] freq: 23     │
+│  thing           [sense: oewn-thing-n-2]          freq: 12031  │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Each lemma shows:**
+- Written form (clickable → word view)
+- Sense ID (copyable)
+- Frequency count (if available)
+- Sense relations (if any)
+
+#### 3.2.4 Relations Section
+
+**Layout:** Grouped by relation type, expandable/collapsible.
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  Relations                                                      │
+│  ─────────────────────────────────────────────────────────────  │
+│  ▼ Hypernyms (1)                     [View as tree] [View as graph]│
+│    └─ abstraction (oewn-00002137-n)                             │
+│                                                                 │
+│  ▼ Hyponyms (12)                     [Expand all]               │
+│    ├─ physical_entity (oewn-00001930-n)                         │
+│    ├─ abstract_entity (oewn-00002137-n)                         │
+│    ├─ thing (oewn-00002452-n)                                   │
+│    └─ ... [+9 more]                                             │
+│                                                                 │
+│  ▶ Domain (0)                                                   │
+│  ▶ Similar (0)                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Relation Categories:**
+
+| Category | Relations Included |
+|----------|-------------------|
+| Taxonomic | hypernym, hyponym, instance_hypernym, instance_hyponym |
+| Meronymic | holonym (part/member/substance), meronym (part/member/substance) |
+| Associative | similar, also, attribute, domain, domain_member |
+| Verbal | entails, causes, verb_group |
+| Antonymy | antonym (sense-level) |
+| Derivational | derivationally_related, pertainym, participle |
+
+#### 3.2.5 Cross-Lingual Panel (ILI-linked)
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  Cross-Lingual Equivalents (ILI: i1)                           │
+│  ─────────────────────────────────────────────────────────────  │
+│  🇬🇧 en: entity, physical_thing                                 │
+│  🇸🇦 ar: كِيان، وُجود                                            │
+│  🇫🇷 fr: entité                                                 │
+│  🇩🇪 de: Entität, Wesen                                         │
+│  🇯🇵 ja: 実体                                                    │
+│  [Show 12 more languages...]                                    │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### 3.3 Word View
+
+Displays all senses of a lemma across synsets.
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  bank (noun) ─ 10 senses                                        │
+│  ═══════════════════════════════════════════════════════════════│
+│                                                                 │
+│  1. [n] bank (oewn-08420278-n)                                 │
+│     financial institution that accepts deposits...              │
+│     → Hypernym: financial_institution                           │
+│     Freq: 4521                                                  │
+│                                                                 │
+│  2. [n] bank (oewn-09213565-n)                                 │
+│     sloping land beside a body of water...                      │
+│     → Hypernym: slope                                           │
+│     Freq: 1832                                                  │
+│                                                                 │
+│  [...]                                                          │
+│                                                                 │
+│  ─────────────────────────────────────────────────────────────  │
+│  bank (verb) ─ 8 senses                                         │
+│  [...]                                                          │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Features:**
+- Grouped by POS
+- Ordered by frequency (most common first)
+- Quick hypernym preview
+- Click any sense to navigate to full synset view
+
+### 3.4 Graph Visualization
+
+**Purpose:** Visual exploration of semantic networks.
+
+#### 3.4.1 Graph Types
+
+| Type | Description | Use Case |
+|------|-------------|----------|
+| **Ego Graph** | Single synset + N levels of relations | Exploring immediate neighborhood |
+| **Hypernym Tree** | Full path to root | Understanding taxonomic position |
+| **Hyponym Tree** | All descendants to N levels | Exploring subtypes |
+| **Comparison Graph** | Two+ synsets with shared ancestors highlighted | Analyzing semantic similarity |
+| **Cross-Lingual Graph** | ILI-linked synsets across languages | Translation/alignment work |
+
+#### 3.4.2 Graph Controls
+
+| Control | Function |
+|---------|----------|
+| **Depth Slider** | Levels of relations to display (1-5) |
+| **Relation Filter** | Toggle which relation types to show |
+| **Layout Selector** | Hierarchical / Force-directed / Radial |
+| **Node Size** | By frequency / constant / by hyponym count |
+| **Zoom/Pan** | Standard map controls |
+| **Fullscreen** | Expand to full viewport |
+
+#### 3.4.3 Node Interactions
+
+- **Hover:** Tooltip with definition preview
+- **Click:** Select node, show details panel
+- **Double-click:** Navigate to that synset's page
+- **Right-click:** Context menu (copy ID, expand, collapse, pin)
+
+#### 3.4.4 Graph Export
+
+| Format | Use Case |
+|--------|----------|
+| PNG/SVG | Publication figures |
+| JSON | Data reuse |
+| GraphML | Import to Gephi/Cytoscape |
+
+### 3.5 Comparison View
+
+Side-by-side analysis of multiple synsets or words.
+
+```
+┌─────────────────────────────┬─────────────────────────────┐
+│  bank (financial)           │  bank (river)               │
+│  oewn-08420278-n            │  oewn-09213565-n            │
+├─────────────────────────────┼─────────────────────────────┤
+│  Hypernym Path:             │  Hypernym Path:             │
+│  entity                     │  entity                     │
+│   └─ physical_entity        │   └─ physical_entity        │
+│       └─ object             │       └─ object             │
+│           └─ artifact       │           └─ geological_... │
+│               └─ facility   │               └─ slope      │
+│                   └─ bank   │                   └─ bank   │
+├─────────────────────────────┼─────────────────────────────┤
+│  Lowest Common Ancestor: physical_entity                  │
+│  Path Distance: 8                                         │
+└─────────────────────────────┴─────────────────────────────┘
+```
+
+**Features:**
+- Up to 4 synsets side-by-side
+- Shared ancestors highlighted
+- Path distance calculation
+- Common relations highlighted
+- Difference highlighting
+
+### 3.6 Data Quality Dashboard (WordNet Engineer Focus)
+
+#### 3.6.1 Overview Metrics
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  Lexicon Health: Arabic WordNet 3.0                            │
+│  ═══════════════════════════════════════════════════════════════│
+│                                                                 │
+│  Total Synsets:     11,269    │  Avg Relations/Synset: 2.4    │
+│  Total Senses:      23,481    │  ILI Coverage: 87.3%          │
+│  Total Lemmas:      17,561    │  Definition Coverage: 94.1%   │
+│                                                                 │
+│  By Part of Speech:                                            │
+│  ████████████████████░░░░  Nouns: 7,432 (65.9%)               │
+│  ██████░░░░░░░░░░░░░░░░░░  Verbs: 2,104 (18.7%)               │
+│  ███░░░░░░░░░░░░░░░░░░░░░  Adj:   1,289 (11.4%)               │
+│  █░░░░░░░░░░░░░░░░░░░░░░░  Adv:     444 (3.9%)                │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+#### 3.6.2 Quality Issues Panel
+
+| Issue Type | Count | Action |
+|------------|-------|--------|
+| Orphan synsets (no hypernym) | 142 | [View List] |
+| Missing definitions | 673 | [View List] |
+| No ILI mapping | 1,432 | [View List] |
+| Single-lemma synsets | 3,201 | [View List] |
+| Circular relations | 0 | [View List] |
+| Disconnected components | 3 | [View Graph] |
+
+#### 3.6.3 Relation Distribution
+
+Visual breakdown of relation types with click-to-filter.
+
+#### 3.6.4 Coverage Comparison
+
+Compare against reference WordNet (e.g., English) to identify gaps.
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  Coverage vs. Open English WordNet                             │
+│  ─────────────────────────────────────────────────────────────  │
+│  ILI concepts in OEWN:         117,659                         │
+│  ILI concepts in Arabic WN:     9,847                          │
+│  Coverage:                      8.4%                           │
+│                                                                 │
+│  Missing high-frequency concepts: [View List]                  │
+│  Unique to Arabic WN: [View List]                              │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### 3.7 Navigation & History
+
+#### 3.7.1 Breadcrumb Trail
+
+```
+Home > Search: "entity" > oewn-00001740-n > Hyponyms > oewn-00001930-n
+```
+
+#### 3.7.2 Back/Forward Navigation
+
+Browser-style navigation through viewed synsets.
+
+#### 3.7.3 Tabs
+
+- Open multiple synsets in tabs
+- Tab persistence across sessions (local storage)
+- Tab groups for comparison workflows
+
+#### 3.7.4 Bookmarks
+
+- Save synsets/words to named collections
+- Export bookmark collections
+- Share bookmarks via URL
+
+### 3.8 Export & Integration
+
+| Feature | Formats | Priority |
+|---------|---------|----------|
+| **Single Synset Export** | JSON, XML (WN-LMF fragment), TSV | P1 |
+| **Search Results Export** | CSV, JSON | P1 |
+| **Graph Export** | PNG, SVG, GraphML, JSON | P1 |
+| **Clipboard Copy** | Synset ID, ILI ID, definition | P0 |
+| **URL Sharing** | Deep links to any view | P0 |
+| **API Documentation** | Interactive Swagger/OpenAPI docs | P1 |
+
+---
+
+## 4. Non-Functional Requirements
+
+### 4.1 Performance
+
+| Metric | Target |
+|--------|--------|
+| Initial page load | < 2 seconds |
+| Search response (autocomplete) | < 150ms |
+| Synset page render | < 500ms |
+| Graph render (50 nodes) | < 1 second |
+| Graph render (200 nodes) | < 3 seconds |
+
+### 4.2 Accessibility
+
+- WCAG 2.1 AA compliance
+- Keyboard navigation for all features
+- Screen reader support
+- High contrast mode
+- Configurable font size
+
+### 4.3 Internationalization
+
+- RTL layout support (Arabic, Hebrew)
+- UI language switching (English, Arabic minimum)
+- Unicode support throughout
+- Mixed-direction text handling (LTR terms in RTL context)
+
+### 4.4 Browser Support
+
+| Browser | Version |
+|---------|---------|
+| Chrome | Last 2 major |
+| Firefox | Last 2 major |
+| Safari | Last 2 major |
+| Edge | Last 2 major |
+
+### 4.5 Responsive Design
+
+| Breakpoint | Layout |
+|------------|--------|
+| Desktop (>1200px) | Full layout, side panels |
+| Tablet (768-1200px) | Collapsible panels |
+| Mobile (<768px) | Stacked, simplified graph |
+
+---
+
+## 5. Information Architecture
+
+### 5.1 Primary Navigation
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  [Logo]   Search [______________🔍]   [Lang: EN ▼]  [⚙️]       │
+├─────────────────────────────────────────────────────────────────┤
+│  Browse  │  Compare  │  Graph  │  Dashboard  │  API Docs       │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### 5.2 URL Structure
+
+| View | URL Pattern |
+|------|-------------|
+| Home | `/` |
+| Search results | `/search?q={query}&lang={lang}&pos={pos}` |
+| Synset view | `/synset/{synset_id}` |
+| Word view | `/word/{lemma}?lang={lang}` |
+| ILI view | `/ili/{ili_id}` |
+| Graph view | `/graph/{synset_id}?depth={n}&relations={types}` |
+| Compare | `/compare?ids={id1},{id2},{id3}` |
+| Dashboard | `/dashboard?lexicon={lexicon_id}` |
+
+### 5.3 Page Hierarchy
+
+```
+Home
+├── Search Results
+│   └── Synset View
+│       ├── Graph View
+│       └── Cross-lingual View (ILI)
+├── Word View
+│   └── Synset View
+├── Browse
+│   ├── By Part of Speech
+│   ├── By Domain
+│   └── By Lexicon
+├── Compare
+├── Dashboard
+│   ├── Quality Issues
+│   └── Coverage Report
+└── API Documentation
+```
+
+---
+
+## 6. UI Components Specification
+
+### 6.1 Search Box
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  🔍 │ entity                                          │ ⚙️ │ ▼ │
+├─────────────────────────────────────────────────────────────────┤
+│  ▼ Advanced                                                     │
+│  ┌─────────────────────────────────────────────────────────────┐│
+│  │ Search in: ○ Lemmas  ○ Definitions  ○ Synset IDs  ○ All    ││
+│  │ Language:  [English     ▼]                                  ││
+│  │ POS:       ☑ Noun  ☑ Verb  ☑ Adj  ☑ Adv                    ││
+│  │ Lexicon:   [All Lexicons ▼]                                 ││
+│  └─────────────────────────────────────────────────────────────┘│
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Autocomplete Dropdown:**
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  entity                                                         │
+├─────────────────────────────────────────────────────────────────┤
+│  📝 entity (noun) - 3 senses                                   │
+│  📝 entity (noun) - oewn-00001740-n                            │
+│  📝 political_entity (noun) - 1 sense                          │
+│  📝 business_entity (noun) - 1 sense                           │
+│  ─────────────────────────────────────────────────────────────  │
+│  🔍 Search all for "entity"                                    │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### 6.2 Synset Card (Reusable Component)
+
+Compact representation used in search results, relation lists, etc.
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ [n] entity, physical_thing                    oewn-00001740-n  │
+│ That which is perceived or known or inferred to have its own   │
+│ distinct existence...                                          │
+│ ↑ 1 hypernym  ↓ 12 hyponyms                         [ar][fr][de]│
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Elements:**
+- POS badge (color)
+- Lemmas (truncated if >3)
+- Synset ID (muted, copyable)
+- Definition (truncated, expandable)
+- Relation counts
+- Language availability indicators
+
+### 6.3 Relation Badge
+
+```
+[hypernym ↑]  [hyponym ↓]  [meronym ◇]  [holonym ◆]  [antonym ↔]
+```
+
+Color-coded, clickable, with tooltips explaining relation type.
+
+### 6.4 Language Selector
+
+```
+┌─────────────────────────┐
+│ Interface Language      │
+│ ○ English               │
+│ ● العربية               │
+├─────────────────────────┤
+│ Data Languages          │
+│ ☑ English (en)          │
+│ ☑ Arabic (ar)           │
+│ ☐ French (fr)           │
+│ ☐ German (de)           │
+│ [Select All] [Clear]    │
+└─────────────────────────┘
+```
+
+### 6.5 Graph Legend
+
+```
+┌─────────────────────────┐
+│ Legend                  │
+│ ● Current synset        │
+│ ○ Related synset        │
+│ ─── hypernym           │
+│ ─ ─ hyponym            │
+│ ••• meronym            │
+│ ─•─ antonym            │
+└─────────────────────────┘
+```
+
+---
+
+## 7. Interaction Patterns
+
+### 7.1 Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `/` or `Ctrl+K` | Focus search |
+| `Escape` | Close modal/panel |
+| `←` / `→` | Navigate history |
+| `G` then `G` | Go to graph view |
+| `G` then `D` | Go to dashboard |
+| `C` | Copy current synset ID |
+| `?` | Show keyboard shortcuts |
+
+### 7.2 Gestures (Touch)
+
+| Gesture | Action |
+|---------|--------|
+| Pinch | Zoom graph |
+| Two-finger pan | Pan graph |
+| Long press | Context menu |
+| Swipe left/right | Navigate history |
+
+### 7.3 Drag and Drop
+
+- Drag synset cards to comparison view
+- Drag to reorder comparison columns
+- Drag nodes in graph to pin position
+
+---
+
+## 8. State Management
+
+### 8.1 URL State (Shareable)
+
+- Current view (synset, word, search, etc.)
+- Search query and filters
+- Graph depth and relation filters
+- Comparison synset IDs
+- Selected language(s)
+
+### 8.2 Session State (Tab-persistent)
+
+- Open tabs
+- Expanded/collapsed sections
+- Graph layout positions
+- Panel sizes
+
+### 8.3 Persistent State (Local Storage)
+
+- UI preferences (theme, language, default filters)
+- Search history
+- Bookmarks
+- Recently viewed synsets
+
+---
+
+## 9. Error Handling
+
+### 9.1 Error States
+
+| Scenario | Display |
+|----------|---------|
+| Synset not found | 404 page with search suggestion |
+| Search no results | Empty state with alternative suggestions |
+| Network error | Retry prompt with cached data if available |
+| Graph too large | Warning + option to reduce depth |
+| Invalid URL params | Redirect to valid default |
+
+### 9.2 Loading States
+
+- Skeleton loaders for synset cards
+- Progressive graph rendering (show nodes first, then layout)
+- Search: show cached results immediately, refresh in background
+
+---
+
+## 10. Technical Specifications
+
+### 10.1 Recommended Frontend Stack
+
+| Layer | Technology | Rationale |
+|-------|------------|-----------|
+| Framework | React 18+ or Vue 3 | Component model, ecosystem |
+| Language | TypeScript | Type safety for complex data |
+| State | Zustand or Pinia | Simple, performant |
+| Routing | React Router / Vue Router | SPA navigation |
+| Styling | Tailwind CSS | Utility-first, RTL support |
+| Graph | Cytoscape.js | Best for semantic networks |
+| HTTP | Axios or fetch + React Query | Caching, retry logic |
+| i18n | react-i18next / vue-i18n | Mature solutions |
+| Testing | Vitest + Testing Library | Fast, modern |
+
+### 10.2 API Contract (Backend must provide)
+
+#### Core Endpoints
+
+```
+GET  /api/v1/synsets/{synset_id}
+GET  /api/v1/synsets/{synset_id}/relations?types=hypernym,hyponym&depth=2
+GET  /api/v1/words/{lemma}?lang=en&pos=n
+GET  /api/v1/search?q={query}&lang=en&pos=n,v&mode=lemma&limit=20&offset=0
+GET  /api/v1/ili/{ili_id}
+GET  /api/v1/ili/{ili_id}/synsets
+GET  /api/v1/lexicons
+GET  /api/v1/lexicons/{lexicon_id}/stats
+GET  /api/v1/lexicons/{lexicon_id}/issues?type=orphan,no_definition
+```
+
+#### Response Format (Synset Example)
+
+```json
+{
+  "id": "oewn-00001740-n",
+  "pos": "n",
+  "ili": "i1",
+  "lexicon": {
+    "id": "oewn",
+    "label": "Open English WordNet",
+    "language": "en",
+    "version": "2025"
+  },
+  "definitions": [
+    {
+      "text": "That which is perceived or known...",
+      "language": "en"
+    }
+  ],
+  "examples": [],
+  "lemmas": [
+    {
+      "writtenForm": "entity",
+      "senseId": "oewn-entity-n-00001740-01",
+      "frequency": 847
+    }
+  ],
+  "relations": {
+    "hypernym": [],
+    "hyponym": [
+      {"id": "oewn-00001930-n", "label": "physical_entity"},
+      {"id": "oewn-00002137-n", "label": "abstraction"}
+    ]
+  },
+  "crossLingual": {
+    "ar": {"synsetId": "arb-00001740-n", "lemmas": ["كيان"]},
+    "fr": {"synsetId": "fra-00001740-n", "lemmas": ["entité"]}
+  }
+}
+```
+
+### 10.3 Performance Optimization
+
+| Technique | Application |
+|-----------|-------------|
+| Virtual scrolling | Long search results, relation lists |
+| Lazy loading | Cross-lingual data, deep relations |
+| Debouncing | Search input (150ms) |
+| Memoization | Graph layout calculations |
+| Service Worker | Offline access to recently viewed |
+| CDN | Static assets |
+| Compression | Gzip/Brotli for API responses |
+
+---
+
+## 11. Accessibility Checklist
+
+- [ ] All interactive elements focusable via keyboard
+- [ ] Focus indicators visible
+- [ ] ARIA labels on icons and non-text elements
+- [ ] Color not sole indicator of meaning
+- [ ] Minimum contrast ratio 4.5:1
+- [ ] Graph has text alternative (relation list)
+- [ ] Animations respect `prefers-reduced-motion`
+- [ ] Form inputs have associated labels
+- [ ] Error messages announced to screen readers
+- [ ] Language attributes set correctly (`lang`, `dir`)
+
+---
+
+## 12. Localization Requirements
+
+### 12.1 Interface Strings
+
+- All UI text externalized to translation files
+- Minimum languages: English, Arabic
+- Pluralization rules per language
+- Date/number formatting per locale
+
+### 12.2 RTL Support
+
+- Layout mirroring for Arabic interface
+- Bidirectional text handling in content
+- RTL-aware icons (directional arrows flip)
+- Graph layout works in both directions
+
+### 12.3 Content Display
+
+- Mixed-direction text (English terms in Arabic context)
+- Proper Unicode rendering
+- Font stack with Arabic support (e.g., Noto Sans Arabic)
+
+---
+
+## 13. Security Considerations
+
+| Concern | Mitigation |
+|---------|------------|
+| XSS | Sanitize all rendered content |
+| CSRF | Token-based API requests |
+| Data injection | Parameterized queries (backend) |
+| DoS | Rate limiting, query complexity limits |
+| Sensitive data | No PII stored; no auth required for read |
+
+---
+
+## 14. Future Considerations (Out of Scope v1)
+
+- User accounts and saved workspaces (cloud sync)
+- Annotation/editing capabilities
+- Collaborative features (shared bookmarks, comments)
+- Machine learning suggestions (missing relations)
+- Bulk import/export tools
+- Plugin/extension system
+- Mobile native apps
+
+---
+
+## 15. Success Metrics
+
+| Metric | Target | Measurement |
+|--------|--------|-------------|
+| Task completion rate | >90% | User testing |
+| Time to find synset | <10 seconds | Analytics |
+| Graph exploration depth | Avg >3 levels | Analytics |
+| Return user rate | >40% | Analytics |
+| Accessibility score | >90 (Lighthouse) | Automated |
+| Performance score | >80 (Lighthouse) | Automated |
+
+---
+
+## Appendix A: Glossary
+
+| Term | Definition |
+|------|------------|
+| Synset | Set of synonymous word senses representing one concept |
+| Lemma | Canonical/dictionary form of a word |
+| Sense | Specific meaning of a word (links lemma to synset) |
+| ILI | Interlingual Index - links concepts across languages |
+| Hypernym | "Is-a" parent (dog → animal) |
+| Hyponym | "Is-a" child (animal → dog) |
+| Meronym | Part-of relation (wheel → car) |
+| Holonym | Whole-of relation (car → wheel) |
+| POS | Part of Speech (noun, verb, adjective, adverb) |
+
+---
+
+## Appendix B: Wireframes Reference
+
+*[Wireframes to be created in design phase]*
+
+Key screens requiring wireframes:
+1. Home/Search
+2. Search Results
+3. Synset View (Desktop)
+4. Synset View (Mobile)
+5. Word View
+6. Graph View
+7. Comparison View
+8. Dashboard
+9. Settings
+
+---
+
+## Appendix C: Relation Type Reference
+
+### Synset Relations (connect synsets)
+
+| Relation | Inverse | Description |
+|----------|---------|-------------|
+| hypernym | hyponym | Taxonomic parent |
+| instance_hypernym | instance_hyponym | Type-of for instances |
+| holo_part | mero_part | Part-whole |
+| holo_member | mero_member | Member-collection |
+| holo_substance | mero_substance | Substance-whole |
+| entails | — | Verb entailment |
+| causes | — | Verb causation |
+| similar | similar | Adjective similarity |
+| also | also | See-also |
+| attribute | attribute | Attribute relation |
+| domain_topic | has_domain_topic | Subject domain |
+| domain_region | has_domain_region | Regional domain |
+| domain_usage | has_domain_usage | Usage domain |
+
+### Sense Relations (connect senses)
+
+| Relation | Description |
+|----------|-------------|
+| antonym | Lexical opposite |
+| similar | Similar sense |
+| also | Related sense |
+| participle | Participle form |
+| pertainym | Pertains to |
+| derivation | Derivationally related |
+
+---
+
+*End of Specification*
