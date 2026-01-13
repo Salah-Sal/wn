@@ -79,9 +79,9 @@ export function GraphCanvas({
       layout={layoutConfigs[layout] || layoutConfigs.dagre}
       cy={handleCy}
       className={`w-full h-full ${className}`}
-      wheelSensitivity={0.3}
+      wheelSensitivity={1}
       minZoom={0.1}
-      maxZoom={3}
+      maxZoom={4}
       boxSelectionEnabled={false}
       autounselectify={false}
     />
