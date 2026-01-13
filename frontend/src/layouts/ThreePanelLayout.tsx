@@ -2,6 +2,7 @@ import { type ReactNode, useState } from 'react'
 import { cn } from '@/lib/utils'
 import { ChevronLeft, ChevronRight, Menu } from 'lucide-react'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
+import { ThemeToggle } from '@/components/ThemeToggle'
 
 interface ThreePanelLayoutProps {
   navigation: ReactNode
@@ -35,12 +36,15 @@ export function ThreePanelLayout({ navigation, main, details }: ThreePanelLayout
             {!navCollapsed && (
               <h1 className="text-lg font-semibold text-[hsl(var(--foreground))]">WordNet Explorer</h1>
             )}
-            <button
-              onClick={() => setNavCollapsed(!navCollapsed)}
-              className="p-1 rounded hover:bg-[hsl(var(--secondary))] hidden lg:block"
-            >
-              {navCollapsed ? <ChevronRight className="w-4 h-4" /> : <ChevronLeft className="w-4 h-4" />}
-            </button>
+            <div className="flex items-center gap-1">
+              {!navCollapsed && <ThemeToggle />}
+              <button
+                onClick={() => setNavCollapsed(!navCollapsed)}
+                className="p-1 rounded hover:bg-[hsl(var(--secondary))] hidden lg:block"
+              >
+                {navCollapsed ? <ChevronRight className="w-4 h-4" /> : <ChevronLeft className="w-4 h-4" />}
+              </button>
+            </div>
           </div>
           <div className="flex-1 overflow-auto p-4">{navigation}</div>
         </div>
