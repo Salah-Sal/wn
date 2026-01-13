@@ -1,0 +1,1322 @@
+{
+  "metadata": {
+    "lexicon": "oewn",
+    "collection_date": "2026-01-12",
+    "description": "Ground truth data for graph API validation"
+  },
+  "synsets": {
+    "dog": {
+      "id": "oewn-02086723-n",
+      "pos": "n",
+      "lemmas": [
+        "dog",
+        "domestic dog",
+        "Canis familiaris"
+      ],
+      "definition": "a member of the genus Canis (probably descended from the common wolf) that has been domesticated by "
+    },
+    "cat": {
+      "id": "oewn-02124272-n",
+      "lemmas": [
+        "cat",
+        "true cat"
+      ],
+      "pos": "n",
+      "definition": "feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats"
+    },
+    "car": {
+      "id": "oewn-02961779-n",
+      "pos": "n",
+      "lemmas": [
+        "car",
+        "auto",
+        "automobile",
+        "machine",
+        "motorcar"
+      ],
+      "definition": "a motor vehicle with four wheels; usually propelled by an internal combustion engine"
+    },
+    "tree": {
+      "id": "oewn-13124818-n",
+      "lemmas": [
+        "tree"
+      ],
+      "pos": "n",
+      "definition": "a tall perennial woody plant having a main trunk and branches forming a distinct elevated crown; includes both gymnosperms and angiosperms"
+    },
+    "person": {
+      "id": "oewn-00007846-n",
+      "pos": "n",
+      "lemmas": [
+        "person",
+        "individual",
+        "someone",
+        "somebody",
+        "mortal"
+      ],
+      "definition": "a human being; person, singular, assertive existential pronoun; pronoun, person, singular; quantifie"
+    },
+    "food": {
+      "id": "oewn-00021445-n",
+      "pos": "n",
+      "lemmas": [
+        "food",
+        "nutrient"
+      ],
+      "definition": "any substance that can be metabolized by an animal to give energy and build tissue"
+    },
+    "computer": {
+      "id": "oewn-03086983-n",
+      "pos": "n",
+      "lemmas": [
+        "computer",
+        "computing machine",
+        "computing device",
+        "data processor",
+        "electronic computer"
+      ],
+      "definition": "a machine for performing calculations automatically"
+    },
+    "music": {
+      "id": "oewn-07034009-n",
+      "pos": "n",
+      "lemmas": [
+        "music"
+      ],
+      "definition": "an artistic form of auditory communication incorporating instrumental or vocal tones in a structured"
+    },
+    "water": {
+      "id": "oewn-14869913-n",
+      "pos": "n",
+      "lemmas": [
+        "water",
+        "H2O"
+      ],
+      "definition": "binary compound that occurs at room temperature as a clear colorless odorless tasteless liquid; free"
+    },
+    "house": {
+      "id": "oewn-03549540-n",
+      "pos": "n",
+      "lemmas": [
+        "house"
+      ],
+      "definition": "a dwelling that serves as living quarters for one or more families"
+    },
+    "run": {
+      "id": "oewn-01930264-v",
+      "pos": "v",
+      "lemmas": [
+        "run"
+      ],
+      "definition": "move fast by using one's feet, with one foot off the ground at any given time"
+    },
+    "eat": {
+      "id": "oewn-01170802-v",
+      "pos": "v",
+      "lemmas": [
+        "eat"
+      ],
+      "definition": "take in solid food"
+    },
+    "think": {
+      "id": "oewn-00691086-v",
+      "pos": "v",
+      "lemmas": [
+        "think",
+        "believe",
+        "consider",
+        "conceive"
+      ],
+      "definition": "judge or regard; look upon; judge"
+    },
+    "see": {
+      "id": "oewn-02133754-v",
+      "pos": "v",
+      "lemmas": [
+        "see"
+      ],
+      "definition": "perceive by sight or have the power to perceive by sight"
+    },
+    "big": {
+      "id": "oewn-01385012-a",
+      "pos": "a",
+      "lemmas": [
+        "large",
+        "big"
+      ],
+      "definition": "above average in size or number or quantity or magnitude or extent"
+    },
+    "happy": {
+      "id": "oewn-01151786-a",
+      "pos": "a",
+      "lemmas": [
+        "happy"
+      ],
+      "definition": "enjoying or showing or marked by joy or pleasure"
+    },
+    "fast": {
+      "id": "oewn-00979699-a",
+      "pos": "a",
+      "lemmas": [
+        "fast"
+      ],
+      "definition": "acting or moving or capable of acting or moving quickly"
+    },
+    "entity": {
+      "id": "oewn-00001740-n",
+      "lemmas": [
+        "entity"
+      ],
+      "pos": "n",
+      "definition": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)"
+    },
+    "physical_entity": {
+      "id": "oewn-00001930-n",
+      "lemmas": [
+        "physical entity"
+      ],
+      "pos": "n",
+      "definition": "an entity that has physical existence"
+    },
+    "canine": {
+      "id": "oewn-02085998-n",
+      "lemmas": [
+        "canine",
+        "canid"
+      ],
+      "pos": "n",
+      "definition": "any of various fissiped mammals with nonretractile claws and typically long muzzles"
+    },
+    "feline": {
+      "id": "oewn-02123649-n",
+      "lemmas": [
+        "feline",
+        "felid"
+      ],
+      "pos": "n",
+      "definition": "any of various lithe-bodied roundheaded fissiped mammals, many with retractile claws"
+    },
+    "carnivore": {
+      "id": "oewn-02077948-n",
+      "lemmas": [
+        "carnivore"
+      ],
+      "pos": "n",
+      "definition": "a terrestrial or aquatic flesh-eating mammal"
+    },
+    "mammal": {
+      "id": "oewn-01864419-n",
+      "lemmas": [
+        "mammal",
+        "mammalian"
+      ],
+      "pos": "n",
+      "definition": "any warm-blooded vertebrate having the skin more or less covered with hair; young are born alive except for the small subclass of monotremes and nourished with milk"
+    },
+    "animal": {
+      "id": "oewn-00015568-n",
+      "lemmas": [
+        "animal",
+        "animate being",
+        "beast",
+        "brute",
+        "creature",
+        "fauna"
+      ],
+      "pos": "n",
+      "definition": "a living organism characterized by voluntary movement"
+    },
+    "organism": {
+      "id": "oewn-00004475-n",
+      "lemmas": [
+        "organism",
+        "being"
+      ],
+      "pos": "n",
+      "definition": "a living thing that has (or can develop) the ability to act or function independently"
+    },
+    "puppy": {
+      "id": "oewn-01325095-n",
+      "lemmas": [
+        "puppy"
+      ],
+      "pos": "n",
+      "definition": "a young dog"
+    },
+    "domestic_animal": {
+      "id": "oewn-01320032-n",
+      "lemmas": [
+        "domestic animal",
+        "domesticated animal"
+      ],
+      "pos": "n",
+      "definition": "any of various animals that have been tamed and made fit for a human environment"
+    }
+  },
+  "tests": {
+    "hypernym_trees": [
+      {
+        "synset_id": "oewn-02086723-n",
+        "direct_hypernyms": [
+          "oewn-02085998-n",
+          "oewn-01320032-n"
+        ],
+        "hypernym_path_count": 4,
+        "paths": [
+          [
+            "oewn-01320032-n",
+            "oewn-00015568-n",
+            "oewn-00004475-n",
+            "oewn-00004258-n",
+            "oewn-00003553-n",
+            "oewn-00002684-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ],
+          [
+            "oewn-01320032-n",
+            "oewn-00015568-n",
+            "oewn-00004475-n",
+            "oewn-00007347-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ],
+          [
+            "oewn-02085998-n",
+            "oewn-02077948-n",
+            "oewn-01889397-n",
+            "oewn-01864419-n",
+            "oewn-01474323-n",
+            "oewn-01468898-n",
+            "oewn-00015568-n",
+            "oewn-00004475-n",
+            "oewn-00004258-n",
+            "oewn-00003553-n",
+            "oewn-00002684-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ],
+          [
+            "oewn-02085998-n",
+            "oewn-02077948-n",
+            "oewn-01889397-n",
+            "oewn-01864419-n",
+            "oewn-01474323-n",
+            "oewn-01468898-n",
+            "oewn-00015568-n",
+            "oewn-00004475-n",
+            "oewn-00007347-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ]
+        ],
+        "roots": [
+          "oewn-00001740-n"
+        ],
+        "max_path_length": 13,
+        "name": "dog"
+      },
+      {
+        "synset_id": "oewn-02124272-n",
+        "direct_hypernyms": [
+          "oewn-02123649-n"
+        ],
+        "hypernym_path_count": 2,
+        "paths": [
+          [
+            "oewn-02123649-n",
+            "oewn-02077948-n",
+            "oewn-01889397-n",
+            "oewn-01864419-n",
+            "oewn-01474323-n",
+            "oewn-01468898-n",
+            "oewn-00015568-n",
+            "oewn-00004475-n",
+            "oewn-00004258-n",
+            "oewn-00003553-n",
+            "oewn-00002684-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ],
+          [
+            "oewn-02123649-n",
+            "oewn-02077948-n",
+            "oewn-01889397-n",
+            "oewn-01864419-n",
+            "oewn-01474323-n",
+            "oewn-01468898-n",
+            "oewn-00015568-n",
+            "oewn-00004475-n",
+            "oewn-00007347-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ]
+        ],
+        "roots": [
+          "oewn-00001740-n"
+        ],
+        "max_path_length": 13,
+        "name": "cat"
+      },
+      {
+        "synset_id": "oewn-02961779-n",
+        "direct_hypernyms": [
+          "oewn-03796768-n"
+        ],
+        "hypernym_path_count": 1,
+        "paths": [
+          [
+            "oewn-03796768-n",
+            "oewn-04177098-n",
+            "oewn-04583497-n",
+            "oewn-04531608-n",
+            "oewn-03105141-n",
+            "oewn-03580409-n",
+            "oewn-00022119-n",
+            "oewn-00003553-n",
+            "oewn-00002684-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ]
+        ],
+        "roots": [
+          "oewn-00001740-n"
+        ],
+        "max_path_length": 11,
+        "name": "car"
+      },
+      {
+        "synset_id": "oewn-13124818-n",
+        "direct_hypernyms": [
+          "oewn-13123895-n"
+        ],
+        "hypernym_path_count": 2,
+        "paths": [
+          [
+            "oewn-13123895-n",
+            "oewn-13104346-n",
+            "oewn-00017402-n",
+            "oewn-00004475-n",
+            "oewn-00004258-n",
+            "oewn-00003553-n",
+            "oewn-00002684-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ],
+          [
+            "oewn-13123895-n",
+            "oewn-13104346-n",
+            "oewn-00017402-n",
+            "oewn-00004475-n",
+            "oewn-00007347-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ]
+        ],
+        "roots": [
+          "oewn-00001740-n"
+        ],
+        "max_path_length": 9,
+        "name": "tree"
+      },
+      {
+        "synset_id": "oewn-00007846-n",
+        "direct_hypernyms": [
+          "oewn-00004475-n"
+        ],
+        "hypernym_path_count": 2,
+        "paths": [
+          [
+            "oewn-00004475-n",
+            "oewn-00004258-n",
+            "oewn-00003553-n",
+            "oewn-00002684-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ],
+          [
+            "oewn-00004475-n",
+            "oewn-00007347-n",
+            "oewn-00001930-n",
+            "oewn-00001740-n"
+          ]
+        ],
+        "roots": [
+          "oewn-00001740-n"
+        ],
+        "max_path_length": 6,
+        "name": "person"
+      },
+      {
+        "synset_id": "oewn-01930264-v",
+        "direct_hypernyms": [
+          "oewn-02059573-v"
+        ],
+        "hypernym_path_count": 1,
+        "paths": [
+          [
+            "oewn-02059573-v",
+            "oewn-01839438-v",
+            "oewn-02372362-v"
+          ]
+        ],
+        "roots": [
+          "oewn-02372362-v"
+        ],
+        "max_path_length": 3,
+        "name": "run"
+      },
+      {
+        "synset_id": "oewn-01385012-a",
+        "direct_hypernyms": [],
+        "hypernym_path_count": 0,
+        "paths": [],
+        "roots": [],
+        "max_path_length": 0,
+        "name": "big"
+      }
+    ],
+    "hyponym_trees": [
+      {
+        "synset_id": "oewn-02086723-n",
+        "direct_hyponym_count": 18,
+        "direct_hyponyms": [
+          "oewn-01325095-n",
+          "oewn-02087384-n",
+          "oewn-02087513-n",
+          "oewn-02087924-n",
+          "oewn-02088026-n",
+          "oewn-02089774-n",
+          "oewn-02106058-n",
+          "oewn-02112993-n",
+          "oewn-02113458-n",
+          "oewn-02113610-n",
+          "oewn-02113781-n",
+          "oewn-02113929-n",
+          "oewn-02114152-n",
+          "oewn-02114278-n",
+          "oewn-02115149-n",
+          "oewn-02115478-n",
+          "oewn-02115987-n",
+          "oewn-02116630-n"
+        ],
+        "total_hyponyms_depth_1": 18,
+        "name": "dog"
+      },
+      {
+        "synset_id": "oewn-02124272-n",
+        "direct_hyponym_count": 2,
+        "direct_hyponyms": [
+          "oewn-02124460-n",
+          "oewn-02127275-n"
+        ],
+        "total_hyponyms_depth_1": 2,
+        "name": "cat"
+      },
+      {
+        "synset_id": "oewn-02961779-n",
+        "direct_hyponym_count": 32,
+        "direct_hyponyms": [
+          "oewn-02703861-n",
+          "oewn-02817668-n",
+          "oewn-02927938-n",
+          "oewn-02934150-n",
+          "oewn-03083140-n",
+          "oewn-03104891-n",
+          "oewn-03124047-n",
+          "oewn-03145716-n",
+          "oewn-03273701-n",
+          "oewn-03426579-n",
+          "oewn-03498320-n",
+          "oewn-03503925-n",
+          "oewn-03544283-n",
+          "oewn-03548574-n",
+          "oewn-03600138-n",
+          "oewn-03675534-n",
+          "oewn-03685838-n",
+          "oewn-03775620-n",
+          "oewn-03776212-n",
+          "oewn-03783101-n"
+        ],
+        "total_hyponyms_depth_1": 32,
+        "name": "car"
+      },
+      {
+        "synset_id": "oewn-00015568-n",
+        "direct_hyponym_count": 49,
+        "direct_hyponyms": [
+          "oewn-01316879-n",
+          "oewn-01317154-n",
+          "oewn-01317272-n",
+          "oewn-01317401-n",
+          "oewn-01317704-n",
+          "oewn-01317821-n",
+          "oewn-01318072-n",
+          "oewn-01318296-n",
+          "oewn-01318779-n",
+          "oewn-01318913-n",
+          "oewn-01319440-n",
+          "oewn-01320032-n",
+          "oewn-01320407-n",
+          "oewn-01320969-n",
+          "oewn-01321151-n",
+          "oewn-01321385-n",
+          "oewn-01321492-n",
+          "oewn-01321678-n",
+          "oewn-01321958-n",
+          "oewn-01323363-n"
+        ],
+        "total_hyponyms_depth_1": 49,
+        "name": "animal"
+      },
+      {
+        "synset_id": "oewn-13124818-n",
+        "direct_hyponym_count": 179,
+        "direct_hyponyms": [
+          "oewn-11671009-n",
+          "oewn-11716919-n",
+          "oewn-11717404-n",
+          "oewn-11729127-n",
+          "oewn-11760447-n",
+          "oewn-11766286-n",
+          "oewn-11769581-n",
+          "oewn-11776561-n",
+          "oewn-11779268-n",
+          "oewn-11779693-n",
+          "oewn-11781671-n",
+          "oewn-11782119-n",
+          "oewn-11782305-n",
+          "oewn-11782487-n",
+          "oewn-11782902-n",
+          "oewn-11783396-n",
+          "oewn-11784094-n",
+          "oewn-11784947-n",
+          "oewn-11790725-n",
+          "oewn-11793348-n"
+        ],
+        "total_hyponyms_depth_1": 179,
+        "name": "tree"
+      },
+      {
+        "synset_id": "oewn-01930264-v",
+        "direct_hyponym_count": 12,
+        "direct_hyponyms": [
+          "oewn-01905440-v",
+          "oewn-01906398-v",
+          "oewn-01930831-v",
+          "oewn-01931164-v",
+          "oewn-01931283-v",
+          "oewn-01931400-v",
+          "oewn-01931561-v",
+          "oewn-01932343-v",
+          "oewn-01932532-v",
+          "oewn-01932683-v",
+          "oewn-02063698-v",
+          "oewn-02089251-v"
+        ],
+        "total_hyponyms_depth_1": 12,
+        "name": "run"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "synset_id": "oewn-02086723-n",
+        "total_neighbors": 22,
+        "relations": {
+          "hypernym": [
+            "oewn-02085998-n",
+            "oewn-01320032-n"
+          ],
+          "hyponym": [
+            "oewn-01325095-n",
+            "oewn-02087384-n",
+            "oewn-02087513-n",
+            "oewn-02087924-n",
+            "oewn-02088026-n",
+            "oewn-02089774-n",
+            "oewn-02106058-n",
+            "oewn-02112993-n",
+            "oewn-02113458-n",
+            "oewn-02113610-n",
+            "oewn-02113781-n",
+            "oewn-02113929-n",
+            "oewn-02114152-n",
+            "oewn-02114278-n",
+            "oewn-02115149-n",
+            "oewn-02115478-n",
+            "oewn-02115987-n",
+            "oewn-02116630-n"
+          ],
+          "mero_part": [
+            "oewn-02161498-n"
+          ],
+          "holo_member": [
+            "oewn-02086515-n"
+          ]
+        },
+        "relation_counts": {
+          "hypernym": 2,
+          "hyponym": 18,
+          "mero_part": 1,
+          "holo_member": 1
+        },
+        "name": "dog"
+      },
+      {
+        "synset_id": "oewn-02124272-n",
+        "total_neighbors": 3,
+        "relations": {
+          "hypernym": [
+            "oewn-02123649-n"
+          ],
+          "hyponym": [
+            "oewn-02124460-n",
+            "oewn-02127275-n"
+          ]
+        },
+        "relation_counts": {
+          "hypernym": 1,
+          "hyponym": 2
+        },
+        "name": "cat"
+      },
+      {
+        "synset_id": "oewn-02961779-n",
+        "total_neighbors": 64,
+        "relations": {
+          "hypernym": [
+            "oewn-03796768-n"
+          ],
+          "hyponym": [
+            "oewn-02703861-n",
+            "oewn-02817668-n",
+            "oewn-02927938-n",
+            "oewn-02934150-n",
+            "oewn-03083140-n",
+            "oewn-03104891-n",
+            "oewn-03124047-n",
+            "oewn-03145716-n",
+            "oewn-03273701-n",
+            "oewn-03426579-n",
+            "oewn-03498320-n",
+            "oewn-03503925-n",
+            "oewn-03544283-n",
+            "oewn-03548574-n",
+            "oewn-03600138-n",
+            "oewn-03675534-n",
+            "oewn-03685838-n",
+            "oewn-03775620-n",
+            "oewn-03776212-n",
+            "oewn-03783101-n",
+            "oewn-03875783-n",
+            "oewn-04043919-n",
+            "oewn-04104467-n",
+            "oewn-04173342-n",
+            "oewn-04292146-n",
+            "oewn-04293103-n",
+            "oewn-04310126-n",
+            "oewn-04330062-n",
+            "oewn-04354197-n",
+            "oewn-04466357-n",
+            "oewn-04523649-n",
+            "oewn-82558699-n"
+          ],
+          "mero_part": [
+            "oewn-02673313-n",
+            "oewn-02688224-n",
+            "oewn-02761758-n",
+            "oewn-02764562-n",
+            "oewn-02764839-n",
+            "oewn-02914504-n",
+            "oewn-02921979-n",
+            "oewn-02967273-n",
+            "oewn-02969235-n",
+            "oewn-02974144-n",
+            "oewn-02977678-n",
+            "oewn-03332786-n",
+            "oewn-03354857-n",
+            "oewn-03371567-n",
+            "oewn-03429540-n",
+            "oewn-03446269-n",
+            "oewn-03464707-n",
+            "oewn-03523794-n",
+            "oewn-03536090-n",
+            "oewn-03701391-n",
+            "oewn-04067177-n",
+            "oewn-04092129-n",
+            "oewn-04112532-n",
+            "oewn-04127433-n",
+            "oewn-04301752-n",
+            "oewn-04364208-n",
+            "oewn-04391493-n",
+            "oewn-04433112-n",
+            "oewn-04595668-n",
+            "oewn-92462625-n"
+          ],
+          "holo_part": [
+            "oewn-90010951-n"
+          ]
+        },
+        "relation_counts": {
+          "hypernym": 1,
+          "hyponym": 32,
+          "mero_part": 30,
+          "holo_part": 1
+        },
+        "name": "car"
+      },
+      {
+        "synset_id": "oewn-13124818-n",
+        "total_neighbors": 188,
+        "relations": {
+          "hypernym": [
+            "oewn-13123895-n"
+          ],
+          "hyponym": [
+            "oewn-11671009-n",
+            "oewn-11716919-n",
+            "oewn-11717404-n",
+            "oewn-11729127-n",
+            "oewn-11760447-n",
+            "oewn-11766286-n",
+            "oewn-11769581-n",
+            "oewn-11776561-n",
+            "oewn-11779268-n",
+            "oewn-11779693-n",
+            "oewn-11781671-n",
+            "oewn-11782119-n",
+            "oewn-11782305-n",
+            "oewn-11782487-n",
+            "oewn-11782902-n",
+            "oewn-11783396-n",
+            "oewn-11784094-n",
+            "oewn-11784947-n",
+            "oewn-11790725-n",
+            "oewn-11793348-n",
+            "oewn-11819800-n",
+            "oewn-11861716-n",
+            "oewn-12175290-n",
+            "oewn-12201402-n",
+            "oewn-12205771-n",
+            "oewn-12208806-n",
+            "oewn-12209946-n",
+            "oewn-12211757-n",
+            "oewn-12212649-n",
+            "oewn-12213394-n",
+            "oewn-12214664-n",
+            "oewn-12215130-n",
+            "oewn-12216646-n",
+            "oewn-12218803-n",
+            "oewn-12221422-n",
+            "oewn-12221848-n",
+            "oewn-12222455-n",
+            "oewn-12223453-n",
+            "oewn-12241013-n",
+            "oewn-12242607-n",
+            "oewn-12243417-n",
+            "oewn-12243677-n",
+            "oewn-12245495-n",
+            "oewn-12281316-n",
+            "oewn-12283070-n",
+            "oewn-12285029-n",
+            "oewn-12285303-n",
+            "oewn-12285911-n",
+            "oewn-12286734-n",
+            "oewn-12288763-n",
+            "oewn-12301758-n",
+            "oewn-12304779-n",
+            "oewn-12307343-n",
+            "oewn-12308159-n",
+            "oewn-12322588-n",
+            "oewn-12323979-n",
+            "oewn-12330147-n",
+            "oewn-12344182-n",
+            "oewn-12345423-n",
+            "oewn-12345751-n",
+            "oewn-12351408-n",
+            "oewn-12354810-n",
+            "oewn-12385121-n",
+            "oewn-12385457-n",
+            "oewn-12385675-n",
+            "oewn-12385802-n",
+            "oewn-12386417-n",
+            "oewn-12386570-n",
+            "oewn-12391066-n",
+            "oewn-12394256-n",
+            "oewn-12397715-n",
+            "oewn-12399480-n",
+            "oewn-12400048-n",
+            "oewn-12400298-n",
+            "oewn-12400822-n",
+            "oewn-12414845-n",
+            "oewn-12421840-n",
+            "oewn-12426219-n",
+            "oewn-12429736-n",
+            "oewn-12499273-n",
+            "oewn-12508959-n",
+            "oewn-12509214-n",
+            "oewn-12509773-n",
+            "oewn-12510181-n",
+            "oewn-12510995-n",
+            "oewn-12511940-n",
+            "oewn-12512331-n",
+            "oewn-12515651-n",
+            "oewn-12516932-n",
+            "oewn-12518560-n",
+            "oewn-12526686-n",
+            "oewn-12529614-n",
+            "oewn-12530848-n",
+            "oewn-12542693-n",
+            "oewn-12543399-n",
+            "oewn-12543646-n",
+            "oewn-12544355-n",
+            "oewn-12544693-n",
+            "oewn-12548243-n",
+            "oewn-12552232-n",
+            "oewn-12570304-n",
+            "oewn-12571678-n",
+            "oewn-12571962-n",
+            "oewn-12574078-n",
+            "oewn-12580023-n",
+            "oewn-12583082-n",
+            "oewn-12584207-n",
+            "oewn-12585607-n",
+            "oewn-12585873-n",
+            "oewn-12586235-n",
+            "oewn-12586417-n",
+            "oewn-12586836-n",
+            "oewn-12589542-n",
+            "oewn-12590356-n",
+            "oewn-12590899-n",
+            "oewn-12591208-n",
+            "oewn-12591477-n",
+            "oewn-12594416-n",
+            "oewn-12600570-n",
+            "oewn-12600760-n",
+            "oewn-12602979-n",
+            "oewn-12682835-n",
+            "oewn-12683533-n",
+            "oewn-12684565-n",
+            "oewn-12689678-n",
+            "oewn-12690564-n",
+            "oewn-12691519-n",
+            "oewn-12691723-n",
+            "oewn-12711414-n",
+            "oewn-12715905-n",
+            "oewn-12716736-n",
+            "oewn-12717253-n",
+            "oewn-12718275-n",
+            "oewn-12719195-n",
+            "oewn-12720061-n",
+            "oewn-12720378-n",
+            "oewn-12721756-n",
+            "oewn-12722426-n",
+            "oewn-12722884-n",
+            "oewn-12734626-n",
+            "oewn-12735014-n",
+            "oewn-12735515-n",
+            "oewn-12736674-n",
+            "oewn-12738834-n",
+            "oewn-12745702-n",
+            "oewn-12755920-n",
+            "oewn-12757363-n",
+            "oewn-12761727-n",
+            "oewn-12761982-n",
+            "oewn-12785738-n",
+            "oewn-12785875-n",
+            "oewn-12791289-n",
+            "oewn-12791652-n",
+            "oewn-12795059-n",
+            "oewn-12795830-n",
+            "oewn-12796153-n",
+            "oewn-12796679-n",
+            "oewn-12808124-n",
+            "oewn-12827492-n",
+            "oewn-12836428-n",
+            "oewn-12839361-n",
+            "oewn-12936571-n",
+            "oewn-12936939-n",
+            "oewn-12937271-n",
+            "oewn-13124636-n",
+            "oewn-13128453-n",
+            "oewn-13128566-n",
+            "oewn-13128650-n",
+            "oewn-13128890-n",
+            "oewn-13129082-n",
+            "oewn-13129240-n",
+            "oewn-13129304-n",
+            "oewn-13129421-n",
+            "oewn-13130492-n",
+            "oewn-13132099-n",
+            "oewn-13132640-n",
+            "oewn-13163684-n",
+            "oewn-13164861-n",
+            "oewn-13261260-n"
+          ],
+          "mero_part": [
+            "oewn-13132263-n",
+            "oewn-13148762-n",
+            "oewn-13184701-n",
+            "oewn-13186713-n",
+            "oewn-13186942-n"
+          ],
+          "mero_substance": [
+            "oewn-13118295-n",
+            "oewn-13118511-n"
+          ],
+          "holo_member": [
+            "oewn-08455525-n"
+          ]
+        },
+        "relation_counts": {
+          "hypernym": 1,
+          "hyponym": 179,
+          "mero_part": 5,
+          "mero_substance": 2,
+          "holo_member": 1
+        },
+        "name": "tree"
+      },
+      {
+        "synset_id": "oewn-14869913-n",
+        "total_neighbors": 28,
+        "relations": {
+          "hypernym": [
+            "oewn-14643012-n",
+            "oewn-14964238-n"
+          ],
+          "hyponym": [
+            "oewn-07952417-n",
+            "oewn-14797948-n",
+            "oewn-14861021-n",
+            "oewn-14861428-n",
+            "oewn-14870687-n",
+            "oewn-14871673-n",
+            "oewn-14929573-n",
+            "oewn-14961231-n",
+            "oewn-14974194-n",
+            "oewn-15033414-n",
+            "oewn-15033893-n",
+            "oewn-15067875-n",
+            "oewn-15071283-n",
+            "oewn-15084364-n",
+            "oewn-15118703-n",
+            "oewn-92462237-n",
+            "oewn-92462241-n",
+            "oewn-92462297-n"
+          ],
+          "mero_substance": [
+            "oewn-14664612-n",
+            "oewn-14672278-n"
+          ],
+          "holo_substance": [
+            "oewn-09248053-n",
+            "oewn-11529484-n",
+            "oewn-11529795-n",
+            "oewn-14939335-n",
+            "oewn-05412667-n",
+            "oewn-05413094-n"
+          ]
+        },
+        "relation_counts": {
+          "hypernym": 2,
+          "hyponym": 18,
+          "mero_substance": 2,
+          "holo_substance": 6
+        },
+        "name": "water"
+      },
+      {
+        "synset_id": "oewn-01930264-v",
+        "total_neighbors": 14,
+        "relations": {
+          "hypernym": [
+            "oewn-02059573-v"
+          ],
+          "hyponym": [
+            "oewn-01905440-v",
+            "oewn-01906398-v",
+            "oewn-01930831-v",
+            "oewn-01931164-v",
+            "oewn-01931283-v",
+            "oewn-01931400-v",
+            "oewn-01931561-v",
+            "oewn-01932343-v",
+            "oewn-01932532-v",
+            "oewn-01932683-v",
+            "oewn-02063698-v",
+            "oewn-02089251-v"
+          ],
+          "similar": [
+            "oewn-01918940-v"
+          ]
+        },
+        "relation_counts": {
+          "hypernym": 1,
+          "hyponym": 12,
+          "similar": 1
+        },
+        "name": "run"
+      }
+    ],
+    "shortest_paths": [
+      {
+        "source": "oewn-02086723-n",
+        "target": "oewn-02124272-n",
+        "path_exists": true,
+        "path_length": 3,
+        "path_nodes": [
+          "oewn-02085998-n",
+          "oewn-02077948-n",
+          "oewn-02123649-n",
+          "oewn-02124272-n"
+        ],
+        "path_lemmas": [
+          "canine",
+          "carnivore",
+          "feline",
+          "cat"
+        ],
+        "source_name": "dog",
+        "target_name": "cat"
+      },
+      {
+        "source": "oewn-02086723-n",
+        "target": "oewn-02961779-n",
+        "path_exists": true,
+        "path_length": 12,
+        "path_nodes": [
+          "oewn-01320032-n",
+          "oewn-00015568-n",
+          "oewn-00004475-n",
+          "oewn-00004258-n",
+          "oewn-00003553-n",
+          "oewn-00022119-n",
+          "oewn-03580409-n",
+          "oewn-03105141-n",
+          "oewn-04531608-n",
+          "oewn-04583497-n",
+          "oewn-04177098-n",
+          "oewn-03796768-n",
+          "oewn-02961779-n"
+        ],
+        "path_lemmas": [
+          "domestic animal",
+          "animal",
+          "organism",
+          "living thing",
+          "whole",
+          "artifact",
+          "instrumentality",
+          "conveyance",
+          "vehicle",
+          "wheeled vehicle",
+          "self-propelled vehicle",
+          "motor vehicle",
+          "car"
+        ],
+        "source_name": "dog",
+        "target_name": "car"
+      },
+      {
+        "source": "oewn-02086723-n",
+        "target": "oewn-00007846-n",
+        "path_exists": true,
+        "path_length": 3,
+        "path_nodes": [
+          "oewn-01320032-n",
+          "oewn-00015568-n",
+          "oewn-00004475-n",
+          "oewn-00007846-n"
+        ],
+        "path_lemmas": [
+          "domestic animal",
+          "animal",
+          "organism",
+          "person"
+        ],
+        "source_name": "dog",
+        "target_name": "person"
+      },
+      {
+        "source": "oewn-02124272-n",
+        "target": "oewn-13124818-n",
+        "path_exists": true,
+        "path_length": 11,
+        "path_nodes": [
+          "oewn-02123649-n",
+          "oewn-02077948-n",
+          "oewn-01889397-n",
+          "oewn-01864419-n",
+          "oewn-01474323-n",
+          "oewn-01468898-n",
+          "oewn-00015568-n",
+          "oewn-00004475-n",
+          "oewn-00017402-n",
+          "oewn-13104346-n",
+          "oewn-13123895-n",
+          "oewn-13124818-n"
+        ],
+        "path_lemmas": [
+          "feline",
+          "carnivore",
+          "placental",
+          "mammal",
+          "vertebrate",
+          "chordate",
+          "animal",
+          "organism",
+          "plant",
+          "vascular plant",
+          "woody plant",
+          "tree"
+        ],
+        "source_name": "cat",
+        "target_name": "tree"
+      },
+      {
+        "source": "oewn-02961779-n",
+        "target": "oewn-03549540-n",
+        "path_exists": true,
+        "path_length": 9,
+        "path_nodes": [
+          "oewn-03796768-n",
+          "oewn-04177098-n",
+          "oewn-04583497-n",
+          "oewn-04531608-n",
+          "oewn-03105141-n",
+          "oewn-03580409-n",
+          "oewn-00022119-n",
+          "oewn-04348764-n",
+          "oewn-02916498-n",
+          "oewn-03549540-n"
+        ],
+        "path_lemmas": [
+          "motor vehicle",
+          "self-propelled vehicle",
+          "wheeled vehicle",
+          "vehicle",
+          "conveyance",
+          "instrumentality",
+          "artifact",
+          "structure",
+          "building",
+          "house"
+        ],
+        "source_name": "car",
+        "target_name": "house"
+      },
+      {
+        "source": "oewn-02086723-n",
+        "target": "oewn-00001740-n",
+        "path_exists": true,
+        "path_length": 5,
+        "path_nodes": [
+          "oewn-01320032-n",
+          "oewn-00015568-n",
+          "oewn-00004475-n",
+          "oewn-00007347-n",
+          "oewn-00001930-n",
+          "oewn-00001740-n"
+        ],
+        "path_lemmas": [
+          "domestic animal",
+          "animal",
+          "organism",
+          "causal agent",
+          "physical entity",
+          "entity"
+        ],
+        "source_name": "dog",
+        "target_name": "entity"
+      },
+      {
+        "source": "oewn-02086723-n",
+        "target": "oewn-00015568-n",
+        "path_exists": true,
+        "path_length": 1,
+        "path_nodes": [
+          "oewn-01320032-n",
+          "oewn-00015568-n"
+        ],
+        "path_lemmas": [
+          "domestic animal",
+          "animal"
+        ],
+        "source_name": "dog",
+        "target_name": "animal"
+      },
+      {
+        "source": "oewn-02086723-n",
+        "target": "oewn-01325095-n",
+        "path_exists": true,
+        "path_length": 0,
+        "path_nodes": [
+          "oewn-01325095-n"
+        ],
+        "path_lemmas": [
+          "puppy"
+        ],
+        "source_name": "dog",
+        "target_name": "puppy"
+      }
+    ],
+    "similarities": [
+      {
+        "synset1": "oewn-02086723-n",
+        "synset2": "oewn-02124272-n",
+        "same_pos": true,
+        "path_similarity": 0.2,
+        "wup_similarity": 0.8571428571428571,
+        "lch_similarity": null,
+        "lch_note": "Skipped - taxonomy_depth calculation is slow",
+        "name1": "dog",
+        "name2": "cat"
+      },
+      {
+        "synset1": "oewn-02086723-n",
+        "synset2": "oewn-02961779-n",
+        "same_pos": true,
+        "path_similarity": 0.07142857142857142,
+        "wup_similarity": 0.38095238095238093,
+        "lch_similarity": null,
+        "lch_note": "Skipped - taxonomy_depth calculation is slow",
+        "name1": "dog",
+        "name2": "car"
+      },
+      {
+        "synset1": "oewn-02086723-n",
+        "synset2": "oewn-01325095-n",
+        "same_pos": true,
+        "path_similarity": 0.5,
+        "wup_similarity": 0.9655172413793104,
+        "lch_similarity": null,
+        "lch_note": "Skipped - taxonomy_depth calculation is slow",
+        "name1": "dog",
+        "name2": "puppy"
+      },
+      {
+        "synset1": "oewn-02124272-n",
+        "synset2": "oewn-02123649-n",
+        "same_pos": true,
+        "path_similarity": 0.5,
+        "wup_similarity": 0.9629629629629629,
+        "lch_similarity": null,
+        "lch_note": "Skipped - taxonomy_depth calculation is slow",
+        "name1": "cat",
+        "name2": "feline"
+      },
+      {
+        "synset1": "oewn-02961779-n",
+        "synset2": "oewn-13124818-n",
+        "same_pos": true,
+        "path_similarity": 0.06666666666666667,
+        "wup_similarity": 0.36363636363636365,
+        "lch_similarity": null,
+        "lch_note": "Skipped - taxonomy_depth calculation is slow",
+        "name1": "car",
+        "name2": "tree"
+      }
+    ]
+  }
+}
