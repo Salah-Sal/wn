@@ -16,6 +16,7 @@ export function GraphExplorerPage() {
   const initialMode = (searchParams.get('mode') as ViewMode) || 'neighborhood'
 
   const [viewMode, setViewMode] = useState<ViewMode>(initialMode)
+  const [zoomSensitivity, setZoomSensitivity] = useState(1)
   const cyRef = useRef<Core | null>(null)
 
   const elements = useGraphStore((state) => state.elements)
@@ -185,6 +186,7 @@ export function GraphExplorerPage() {
             onNodeDoubleClick={handleNodeDoubleClick}
             onNodeHover={handleNodeHover}
             onCyReady={handleCyReady}
+            zoomSensitivity={zoomSensitivity}
           />
         )}
 
@@ -195,6 +197,8 @@ export function GraphExplorerPage() {
           onZoomOut={handleZoomOut}
           onFitView={handleFitView}
           onReset={handleReset}
+          zoomSensitivity={zoomSensitivity}
+          onZoomSensitivityChange={setZoomSensitivity}
         />
 
         <GraphLegend />

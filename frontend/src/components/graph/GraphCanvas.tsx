@@ -13,6 +13,7 @@ interface GraphCanvasProps {
   onNodeHover?: (nodeId: string | null, event?: MouseEvent) => void
   onCyReady?: (cy: Core) => void
   className?: string
+  zoomSensitivity?: number
 }
 
 export function GraphCanvas({
@@ -24,6 +25,7 @@ export function GraphCanvas({
   onNodeHover,
   onCyReady,
   className = '',
+  zoomSensitivity = 1,
 }: GraphCanvasProps) {
   const cyRef = useRef<Core | null>(null)
 
@@ -79,7 +81,7 @@ export function GraphCanvas({
       layout={layoutConfigs[layout] || layoutConfigs.dagre}
       cy={handleCy}
       className={`w-full h-full ${className}`}
-      wheelSensitivity={1}
+      wheelSensitivity={zoomSensitivity}
       minZoom={0.1}
       maxZoom={4}
       boxSelectionEnabled={false}
