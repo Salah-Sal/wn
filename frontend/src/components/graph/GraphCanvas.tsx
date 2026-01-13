@@ -28,6 +28,41 @@ export function GraphCanvas({
   zoomSensitivity = 1,
 }: GraphCanvasProps) {
   const cyRef = useRef<Core | null>(null)
+  const containerRef = useRef<HTMLDivElement | null>(null)
+  const zoomSensitivityRef = useRef(zoomSensitivity)
+
+  // Keep ref in sync with prop for use in wheel handler
+  useEffect(() => {
+    zoomSensitivityRef.current = zoomSensitivity
+  }, [zoomSensitivity])
+
+  // Custom wheel zoom handler
+  useEffect(() => {
+    const container = containerRef.current
+    if (!container) return
+
+    const handleWheel = (e: WheelEvent) => {
+      e.preventDefault()
+      const cy = cyRef.current
+      if (!cy) return
+
+      const sensitivity = zoomSensitivityRef.current
+      const zoomFactor = Math.pow(10, -e.deltaY * sensitivity / 500)
+
+      // Zoom centered on cursor position
+      const rect = container.getBoundingClientRect()
+      cy.zoom({
+        level: cy.zoom() * zoomFactor,
+        renderedPosition: {
+          x: e.clientX - rect.left,
+          y: e.clientY - rect.top,
+        },
+      })
+    }
+
+    container.addEventListener('wheel', handleWheel, { passive: false })
+    return () => container.removeEventListener('wheel', handleWheel)
+  }, [])
 
   const handleCy = useCallback(
     (cy: Core) => {
@@ -75,17 +110,19 @@ export function GraphCanvas({
   }, [centerNodeId])
 
   return (
-    <CytoscapeComponent
-      elements={elements as never[]}
-      stylesheet={graphStylesheet as never[]}
-      layout={layoutConfigs[layout] || layoutConfigs.dagre}
-      cy={handleCy}
-      className={`w-full h-full ${className}`}
-      wheelSensitivity={zoomSensitivity}
-      minZoom={0.1}
-      maxZoom={4}
-      boxSelectionEnabled={false}
-      autounselectify={false}
-    />
+    <div ref={containerRef} className={`w-full h-full ${className}`}>
+      <CytoscapeComponent
+        elements={elements as never[]}
+        stylesheet={graphStylesheet as never[]}
+        layout={layoutConfigs[layout] || layoutConfigs.dagre}
+        cy={handleCy}
+        className="w-full h-full"
+        wheelSensitivity={0}
+        minZoom={0.1}
+        maxZoom={4}
+        boxSelectionEnabled={false}
+        autounselectify={false}
+      />
+    </div>
   )
 }
