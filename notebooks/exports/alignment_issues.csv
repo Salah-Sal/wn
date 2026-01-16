@@ -1,0 +1,388 @@
+synset_id,ar_words,en_words,ar_def_len,en_def_len,ratio,ar_def,en_def
+awn3-00007846-n,"شَخْص, أَحَد, فَرْد","person, individual, someone",35,124,0.28,كلمة تدل على الكائن البشري، الإنسان,"a human being; person, singular, assertive existential pronoun; pronoun, person,"
+awn3-00033122-n,عَلاقَة إجْتِمَاعِيَّة,social relation,18,63,0.29,الرابط بين الأشخاص,a relation between living organisms (especially between people)
+awn3-00034778-n,عمل,thing,37,9,4.11,تعبيرسلبي للإشارة إلى عمل سييء أو صعب,an action
+awn3-00044640-n,ضَرْبَة,hit,48,161,0.3,الضربة الموفقة في الرياضة (بالأخص كرة البيسبول ),(baseball) when a batter strikes a pitched ball into fair territory and arrives 
+awn3-00044888-n,"تَنْفِيذ, تَطْبِيق","implementation, effectuation",18,103,0.17,عملية تفعيل خطة ما,the act of implementing (providing a practical means for accomplishing something
+awn3-00050857-n,"اِنْخِرَاط, تَسْجِيل","registration, enrollment, enrolment",80,20,4.0,عملية الانضمام أو الالتحاق بمجال رسمي والاشتغال فيه كالجامعة أو السلك الدبلوماسي,the act of enrolling
+awn3-00082392-n,خيار الشراء,"buying, purchasing",70,17,4.12,خيار الشراء هو عقد يسمح لحامله بشراء أصل ما خلال فترة محددة بسعر محدد.,the act of buying
+awn3-00232434-n,إِبْطَال مفعول,"nullification, override",31,105,0.3,عملية إلغاء تأثير أو قوة شيء ما,the act of nullifying; making null and void; counteracting or overriding the eff
+awn3-00304675-n,قِيَادَة,"jump, parachuting",76,24,3.17,عملية التحكم بتسيير المركبة كالسيارة والشاحنة وكذلك الحيوانات كالخيول والإبل,descent with a parachute
+awn3-00316812-n,"السَفَر بالبَحْر, السَفَر بَحْرَاً","transportation, transport, transfer",15,56,0.27,السفر عبر البحر,the act of moving something from one location to another
+awn3-00330645-n,تدفق,"flood, overflow, outpouring",37,12,3.08,عملية الاندفاع بغزارة وقوة بشكل مستمر,a large flow
+awn3-00336210-n,إِيمَاءَة,"inclination, inclining",116,37,3.14,حركة بواسطة عضو من أعضاء الجسم أو ملامح الوجه تستخدم لنقل رسالة معينة كالتأكيد ع,the act of inclining; bending forward
+awn3-00357616-n,اِسْتِنْزَاف,"compression, compressing",56,17,3.29,عملية تناقص شيء ما بشكل ملحوظ إلى أن يصبح على وشك النفاد,applying pressure
+awn3-00377208-n,تَغْيِير الوحدة,"breakage, break, breaking",89,29,3.07,عملية إحداث تغييرات على ظاهر الوحدة المتكاملة عن طريق الفصل أو الكسر أو تغيير ال,the act of breaking something
+awn3-00379793-n,تَفْجِير,"combination, combining, compounding",151,47,3.21,عملية التسبب في التفجير الذي يعرف بزيادة مفاجئة في الحجم مصحوبة بانطلاق كمية كبي,the act of combining things to form a new whole
+awn3-00398761-n,شَطْب,"division, partition, partitioning",27,105,0.26,حذف وإزالة شيء ما بشكل كامل,the act of dividing or partitioning; separation by the creation of a boundary th
+awn3-00410304-n,نَشَاط,operation,12,67,0.18,أي سلوك محدد,a planned activity involving many people performing various actions
+awn3-00431125-n,مَرَح,"gambling, gaming, play",26,115,0.23,أنشطة تجلب المتعة والتسلية,the act of playing for stakes in the hope of winning (including the payment of a
+awn3-00431591-n,قِمَار,game,89,23,3.87,عملية اللعب بهدف الرهان بين متنافسين على مال يجمع منهم جميعاً ثم يمنح للفائز ويح,an amusement or pastime
+awn3-00442764-n,تجزئة الأسهم,"water sport, aquatics",158,35,4.51,عملية يقرها مجلس إدارة الشركة لزيادة عدد الأسهم القائمة من خلال إصدار أسهم جديدة,sports that involve bodies of water
+awn3-00446787-n,تَجْذِيف,"boxing, pugilism, fisticuffs",119,23,5.17,عملية دفع القارب بالمجاديف حيث يقوم الشخص بمسك مجاديف القارب وتحريكها للأمام وال,fighting with the fists
+awn3-00489236-n,لُعْبَة كُرَة القَدَم,"card game, cards",130,32,4.06,أي من الألعاب المختلفة التي تلعب بكرة (دائرية أو بيضوية) يتنافس فيها فريقان ويحا,a game played with playing cards
+awn3-00507669-n,لُعْبَة الشِّطْرَنْج,"bet, wager",149,19,7.84,لعبة لوحية يلعبها شخصان بستة عشر قطعة لكل لاعب، تتحرك هذه القطع وفق حركات معينة ,the act of gambling
+awn3-00550321-n,تَجْسِيد,"impersonation, personation",129,42,3.07,التمثيل الفني لشخصية ما وإظهارها بصورة تبدو حقيقية عن طريق الحوار والأفعال والإي,imitating the mannerisms of another person
+awn3-00609469-n,حرفة,"interior decoration, interior decorating",29,143,0.2,مهنة تتطلب مهارة عملية عالية.,"the trade or act of decorating the interior of a building or room, especially wi"
+awn3-00610504-n,"ديكور دَاخِلي, تَصْميم داخلي","painting, house painting",100,33,3.03,فن التخطيط والتصميم الفني للمساحات الداخلية للأبنية ويرتبط هذا المجال ارتباطاً و,the occupation of a house painter
+awn3-00617127-n,كِتَابَة يَدَوِيَّة,"encoding, encryption",13,56,0.23,الكتابة باليد,the activity of converting data or information into code
+awn3-00632621-n,تَمْرِيْن رِيَاضِي,practice,99,28,3.54,أي نشاط بدني منظم ومكرر يستهدف تحريك أجزاء الجسم المختلفة وتقوية العضلات والحفاظ,the exercise of a profession
+awn3-00722203-n,وَظِيَفَة,capacity,106,20,5.3,مجموع الأنشطة والمهام المطلوبة من شخص معين أو مجموعة ، والمترتب عليه القيام بها ,a specified function
+awn3-00746303-n,إِصَابَة,"transgression, evildoing",21,77,0.27,فعل يسبب الألم والأذى,the act of transgressing; the violation of a law or a duty or moral principle
+awn3-00761047-n,حَسَد,"terrorism, act of terrorism, terrorist act",64,224,0.29,الحقد والاستياء بسبب نجاح شخص أو تمتعه بنعمة ما وتمني زوالها عنه,the calculated use of violence (or the threat of violence) against civilians in 
+awn3-00775311-n,جُنحة,"attack, attempt",73,20,3.65,عمل إجرامي أصغر من الجنايات ، يعاقب عليها القانون بعقوبات أخف من الجنايات,the act of attacking
+awn3-00832852-n,لِبَاس,"breathing, external respiration, respiration",38,140,0.27,كل مايستر الجسد ويغطيه من ثياب أو زينة,the bodily process of inhalation and exhalation; the process of taking in oxygen
+awn3-00958596-n,مُقَاوَمَة,pitched battle,30,107,0.28,عمل عسكري غايتة وقف تقدم العدو,a fierce battle fought in close combat between troops in predetermined positions
+awn3-00962962-n,مُنَاوَرَة تدريبية,stand,69,18,3.83,عملية عسكرية يقوم بها فرق من الجيش يقاتل بعضها بعضاً على سبيل التدريب,a defensive effort
+awn3-00970819-n,بِعْثَة عَسْكَرِيَّة,Crusade,50,167,0.3,حملة عسكرية تهدف إلى تحقيق غاية معينة في بلد أجنبي,any of the more or less continuous military expeditions in the 11th to 13th cent
+awn3-00979039-n,تَسَلُّل,"foray, raid, maraud",108,21,5.14,عملية اختراق أشخاص أو مجموعات صغيرة لمنطقة ما بشكل سري (خصوصاً الاختراق العسكري ,a sudden short attack
+awn3-00979387-n,"غَارَة, غَزْوَة",strike,16,80,0.2,هجوم قصير ومفاجئ,an attack that is intended to seize or inflict damage on or destroy an objective
+awn3-00988361-n,مَهَمَّة اِسْتِطْلاعِيَّة,counterintelligence,61,213,0.29,مهمة للتحري واستطلاع الحقائق والأخبار خاصةً فيما يتعلق بالعدو,intelligence activities concerned with identifying and counteracting the threat 
+awn3-00997220-n,نَار مِدْفَعِيَّة,"electronic countermeasures, ECM",25,107,0.23,النار المطلقة من المدفعية,electronic warfare undertaken to prevent or reduce an enemy's effective use of t
+awn3-01025578-n,بَقَاء,procedure,15,56,0.27,السلامة والنجاة,a mode of conducting legal and parliamentary proceedings
+awn3-01036957-n,طَقْس دِينِيّ,sacrament,62,379,0.16,طقس أو مجموعة من الطقوس المتبعة عند المسيحية في العبادة العامة,a formal religious ceremony conferring a specific grace on those who receive it;
+awn3-01039028-n,سِرّ,"marriage, wedding, marriage ceremony",240,41,5.85,النعمة الإلهية السرية التي يتلقاها المؤمن من الرب بشكل سري بعد تقبله الالتزام بت,the act of marrying; the nuptial ceremony
+awn3-01063257-n,ريّ,demand,67,20,3.35,تزويد الأراضي الجافة بالمياه عبر قنوات الري وغيرها من وسائل السقاية,the act of demanding
+awn3-01071904-n,إنكار الذات,"fast, fasting",75,20,3.75,عملية تدريب النفس على التخلي عن الملذات والتحكم بالدوافع للوصول إلى الغايات,abstaining from food
+awn3-01077041-n,إِغْلاق,"siege, besieging, beleaguering",23,104,0.22,عملية الحجب ومنع المرور,the action of an armed force that surrounds a fortified place and isolates it wh
+awn3-01078412-n,إِيقاف,deterrence,24,107,0.22,عملية تعطيل أو إنهاء شيء,the act or process of discouraging actions or preventing occurrences by instilli
+awn3-01138273-n,مُعَامَلَة,"administration, disposal",32,112,0.29,طريقة التصرف مع شخص ما أو شيء ما,a method of tending to or managing the affairs of some group of people (especial
+awn3-01144162-n,تفويض السلطة,allowance,79,19,4.16,منح السلطة وانتقالها إلى حكومة أخرى (لا سيما من حكومة مركزية إلى حكومة إقليمية),the act of allowing
+awn3-01183965-n,مُعَارَضة,"due process, due process of law",50,221,0.23,جماعات منظمة غالباً تناهض سياسة الدولة وترفض نهجها,(law) the administration of justice according to established rules and principle
+awn3-01188101-n,إِجْرَاء قَضَائِي,appeal,56,213,0.26,سلسلة من الخطوات التي يتم بموجبها تنفيذ الأحكام القضائية,(law) a legal proceeding in which the appellant resorts to a higher court for th
+awn3-01210099-n,تَعَاوُن,"aid, assist, assistance",17,96,0.18,مهمة أو عمل مشترك,the activity of contributing to the fulfillment of a need or furtherance of an e
+awn3-01210950-n,مُسَاعَدَة,"hand, helping hand",72,19,3.79,المساهمة في تلبية احتياجات الآخرين وتعزيز جهودهم ودعمهم في تحقيق أهدافهم,physical assistance
+awn3-01216661-n,رِعَايَة,"advocacy, protagonism",21,96,0.22,تقديم الموافقة والدعم,active support of an idea or cause etc.; especially the act of pleading or argui
+awn3-01223743-n,سُلُوك,"behavior, behaviour",26,106,0.25,طريقة التصرف والتحكم بنفسك,(psychology) the aggregate of the responses or reactions or movements made by an
+awn3-01255966-n,اِطْلاق,"jamming, electronic jamming, jam",35,133,0.26,عملية الانبعاث، أو التسبب بتدفق شيء,deliberate radiation or reflection of electromagnetic energy for the purpose of 
+awn3-01256840-n,تَشْوِيش إِلكترُونِي,separation,92,29,3.17,الإشعاع المتعمد أو انعكاس الطاقة الكهرومغناطيسية بهدف عرقلة استخدام العدو للأجهز,sorting one thing from others
+awn3-01323363-n,رَأْس,female,15,90,0.17,حيوان داجن واحد,an animal that produces gametes (ova) that can be fertilized by male gametes (sp
+awn3-01323947-n,ذَكَر,adult,71,17,4.18,حيوان ينتج أمشاج (الحيوانات المنوية )يمكنها تخصيب أمشاج الإناث (البيضة),any mature animal
+awn3-01330943-n,كَائِن حَي مِجْهَرِي,"relative, congener, congenator",27,121,0.22,أي عضوي لا يُرى إلا بالمجهر,an animal or plant that bears a relationship to another (as related by common de
+awn3-01345170-n,وَحْدَانَات,animal order,131,20,6.55,عضويات تتكاثر عادةً عن طريق البراعم أو الانشطار اللاجنسي ، ويعتمد نمطها الغذائي ,the order of animals
+awn3-01351171-n,تَرْتِيب الحَيَوَانَات,"bacteria, bacterium",45,242,0.19,تصنيف الحيوانات إلى مجموعات بناءً على خصائصها,(microbiology) single-celled or noncellular spherical or spiral or rod-shaped or
+awn3-01354700-n,بَكْتِيريا,bacteria family,168,20,8.4,(علم الأحياء الدقيقة):كائنات حية دقيقة وحيدة الخلية أو غير خلوية منها المكورات و,a family of bacteria
+awn3-01355215-n,جِنْس بَكْتِيرْيَا,bacteria genus,66,19,3.47,مجموعة كبيرة من البكتيريا التي تحمل خصائص وميزات مشتركة أو متشابهة,a genus of bacteria
+awn3-01659454-n,فَصِيلَة الزَوَاحِف,reptile family,73,20,3.65,عائلة الفقاريات ذات العمود والحرشفيات الجلد وتشمل مجموعة كبيرة من الأنواع,a family of reptiles
+awn3-01660364-n,جِنْس زَوَاحِف,reptile genus,63,19,3.32,تلك الأنواع التي تندرج تحت الفصائل ولا ينتمي إليها إلا نوع وحيد,a genus of reptiles
+awn3-01678954-n,إغْوانا,"Iguanidae, family Iguanidae, Iguania",79,17,4.65,نوع من جنس الزواحف العاشبة في العالم الحديث من رتبة الحرشفيات وهي حيوانات أليفة,New World lizards
+awn3-01785316-n,الحَرِيشِيَّات,superclass Myriapoda,69,256,0.27,من المفصليات التي تنتمي إلى طائفة شفويات الأرجل طولها من 10 إلى 15 سم,used in some classifications to encompass the millipedes (Diplopoda) and centipe
+awn3-01876491-n,الكِيسِيَّات,"Metatheria, subclass Metatheria",65,15,4.33,نوع من الحيوانات البحرية من الحبليات الذيلية تشبه الأكياس المعبأة,pouched animals
+awn3-01924200-n,فَصِيلَة الدِيدَان,worm family,61,17,3.59,عائلة اللافقاريات المستطيلة الأسطوانية وتندرج تحتها عدة أجناس,a family of worms
+awn3-02156611-n,حَافِر,hoof,105,30,3.5,القدم لدى الحافريات، وهو غطاء قرني سميك ومعقوف من بروتين الكيراتين يكسو أطراف ال,the foot of an ungulate mammal
+awn3-02162607-n,حَشَرَة,insect,112,29,3.86,مفصليات الأرجل الصغيرة التي تتنفس الهواء، ذات جسم مقسم لثلاثة أقسام وثلاثة أزواج,small air-breathing arthropod
+awn3-02166634-n,رُتْبَةٌ الخَنَافِس,"Coleoptera, order Coleoptera",79,7,11.29,رتبة الحشرات التي تضم جميع أنواع الخنافس وهي حشرات ذات أجنحة مغلفة بصدفة متصلبة,beetles
+awn3-02762968-n,مُلَقِّم آلِيّ,"autoloader, self-loader",91,29,3.14,جهاز ميكانيكي معد لتعبئة المدفع بالذخيرة ميكانيكياً ويستخدم في قطع المدفعية ومدا,a firearm that reloads itself
+awn3-02807418-n,تُوبَة,"bass horn, sousaphone, tuba",107,32,3.34,آلة نفخ نحاسية وهي أدنى آلة موسيقية في عائلة النحاس ويتم إنتاج الصوت عن طريق اهت,the lowest brass wind instrument
+awn3-02818735-n,خَرَز,"beads, string of beads",12,43,0.28,خيط من الخرز,several beads threaded together on a string
+awn3-02833341-n,حَانِيَة,bender,88,18,4.89,أداة معدنية تتكون من لوحين متقابلين أحدهما مثبت للألواح والآخر للثني مع مقبض للإ,a tool for bending
+awn3-03080712-n,سِلْعَة,"commodity, trade good, good",24,117,0.21,مواد مخصصة للبيع والشراء,"a raw material that is sold in large quantities, usually to other businesses for"
+awn3-03082291-n,نظَام اِتِّصَالات,communication system,83,26,3.19,مجموعة من شبكات الاتصال المتبادل بين محطتين المرسل والمستقبل بمكونات متوافقة تقن,a system for communicating
+awn3-03269943-n,آلَة حَادَّة,edge tool,24,83,0.29,أداة ذات حافة قاطعة حادة,any cutting tool with a sharp cutting edge (as a chisel or knife or plane or gou
+awn3-03310789-n,خَلِيط مُتَفَجِّر,explosive mixture,96,27,3.56,مواد يتم خلطها بطريقة تسمح بانفجارها في أقل من ثانية نتيجة التفاعل الكيميائي بفع,a mixture that is explosive
+awn3-03327515-n,مَبْنَى زِرَاعِيّ,farm building,74,20,3.7,هياكل مبنية ضمن المزرعة تؤوي الماشية أو تخزن فيها الحبوب والمعدات والأعلاف,a building on a farm
+awn3-03327885-n,آلَة زِرَاعِيَّة,farm machine,95,25,3.8,الآلات التي تستعمل في الأراضي الزراعية والمزارع لتسريع العمل وتحسين الإنتاج وتوف,a machine used in farming
+awn3-03395173-n,قُنْبُلَة مُتَفَتِّتَة,"fragmentation bomb, antipersonnel bomb, anti-personnel bomb",55,186,0.3,قنبلة تنثر الشظايا عندما تنفجر ونسبة المتفجر فيها قليلة,a bomb with only 10 to 20 per cent explosive and the remainder consisting of cas
+awn3-03398178-n,آلة  المِزْمار الحُرّ,free-reed instrument,123,34,3.62,آلة موسيقية نفخية ذات ألسنة معدنية مرنة أو قصبات (مثل هارمونيكا) تهتز في فتحة هو,a wind instrument with a free reed
+awn3-03841582-n,"دَفِيئَة, بَيْت زُجَاجِي","nursery, baby's room",189,25,7.56,خيم مصنوعة من مواد شفافة منفذة لأشعة الشمس ذات هيكل معدني أو خشبي تزرع بداخلها ا,a child's room for a baby
+awn3-03531007-n,أداة تثبيت,holding device,99,30,3.3,أداة للإمساك بالأشياء تتألف من فكين قابلين للتعديل تتوسطهما قطعة العمل في مخرطة ,a device for holding something
+awn3-03543217-n,حِصَان,"horse, gymnastic horse",110,36,3.06,قطعة من المعدات المستخدمة في الجمباز، تقف على أربعة أرجل، ولها مقبضان في الأعلى ,a padded gymnastic apparatus on legs
+awn3-03590506-n,مَيْسَم,"iron, branding iron",126,34,3.71,أداة معدنية تحمل علامة تجارية أو خاصة تستخدم للوسم حرارياً على الماشية بقصد ترك ,implement used to brand live stock
+awn3-03594978-n,سُتْرَة,jacket,106,12,8.83,من أنواع الثياب التي تُرتدى في الجزء العلوي من الجسم له أكمام ويمكن إغلاقه من ال,a short coat
+awn3-03645903-n,زُقَاق,lane,85,20,4.25,طريق ضيق يسمح بمرور سيارة واحدة فقط، وهو موجود بكثرة في الأحياء القديمة للمدن ال,a narrow way or road
+awn3-03664618-n,عَتَلَة,lever,108,35,3.09,أداة تتكون من قضيب فولاذي واحد ذو نهاية منحنية مع شق صغير أحياناً لإزالة المسامي,a rigid bar pivoted about a fulcrum
+awn3-03753653-n,مُؤسَّسة تِجَارِيَّة,"mercantile establishment, retail store, sales outlet",119,39,3.05,مكان يضم مجوعة عمال وموظفين يعملون لغايات ربحية حيث هدفهم هو تسويق البضائع التي ,a place of business for retailing goods
+awn3-03768668-n,مُنْشَأَة عَسْكَرِيَّة,military installation,124,38,3.26,أي مركز أو بناء أو مخيم تديره القوات العسكرية، وظيفته تأمين الحماية لأفراد وعتاد,any facility servicing military forces
+awn3-03876761-n,طَرْد,"package, parcel",76,19,4.0,ما يرسل من البضاعة وغيرها في البريد في حاويات مغلفة ونحوها من ناحية ألى أخرى,a wrapped container
+awn3-03960475-n,تَصْمِيم عِمْرَاني,"plan, architectural plan",110,28,3.93,رسم قياسي للبناء يوضح ترتيبات أعمال البناء المقترحة، بما فيها الأرضيات والمصاعد ,scale drawing of a structure
+awn3-04063525-n,مِصْيَدَة,rattrap,83,24,3.46,فخ لصيد وقتل الجرذان يعتمد على وضع قطعة طعام ثم الإطباق على الحيوان حال لمسه الط,a trap for catching rats
+awn3-04208776-n,عربة نقْل,shooting brake,107,32,3.34,سيارة صالون عائلية ذات تصميم هيكلي يسمح بالتمدد للخلف لتكبير المساحة وزيادة الرك,another name for a station wagon
+awn3-04269788-n,تَسْجِيل صَوْتِي,"sound recording, audio recording, audio",109,31,3.52,عملية الكتابة الكهربية أو الميكانيكية للموجات الصوتية وإعادة تكوينها كالصوت المن,a recording of acoustic signals
+awn3-04302219-n,سرْج,"stable gear, saddlery, tack",59,16,3.69,مجموعة المعدات أو الملحقات التي توضع على الحصان أثناء ركوبه,gear for a horse
+awn3-04324558-n,عُود,stick,12,43,0.28,عصا من الخشب,an implement consisting of a length of wood
+awn3-04337405-n,فرن,stove,78,21,3.71,مكان مربع الشكل معزول حرارياً يستخدم للطهي أو التدفئة بواسطة النار أو الكهرباء,any heating apparatus
+awn3-04402786-n,وَشْم,tattoo,117,38,3.08,علامة أو رسم دائم يطبع على البشرة من خلال غرز الجلد بالإبرة ثم وضع الصبغ من خلال,a design on the skin made by tattooing
+awn3-04578374-n,وَزْن,weight,77,25,3.08,قطع ثقيلة اصطناعية من معدن تستخدم لمعرفة كتلة الأشياء أو في التمارين الرياضية,an artifact that is heavy
+awn3-04594218-n,آلَة نَفْخ,"wind instrument, wind",36,125,0.29,آلة موسيقية يصدر صوتها من خلال النفخ,a musical instrument in which the sound is produced by an enclosed column of air
+awn3-04620079-n,مَحْصُول,"yield, fruit",106,22,4.82,نبات يزرع في مساحة حقلية ليحصد بهدف استخدامه كغذاء أو علف أو لاستخراج الزيت أو أ,an amount of a product
+awn3-04626138-n,ذَات,personhood,52,14,3.71,ناحية من نواحي الشخصية قادرة على المعرفة الاستنتاجية,being a person
+awn3-04630969-n,مِزَاج,"disposition, temperament",64,15,4.27,الجوانب من شخصية الفرد التي تعتبر عادة فطرية ولا يتعلمها الإنسان,your usual mood
+awn3-04636551-n,"لامُبَالاة, عَدَم إِحْسَاس","unemotionality, emotionlessness",69,18,3.83,شعور المرء بالحياد الانفعالي تجاه الأشياء والأشخاص وعدم الاكتراث بشيء,absence of emotion
+awn3-04682671-n,اِنْطِبَاع,"impression, effect",83,21,3.95,ذلك الحدث الذي يلتقي فيه شخص بشخص آخر لأول مرة ويترك حينها صورة ذهنية عند ذلك ال,an outward appearance
+awn3-04738737-n,خَاصّيَّة,characteristic,11,74,0.15,صفة مميِّزة,a distinguishing quality; a feature that can be used to identify something
+awn3-04898878-n,سَخَافَة,"absurdity, fatuity, fatuousness",87,17,5.12,ضعف العقل ورقته من خلال التصرف بتصرفات بلهاء أو التفوه بأشياء تافهة لا معنى او ق,a ludicrous folly
+awn3-04902753-n,سَذَاجَة,credulity,102,27,3.78,فشل في الذكاء الاجتماعي حيث يتم خداع شخص ما بسهولة أو التلاعب به، مع الميل إلى ا,tendency to believe readily
+awn3-04957303-n,خاصّيَّة بَصَريَّة,visual property,126,22,5.73,خواص تعتمد على الشكل البلوري للمعدن، وعلى تفاعل المعدن مع الضوء الساقط عليه والم,an attribute of vision
+awn3-04982235-n,خَاصِيَّة لَوْنِيَّة,color property,67,21,3.19,إحدى خصائص الألوان التي يتم بها كتابة النص أو تحديد لون الخلفية الخ,an attribute of color
+awn3-04990371-n,خَاصّيَّة الصوت,sound property,81,21,3.86,إحدى خصائص الصوت التي تميزه بسبب الطريقة التي تنتقل بها الطاقة الصوتية في الموجا,an attribute of sound
+awn3-05013469-n,جُمُود,"inanimateness, lifelessness",55,15,3.67,الافتقار إلى الخصائص المرتبطة بالأحياء الحية ذات الحركة,not having life
+awn3-05054430-n,"أَوْلَوِية, أَسْبَقِيَة","priority, antecedence, antecedency",58,17,3.41,سابقة حدثت من قبل، كانت سبباً أو أصلاً لوجود شيء ما لاحقاً,preceding in time
+awn3-05098974-n,اِحْتِمَال,"probability, chance",24,144,0.17,قياس إمكانية وقوع حدث ما,a measure of how likely it is that some event will occur; a number expressing th
+awn3-05184812-n,حَقّ قَانُونِي,legal right,67,20,3.35,حقوق تمنح لشخص معين بواسطة نظام قانوني (أي يمكن تعديلها أو إلغاؤها),a right based in law
+awn3-05572223-n,"كَفّ, يَد","hand, manus, mitt",14,47,0.3,نهاية الذراعين,the (prehensile) extremity of the superior limb
+awn3-05625839-n,قُدْرَة ذِهْنِيَّة,"brain, brainpower, learning ability",119,14,8.5,السلوك الذكي للإنسان وقدرته الفكرية الطبيعية على الملاحظة والفهم والتعلم والتفكي,mental ability
+awn3-05630239-n,مَوْهِبَة,aptitude,66,16,4.12,استعداد فطري للإنجاز العالي في بعض المهارات وتصقله البيئة الملائمة,inherent ability
+awn3-05632483-n,إبْدَاع,"creativity, creativeness, creative thinking",67,21,3.19,ابتكار شيء غير مسبوق. التعامل مع الأشياء المألوفة بطريقة غير مألوفة,the ability to create
+awn3-05645810-n,قُدْرَة,hand,23,7,3.29,استطاعة القيام بالأشياء,ability
+awn3-05660241-n,حَاسَّة,"modality, sense modality, sensory system",98,18,5.44,الجزء من الجهاز العصبي والمسؤول عن معالجة المعلومات الحسية، والذي يستجيب لما يسم,a particular sense
+awn3-05679818-n,"طَرَف, جَانِب",part,20,74,0.27,أمر يتعلق بممثل محدد,that which concerns a person with regard to a particular role or situation
+awn3-05688958-n,نَوْم,sleeping,87,25,3.48,عملية فيزيولوجية لدى الكائنات الحية تستريح فيها وظائف الجسم وتتميز بنقص الإدراك ,the state of being asleep
+awn3-05696202-n,أمر,matter,28,9,3.11,السبب في قلق أو ألم أو مشكلة,a problem
+awn3-05705100-n,يَقِين,certainty,90,26,3.46,اعتقاد بأن الشيء كذا مع اعتقاد أنه لا يمكن أن يكون إلا كذا، مطابقاً للواقع غير م,the state of being certain
+awn3-05805605-n,"بَحْث, بحث","inquiry, enquiry, research",82,22,3.73,دراسة مفصلة حول موضوع ما خصوصاً من أجل اكتشاف معلومات جديدة أو الوصول إلى فهم جد,a search for knowledge
+awn3-05875237-n,نُقْطَة التَقَاطُع,"intersection, intersection point, point of intersection",101,29,3.48,النقطة التي تتشكل عند تقاطع خطين ينتميان إلى ذات المستوي أو بين خط ومستوي أو بين,a point where lines intersect
+awn3-05878206-n,كُل,whole,18,62,0.29,شيء كامل غير مقسوم,all of something including all its component elements or parts
+awn3-05900179-n,مُخَطَّط,"outline, schema, scheme",9,31,0.29,خطة أولية,a schematic or preliminary plan
+awn3-05909037-n,بَرْنامَج تَعْلِيمِيّ,educational program,134,33,4.06,تنظيم بنائي للأنشطة التربوية، وهو لائحة المواد المراد تدريسها تصاحبها تعليمات من,a program for providing education
+awn3-05911139-n,خُطَّة عَمَل,plan of action,135,35,3.86,سلسلة من الخطوات التي يجب اتخاذها، أو النشاطات التي يجب تنفيذها بشكل جيد وصحيح، ,a plan for actively doing something
+awn3-05919047-n,مَشْرُوع,"project, projection",100,21,4.76,عمل يقوم به الفرد لينفذ فكرة معينة وفق خطة منظمة ويتطلب موارد مالية ومعرفية وبشر,a planned undertaking
+awn3-05939522-n,نَمَط,"form, shape, pattern",121,22,5.5,هيكل إدراكي، البنية التي يرى بها الفرد العالم الطبيعي والاجتماعي بكل ما فيه من ح,a perceptual structure
+awn3-06002729-n,نَظَرِيَّة عِلْمِيَّة,scientific theory,185,46,4.02,بنية التفكير المنتظم الذي يتصوره الخيال البشري، وتشمل مجموعة من القوانين التجريب,a theory that explains scientific observations
+awn3-06337790-n,صِيغَة نحوية,person,53,181,0.29,التعبير عن المتكلم والمخاطب والغائب بالإفراد أو الجمع,"a grammatical category used in the classification of pronouns, possessive determ"
+awn3-07125755-n,صَوْت كَلامِيّ,"phone, speech sound, sound",17,116,0.15,وحدة صوتية كلامية,(phonetics) an individual sound unit of speech without concern as to whether or 
+awn3-07141714-n,ضَحِك,"laugh, laughter",67,21,3.19,من أشكال التعبير عن السرور ومشاعر أخرى يكون بإصدار صوت مع الابتسامة,the sound of laughing
+awn3-07300108-n,تَجْرِبَة,experience,76,23,3.3,الخضوع لأحداث يتم فيها اكتساب المعرفة من خلال الفعل والمشاهدة والشعور شخصياً,an event as apprehended
+awn3-07324399-n,حَرَكَة,"movement, motion",23,79,0.29,تغيير المكان أو الوضعية,a natural event that involves a change in the position or location of something
+awn3-07391537-n,ضَرْب,beat,7,27,0.26,صوت ضرب,the sound of stroke or blow
+awn3-07524370-n,تَواضُع,"humility, humbleness",57,16,3.56,عكس التكبر، رضا الإنسان بمنزلة دون ما يستحقه فضله ومنزلته,a humble feeling
+awn3-08007398-n,سِرْب طيور,flock,55,16,3.44,مجموعة من الطيور التي تلازم بعضها عند التحليق في السماء,a group of birds
+awn3-08162285-n,مَكْتَب البَرِيد الأمريكي,"United States Post Office, US Post Office, Post Office",48,168,0.29,فرع محلي من أفرع مكتب البريد في الولايات المتحدة,an independent agency of the federal government responsible for mail delivery (a
+awn3-08196607-n,"نَاس, جماهير","populace, public, world",9,39,0.23,الناس ككل,people in general considered as a whole
+awn3-08230738-n,فَوْج,regiment,26,134,0.19,وحدة عسكرية أصغر من القطعة,"army unit smaller than a division, which can be divided into several companies, "
+awn3-08252434-n,مَاسُونِيّ,"Freemasonry, Masonry",107,23,4.65,أحد المنظمات السرية التي يعتقد أنها تسعى للسيطرة على العالم ذات أفكار ومعتقدات خ,Freemasons collectively
+awn3-08268798-n,عُصْبَة,"faction, sect",60,19,3.16,جزء أو مجموعة ضمن مجموعة أكبر ذات أفكار وخصائص مختلفة قليلاً,a dissenting clique
+awn3-08293641-n,مَدْرَسَة,school,92,26,3.54,أحد أنواع المؤسسات التعليمية التي يتعلم فيها التلاميذ وغالباً ما تخصص لمراحل الد,an educational institution
+awn3-08322872-n,دَوْلَة حَلِيفَة,ally,58,17,3.41,الدولة التي وافقت رسمياً على تقديم الدعم خصوصاً خلال الحرب,a friendly nation
+awn3-08385235-n,شِيُوعِيَّة سُوفْياتِيَّة,"Bolshevism, collectivism, sovietism",49,16,3.06,حزب سياسي كان المؤسس والحاكم في الاتحاد السوفييتي,Soviet communism
+awn3-08573923-n,منطقة بعيدة,distance,64,16,4.0,المناطق البعيدة عن المدينة حيث يعيش الناس ومن الصعب الوصول إليها,a distant region
+awn3-08596234-n,نُقْطَة جُغْرافِيَّة,"geographic point, geographical point",114,35,3.26,مكان يستخدم للتعريف عن نقطة على سطح الأرض بالنسبة للأماكن المجاورة له ويمكن تحدي,a point on the surface of the Earth
+awn3-08661508-n,"مَلْجَأ, مَأْوَى","safety, refuge",77,12,6.42,المكان الذي يشعر فيه الشخص بالراحة ولا يكون معرضاً لأي خطر أوأذى نفسي أو جسدي,a safe place
+awn3-09416900-n,كَوْكَب,"planet, major planet",97,351,0.28,(فلك) أحد الأجرام التسعة التي تدور حول الشمس في المجموعة الشمسية بعكس عقارب السا,(astronomy) any of the nine large celestial bodies in the solar system that revo
+awn3-09697405-n,مَسِيحِي,Christian,28,99,0.28,شخص يؤمن بيسوع المسيح ويتبعه,a religious person who believes Jesus is the Christ and who is a member of a Chr
+awn3-09698712-n,برُوتِسْتَانتِي,Protestant,99,28,3.54,من يتبع البروتستانتية وهي أحد المذاهب في الدين المسيحي يقوم مبدؤها على أن الإيما,an adherent of Protestantism
+awn3-09699321-n,كَاثُولِيكِي,Catholic,120,29,4.14,من يتبع الكاثوليكية وهي أحد المذاهب في الدين المسيحي الذي يقوم على الإقرار بسياد,a member of a Catholic church
+awn3-09905462-n,عُضْو مَجْلِس الوِزَراء,cabinet minister,135,39,3.46,الشخص الذي يكون في منصب عالٍ في مجلس الوزراء الذي يتألف من المستشارين الذين يعاو,a person who is a member of the cabinet
+awn3-09999443-n,قَارُون,Croesus,82,18,4.56,أحد أغنياء قوم موسى والذي كان متكبراً ومتجبراً على الناس فعاقبه الله بخسف الأرض ,a very wealthy man
+awn3-10104404-n,مُناصِر للمَرأة,"feminist, women's rightist, women's liberationist",101,23,4.39,من يؤمن بالمساواة بين الرجل والمرأة ويسعى لتحقيق تغير يساعد المرأة أن تتساوى فرص,a supporter of feminism
+awn3-10184340-n,رَئِيس الدَّوْلَة,"head of state, chief of state",20,83,0.24,الحاكم الرسمي للبلاد,the chief public representative of a country who may also be the head of governm
+awn3-10261729-n,زعيم حزب العمال,labor leader,115,28,4.11,قائد حزب العمال في المملكة المتحدة الذي يهتم بإعادة توزيع الثروة من خلال نظام مت,a leader of a labor movement
+awn3-10306910-n,رَجُل,"man, adult male",12,51,0.24,الذكر البالغ,an adult person who is male (as opposed to a woman)
+awn3-10323481-n,"عُمْدَة, مُحَافِظ, رئِيس بَلَدِيَّة","mayor, city manager",95,29,3.28,المسؤول الأعلى رتبة في حكومة مدينة والمسؤول عنها يعينه الرئيس ويمثل السلطة التنف,the head of a city government
+awn3-10335495-n,"مٌنَاضِل, نَاشِط","militant, activist",75,19,3.95,من يتمسك بمبدأ ما بقوة ويسعى جاهداً للإصلاح السياسي أو الاجتماعي في المجتمع,a militant reformer
+awn3-10352098-n,"أُمّ, وَالِدَة","mother, female parent",19,86,0.22,المرأة التي لها ولد,a woman who has given birth to a child (also used as a term of address to your m
+awn3-10367324-n,ضابِط بَحْرِيّ,naval officer,102,22,4.64,ضابط ( مسؤول عسكري ) في الأسطول البحري مسؤول عن سلامة طاقم العمل والمعدات والمرا,an officer in the navy
+awn3-10419190-n,والِدَان,parent,35,134,0.26,الأم والأب، من ينجب الأطفال ويربيهم,a father or mother; one who begets or one who gives birth to or nurtures and rai
+awn3-10443334-n,فَيْلَسُوف,philosopher,141,26,5.42,الشخص الذي يمارس الفلسفة ويفكر من خلالها ويؤلف فيها محاولاً الإجابة عن الأسئلة ا,a specialist in philosophy
+awn3-10447768-n,"فِيزيائِيّ, اِخْتِصَاصِيُّ الفيزياء",physicist,100,30,3.33,العالم المختص بالفيزياء التي تشمل تفاعلات المادة والطاقة في جميع مقاييس الطول وا,a scientist trained in physics
+awn3-10468557-n,"شُرْطِي, رَجُل شُرْطَة","police officer, officer",93,26,3.58,رجل أمن تنحصر مهمته في الحفاظ على أمن البلاد والحد من الاضطرابات المدنية وهو يعم,a member of a police force
+awn3-10508450-n,عَالِم نَفْس,psychologist,101,33,3.06,العالم المختص بعلم النفس الذي يدرس العقل والعواطف البشرية والسلوك ويعالج الاضطرا,a scientist trained in psychology
+awn3-10649550-n,"مُتَحَدِّث, مُتَكَلِّم","speaker, talker, utterer",36,134,0.27,من يلقي خطاباً عاماً أو يتحدث كثيراً,someone who expresses in language; someone who talks (especially someone who del
+awn3-10657708-n,"نَاطِق, مُتَحَدِّث رَسْمِي",spokesman,59,19,3.11,الشخص الذي يتحدث بالنيابة عن أحد أو عن شركة يكون ممثلاً لها,a male spokesperson
+awn3-10688105-n,"حَالَة, حقل التجارب","subject, case, guinea pig",24,118,0.2,من يستخدم في تجربة علمية,a person who is subjected to experimental or other observational procedures; som
+awn3-11430412-n,"بَلْوَرَة, تَبَلْوُر","crystallization, crystallisation, crystallizing",99,25,3.96,العملية التي يتم من خلالها تشكيل الذرات والجزيئات في شبكة ثلاثية الأبعاد منظمة م,the formation of crystals
+awn3-11437102-n,"إِسْتِجَابَة, نَتِيجَة",response,38,8,4.75,ما تنتهي إليه مجموعة الأفعال أو الظروف,a result
+awn3-11558116-n,فَصِيلَة الطَحَالِب,moss family,127,18,7.06,إحدى عائلات النباتات التي تنتمي إلى فئة الطحالب وتشبهها في التركيب والشكل حيث لي,a family of mosses
+awn3-11558337-n,جِنْس أُشْنَة,moss genus,91,17,5.35,أحد أنواع الأشنيات التي تعرف بأنها كائنات تتكون من ترافق بين الطحالب المجهرية وف,a genus of mosses
+awn3-11611234-n,فَصِيلَة الفِطْرِيَّات,fungus family,140,24,5.83,مجموعة كبيرة من النباتات ( من مملكة الطلائعيات ) تتباين في أشكالها وهي تشبه الطح,includes lichen families
+awn3-11628701-n,شَجَرَة صَنَوْبَر,"pine, pine tree, true pine",71,17,4.18,نوع من الأشجار إبرية الأوراق دائمة الخضرة مخروطية عارية البذور لا زهرية,a coniferous tree
+awn3-12246839-n,خَلَنْج,"Ericaceae, family Ericaceae, heath family",121,8,15.12,رتبة نباتية كبيرة من طائفة ثنائيات الفلقة تضم أشجاراً ونباتات عشبية ذات أزهار صغ,heathers
+awn3-12355408-n,"أُكالِبْتوس, شجرة الكينا","eucalyptus, eucalypt, eucalyptus tree",93,30,3.1,شجرة من فصيلة الأكاليبتوس دائمة الخضرة ذات لحاء غني بالصمغ أوراقها فاتحة اللون ع,a tree of the genus Eucalyptus
+awn3-12728192-n,فَصِيلَة الحِمْضِيَّات,genus Citrus,118,25,4.72,فاكهة تحمل طعماً لذيذاً لاذعاً وتنمو على الأشجار المزهرة ذات الرائحة العطرة وتنت,"orange, lemon, lime, etc."
+awn3-13116444-n,نَسِيْج نَبَاتِيّ,plant tissue,108,21,5.14,مجموعة من الخلايا التي تعمل معاً لأداء وظائف محددة كنقل المياه والغذاء منها الأن,the tissue of a plant
+awn3-13156591-n,بَذْرَة,seed,122,18,6.78,وسيلة تكاثر النبات وانتشاره ومخزن الطاقة والغذاء وهي بويضة مخصبة تكونت من مبيض ا,a small hard fruit
+awn3-13187976-n,سَرْخَسِيَّات,fern genus,138,31,4.45,رتبة نباتية تتبع طائفة السرخساناوت من شعبة حقيقيات الأوراق نباتات لا زهرية أوراق,genera of ferns and fern allies
+awn3-13190117-n,"سَرْخَس, خِنْشَار","Filicopsida, class Filicopsida, Filicinae",69,5,13.8,نبات يتكاثر بالتقسيم وهو سريع الانتشار بشكل جانبي، من فصيلة السرخسيات,ferns
+awn3-13307824-n,حِصَّة,"interest, stake",24,81,0.3,حق مالي قانوني في شيء ما,(law) a right or legal share of something; a financial involvement with somethin
+awn3-13310182-n,حِصَّة,cut,91,22,4.14,توزيع أرباح الشركات نقداً أو بأسهم عندما تحقق الشركة ربحاً فتدفع نسباً من الأربا,a share of the profits
+awn3-13407787-n,عُمْلَة صَعْبَة,"cash, hard cash, hard currency",136,35,3.89,العملة التي تحافظ على قيمتها باستمرار وتكسب ثقة المستثمرين وتكون مرتبطة بالدولة ,money in the form of bills or coins
+awn3-13409050-n,عُمْلَة مَسْكُوكَة,"coinage, mintage, specie",110,18,6.11,قطع معدنية تحمل خاتماً من السلطة العامة لضمان وزنها ودرجة نقائها، وتشمل النقود ا,coins collectively
+awn3-13455293-n,تَكَاثُر لاجِنْسِي,"asexual reproduction, agamogenesis",133,42,3.17,إنتاج الكائن الحي لمزيد من أجناسه دون حدوث تبادل للمعلومات الجينية مع كائن آخر و,reproduction without the fusion of gametes
+awn3-13474601-n,تَآكُل,"corrosion, corroding, erosion",102,26,3.92,تغير التركيب الملامح الخارجية وظهور طبقة تعلو الحديد أو الحجر وغيره يحدث بسبب أح,erosion by chemical action
+awn3-13487515-n,"خَرَاب, تَهَدُّم","dilapidation, ruin",111,35,3.17,ضرر بالغ يحصل بشدة وبسرعة على شيء ما يؤدي لانهياره تماماً ولا مجال لترميمه إلا ب,the process of becoming dilapidated
+awn3-13662778-n,لُمْعَة,"lumen, lm",44,178,0.25,وحدة قياس التدفق الضوئي الناتج من مصدر الضوء,a unit of luminous flux equal to the amount of light given out through a solid a
+awn3-13664755-n,"الفُولْت, الفُولْط","volt, V",57,288,0.2,وحدة قياس القوة الكهربائية المحركة أو فرق الجهد الكهربائي,a unit of potential equal to the potential difference between two points on a co
+awn3-13668434-n,أوم,ohm,46,175,0.26,وحدة قياس مقاومة المادة لمرور التيار الكهربائي,a unit of electrical resistance equal to the resistance between two points on a 
+awn3-13742201-n,رَطل إنْكليْزِي,"pound, lb",84,21,4.0,وحدة لقياس الكتلة في النظام الأمريكي والانكليزي حيث 1 رطل يساوي 453 غرام أو 16 أ,16 ounces avoirdupois
+awn3-13752012-n,عَدَد حَقِيقِيّ,"real number, real",100,33,3.03,العدد الذي يمكن رؤيته على مستقيم الأعداد، يمكن أن يكون نسبياً أو غير نسبي، موجبا,any rational or irrational number
+awn3-13755206-n,المَقَام,denominator,80,25,3.2,هو الجزء السفلي في الكسر وهويعبر عن عدد الأقسام المتساوية التي تشكل الجزء الكامل,the divisor of a fraction
+awn3-13781286-n,حَدّ,"region, neighborhood",26,91,0.29,النطاق الذي لا يمكن تجاوزه,the approximate amount of something (usually used prepositionally as in ‘in the 
+awn3-13897824-n,قُرْص,"disk, disc, saucer",18,61,0.3,قطعة دائرية منبسطة,something with a round shape resembling a flat circular plate
+awn3-13932205-n,مُنْحَنَى جَيْبِيّ,"sine curve, sinusoid",75,20,3.75,أحد أنواع الدوالّ المثلثية وهي منحنى رياضي يصف الحركات الاهتزازية التكرارية,the curve of y=sin x
+awn3-13934166-n,رباط,"articulation, join, joint",19,74,0.26,ما ترتبط به الأشياء,the shape or manner in which things come together and a connection is made
+awn3-13975819-n,وَضْع قَانُونِي,legal status,88,23,3.83,الحالة التي يقرها القانون ورأي القانون في مسألة معينة، وعلاقة الشخص بالقانون في ,a status defined by law
+awn3-13979160-n,حَقِيْقَة,fact,16,66,0.24,شيء ثابت يقيناً.,an event known to have happened or something known to have existed
+awn3-14007770-n,ظَلام جُزْئِي,semidarkness,51,16,3.19,الغياب الجزئي للضوء حيث يمكنك الرؤية ولكن ليس بوضوح,partial darkness
+awn3-14300438-n,مَرَض النَبَات,plant disease,90,29,3.1,كل تغير أو تحول أو انحراف عن الحالة الطبيعية التي ينمو عليها النبات وتؤثر عليه و,a disease that affects plants
+awn3-14453411-n,"مَرْتَبَة, مَكَانَة",rank,46,15,3.07,تصنيف لمقام او منزلة الفرد اجتماعياً أو مهنياً,relative status
+awn3-14454897-n,رُتْبَة عَسْكَرِيَّة,"military rank, military rating, paygrade",111,31,3.58,نظام هرمي يتألف من تصنيفات تربط العلاقات بين الأفراد في المؤسسة العسكرية حيث الر,rank in a military organization
+awn3-14456827-n,قِيَادَة,leadership,95,22,4.32,القدرة على التأثير في الآخرين لتوجيه سلوكهم نحو هدف مشترك بطريقة تضمن طاعتهم وتع,the status of a leader
+awn3-14460341-n,"شَرَف, حَسَب","honor, honour, laurels",79,26,3.04,سمو القدر وعلو المنزلة، وهي صفة تقييم مستوى الفرد في المجتمع وهي تأتي من الآباء,the state of being honored
+awn3-14504664-n,غَاز,"gas, gaseous state",86,311,0.28,حالة المادة الشفافة التي تشغل كل حيز توضع فيه وتتشكل بشكله ويمكن إسالته بتعريضه ,the state of matter distinguished from the solid and liquid states by: relativel
+awn3-14664934-n,ذَرَّة هَيْدرُوجِين,hydrogen atom,74,19,3.89,أبسط الذرات لأول عنصر في الجدول الدوري، تتكون من بروتون واحد وإلكترون واحد,an atom of hydrogen
+awn3-14709929-n,فَحْم الكُوك,coke,158,44,3.59,مادة كربونية قابلة للاستخدام كوقود بإحراقها ويتم تصنيعها بالتقطير الإتلافي للفحم,carbon fuel produced by distillation of coal
+awn3-14846733-n,سَبِيكَة أَسَاسُها النُّحَاس,copper-base alloy,152,45,3.38,سبيكة معدنية تتركب بشكل أساسي من عنصر النحاس وبعض المعادن الأخرى وتتميز بقدرتها ,any alloy whose principal component is copper
+awn3-14858733-n,الْماس,"diamond, adamant",174,51,3.41,فلزيتركب من كربون حر شفاف عديم اللون يفوق في قساوته جميع المواد المتوافرة في الط,very hard native crystalline carbon valued as a gem
+awn3-14889951-n,أكسيد الحديد,ferric oxide,80,19,4.21,مركب كيميائي أحمر يتكون من الحديد والأكسجين، يوجد منه ستة عشر نوعاً أشهرها الصدأ,a red oxide of iron
+awn3-14918632-n,راتين طَبِيعيّ,natural resin,75,15,5.0,مادة لزجة تخرج من لحاء الأشجار كالصنوبر ونحوها وتكون مختلطة بالصموغ والزيوت,a plant exudate
+awn3-14933128-n,دُبَال,humate,137,36,3.81,مادة عضوية تنتج من تحلل الفرش الحرجي ومعظم مكوناته هي بقايا حيوانية ونباتية متحل,material that is high in humic acids
+awn3-15002063-n,مَادَّة رَصْف,"paving, pavement, paving material",129,29,4.45,الطبقة السطحية المتينة المتوضعة في مساحة مخصصة لتتحمل حمولات السير أو المركبات، ,material used to pave an area
+awn3-15008050-n,"تَماسِيح الحَدِيد, خام الحَدِيد المُنْصَهِر",pig iron,115,38,3.03,حديد خام يحتوي نسبة عالية من الكربون، ينتج من صهر الحديد مع فحم الكوك، ثم يستخدم,crude iron tapped from a blast furnace
+awn3-15146244-n,قَدِيم الزَمَان,old,33,10,3.3,الزمن الماضي قبل أن تتغير الأشياء,past times
+awn3-15146348-n,تَارِيخ,history,86,28,3.07,الأحداث الماضية جميعها بالإضافة إلى الذاكرة وجمع وعرض وتفسير المعلومات حول هذه ا,the aggregate of past events
+awn3-15146953-n,زَمَن مُوسِيقِي,musical time,103,34,3.03,الرتم: وهو الترتيب الذي نقسم به العدات على آلات الإيقاع، والنوتة: وهي المدة الزم,(music) the beat of musical rhythm
+awn3-15178747-n,"شَيْخُوخَة, هَرَم, تَقَدُّم العُمْر","old age, years, age",113,19,5.95,فترة الهرم والتقدم في العمر في مرحلة متأخرة من حياة الكائنات الحية حيث العديد من,a late time of life
+awn3-15236963-n,"يُولْيُو, تموز",July,139,45,3.09,الشهر السابع من الأشهر الميلادية وعدد أيامه واحد وثلاثون يوماً وفيه تكون الحرارة,the month following June and preceding August
+awn3-15238570-n,"دِيسِمبر, كَانُون الأوَّل","December, Dec",111,33,3.36,الشهر الثاني عشر والأخير من الأشهر الميلادية وعدد أيامه واحد وثلاثون يوماً ويتمي,the last (12th) month of the year
+awn3-00008299-v,غَمَز,wink,88,17,5.18,يشير بعينه من خلال غلق عين واحدة وفتحها سريعاً للدلالة على التحية أو المزاح أو ا,signal by winking
+awn3-00014398-v,اِرْتَاحَ,rest,43,10,4.3,يكون في حالة استقرار وهدوء، دون ألم أو توتر,be at rest
+awn3-00014735-v,نَامَ,"sleep, kip, slumber",65,9,7.22,يكون في حالة راحة مؤقتة حيث وظائف الجسد غير نشطة والدماغ غير واعٍ,be asleep
+awn3-00045548-v,"نَحُفَ, أَنْقَصَ","reduce, melt off, slim",47,15,3.13,ينقص الوزن ويجعله نحفياً خفيفاً أو هو يبدو كذلك,take off weight
+awn3-00056644-v,وَلَدَ,"give birth, deliver, bear",54,16,3.38,تُخرج الجنين من رحمها إلى الوجود بعد انقضاء فترة الحمل,cause to be born
+awn3-00061366-v,عَقَّمَ,"sterilize, sterilise, desex",56,14,4.0,يجري عملاً جراحياً ليصبح عقيماً ولا يستطيع إنجاب الأطفال,make infertile
+awn3-00064841-v,"عَانَى, قَاسَى","suffer, hurt, ache",50,10,5.0,يشعر بالمشقة والقسوة والصعوبة والألم في فترة معينة,be in pain
+awn3-00077891-v,"تَجَلَّدَ, تَجَمَّدَ",freeze,30,7,4.29,يفقد الحرارة ويصبح بارداً جداً,be cold
+awn3-00087206-v,مَرِضَ,"sicken, come down",34,8,4.25,يصبح مريضاً وفي حالة صحية غير جيدة,get sick
+awn3-00091720-v,"أَعْجَزَ, أَعَاقَ","disable, invalid, incapacitate",55,18,3.06,يصيبه إصابة يعجز معها عن الحركة بطريقة طبيعية بشكل دائم,injure permanently
+awn3-00100305-v,"دَرَّبَ, مرّن","exercise, work, work out",76,17,4.47,يساعد ويمرّن المتدرب على أداء التمارين الرياضية، أو يعطيه التمارين ليقوم بها,give a workout to
+awn3-00103495-v,جعله شاحِباً,etiolate,101,19,5.32,يتسبب في فقدان اللون الطبيعي للبشرة أو النبات ويحولها إلى لون مصفرّ أو باهت بسبب,make pale or sickly
+awn3-00113536-v,تَجَلَّلَ,gel,52,12,4.33,يتغير من مادة سائلة إلى مادة هلامية كثيفة ناعمة لزجة,become a gel
+awn3-00118572-v,تَابَعَ,"keep up, keep abreast, follow",63,13,4.85,يبقى على اطلاع ويواكب أحدث المستجدات حول موضوع ما أو حالة معينة,keep informed
+awn3-00155947-v,اِرْتَفَعَ,bull,84,16,5.25,يرتفع سعر أو أسعار ( سوق الأوراق المالية أو الورقة المالية ) عن طريق الشراء التخ,advance in price
+awn3-00170503-v,جَدَّدَ,update,97,29,3.34,يجعل الشيء أكثر حداثة وأنسب للاستخدام باستبداله بشيء جديد أو بإضافة آخر التحسينا,modernize or bring up to date
+awn3-00171010-v,قَوَّى,"soup up, hop up, hot up",56,18,3.11,إجراء تغييرات ميكانيكية على شيء ما لجعله أكثر قوة وكفاءة,make more powerful
+awn3-00181809-v,رتب,"unclutter, clear",60,19,3.16,يزيل الفوضى والعوائق ويرتب المكان ويخليه من التفاصيل الزائدة,rid of obstructions
+awn3-00187671-v,أَدَخَلَ,"insert, enclose, inclose",11,52,0.21,يضع أو يدخل,"place, fit, or thrust (something) into another thing"
+awn3-00195256-v,"جَرَّدَ, عَرَّى","denude, bare, denudate",52,8,6.5,يزيل الطبقة الساترة التي تغطي شيئاً ما ويتركه عارياً,lay bare
+awn3-00195686-v,أَزَالَ,clear,64,6,10.67,يتخلص من كل ما يعيق أو يملأ شيئاً ما، أو لوقف الانسداد والامتلاء,remove
+awn3-00204228-v,سَاءَ,"worsen, decline",41,10,4.1,يصبح شيئاً غير جيد، غير سار، أو غير مقبول,grow worse
+awn3-00208618-v,"أَزَّمَ, عَقَّدَ, فاقم","worsen, aggravate, exacerbate",45,10,4.5,يجعل الأمر أكثر شدةً وحدةً ويزيد من سوء الحال,make worse
+awn3-00222898-v,"عَزَّزَ, دَعَمَ","reinforce, reenforce",40,13,3.08,يجعل الشيء أقوى وأكثر صلابة بزيادة الدعم,make stronger
+awn3-00265761-v,"تَحَمَّضَ, حَمَّضَ","acidify, acetify",34,11,3.09,تتحول أو يحول المادة إلى خل أو حمض,turn acidic
+awn3-00267083-v,تَبَلْمَرَ,"polymerize, polymerise",101,22,4.59,أن تخضع المادة لعملية البلمرة وهي ارتباط الجزيئات الصغيرة ببعضها لتكوين جزيء كبي,undergo polymerization
+awn3-00267684-v,أيَّنَ,"ionize, ionise",59,17,3.47,يحول إلى أيونات سواء بالذوبان أو الشحن أو التفريغ الكهربائي,convert into ions
+awn3-00272510-v,زَعْزَعَ,"destabilize, destabilise",54,13,4.15,يجعله غير مستقر بافتعال المشاكل أو خلق حالة تضعف القوى,make unstable
+awn3-00272976-v,تَزَعْزَعَ,"destabilize, destabilise",53,15,3.53,يصبح غير مستقر بافتعال المشاكل أو خلق حالة تضعف القوى,become unstable
+awn3-00278429-v,رَتَّبَ,order,76,22,3.45,يضع مجموعة من الناس أو الأشياء بالترتيب من الأول إلى الأخير أو حسب نظام معين,bring order to or into
+awn3-00318501-v,"مَدَّدَ, طَوَّلَ",lengthen,45,11,4.09,يجعله أطول مما هو في الأصل بزيادة إضافية عليه,make longer
+awn3-00340744-v,"حَدَثَ, وَقَعَ, حَصَلَ","happen, hap, go on",51,12,4.25,يصبح موجوداً أو يأتي للوجود بسبب حالة أو فعل أو حدث,come to pass
+awn3-00390309-v,"أوْهَنَ, أضْعَفَ, اِسْتَنْزَفَ","enfeeble, debilitate, drain",29,9,3.22,يجعل شيئاً أو شخصاً ما ضعيفاً,make weak
+awn3-00415969-v,اِسْتَقَرَّ,settle,53,16,3.31,يهاجر ويستقر في مكان ما مشكّلاً مستعمرة أو مجتمعاً له,form a community
+awn3-00424655-v,أَتَى,"come on, come out, turn up",11,40,0.28,يصبح مرئياً,appear or become visible; make a showing
+awn3-00452793-v,اِمْتَلَأَ,"fill, fill up",36,11,3.27,يصبح ممتلئاً ويتم شغل مساحته الفارغة,become full
+awn3-00471317-v,"اِسْتَغَلَّ, تَاجَرَ","commercialize, commercialise, market",59,15,3.93,يتيح منتجاً أو خدمة خاصة للبيع للعموم ويستغلها من أجل الربح,make commercial
+awn3-00555375-v,"أوْقع الفوْضى في, مزّق",disrupt,84,19,4.42,يمنع شيئاً ( كنظام أو عملية أو حدث) من أن يسير كما هو متوقَّع لهُ، موقعاً فيه ال,throw into disorder
+awn3-00597527-v,حَفِظ,know,80,22,3.64,يكون حافظاً للمعلومات في ذهنه جيداً بحيث يستطيع استرجاعها من الذاكرة والتحدث بها,have fixed in the mind
+awn3-00601008-v,عَقَلَ,wise up,55,11,5.0,يبدأ في فهم الموقف أو حقيقة الأمر ويقوم بالتصرف المناسب,get wise to
+awn3-00603650-v,اِسْتَوْعَبَ,"absorb, assimilate, ingest",85,16,5.31,يتبنى أفكاراً تكون جزءاً من معرفته الأساسية التي اكتسبها من الآخرين وتصبح من معت,take up mentally
+awn3-00648747-v,قَاسَ,"measure, mensurate, measure out",20,73,0.27,يأخذ مقاس شيء أو شخص,"determine the measurements of something or somebody, take measurements of"
+awn3-00692380-v,"نَظَرَ, اِعْتَبَرَ, رَأَى","see, consider, reckon",31,10,3.1,يعتبر الشيء أنه يكون بصفة معينة,deem to be
+awn3-00725991-v,"دخل في ميزانية, وضع ميزانية, وَضَعَ رَصِيد مِيزَاَنِيَّة",budget,47,13,3.62,يخطط لوضع المبلغ المالي الذي سيُنفَق على شيء ما,make a budget
+awn3-00759589-v,"تبرّأ مِن, تخلّى عن, تخلى","disown, renounce, repudiate",38,8,4.75,يرفض الاعتراف بامتلاكه شيئاً ما وينبذه,cast off
+awn3-00766947-v,تَصَالَحَ,"reconcile, patch up, make up",68,13,5.23,يتفق طرفان متعارضان على تقبل بعضهما والتعايش سوياً والوصول إلى تسوية,come to terms
+awn3-00773386-v,شَجَّعَ,encourage,74,7,10.57,يساعده على الشعور بالثقة وبالقدرة على فعل الشيء، أو يعطيه نصيحة لفعل الشيء,spur on
+awn3-00778104-v,"أَنْكَرَ, عَارَضَ","oppose, controvert, contradict",57,15,3.8,يكون منكراً ومقاوماً لشيء أو شخص ويحاول إثبات أنه على خطأ,be resistant to
+awn3-00786670-v,"اِسْتَفْهَمَ, أِسْتَفْسَرَ","question, query",54,15,3.6,يفرض سؤالاً يعبر فيه عن الشك في شيء أو يبحث عن معلومات,pose a question
+awn3-00834439-v,أَطْلَعَ,acquaint,28,6,4.67,يخبره بالشيء ليصبح عارفاً به,inform
+awn3-00850387-v,اِنْزَعَجَ,mind,13,61,0.21,يتضايق من شيء,"be offended or bothered by; take offense with, be bothered by"
+awn3-00874568-v,"أَرْشَدَ, نَصَحَ","rede, advise, counsel",65,14,4.64,يعطي مشورة أو نصيحة لشخص ما بغرض المساعدة والتوجيه للسلوك المناسب,give advice to
+awn3-00899077-v,خَاطَبَ,"address, turn to",36,8,4.5,يوجه حديثه لشخص معين أو مجموعة معينة,speak to
+awn3-00914426-v,صَرَخَ,shout,17,96,0.18,يتحدث بصوت عالٍ .,utter in a loud voice; talk in a loud voice (usually denoting characteristic man
+awn3-00932330-v,"أوْحَى, استحضر","suggest, evoke, paint a picture",40,12,3.33,يجعل الشخص يتذكر شيئاً أو يشعر بعاطفة ما,call to mind
+awn3-00943068-v,إِبْتَلَعَ,swallow,51,15,3.4,يلفظ الكلام بشكل غير واضح وكأنه يبتلع حروفاً، يتمتم,utter unclearly
+awn3-00945313-v,تَكَلَّمَ,"verbalize, verbalise",44,10,4.4,يعبّر ويتحدث مطولاً وبكلمات زائدة غير ضرورية,be verbose
+awn3-00956640-v,أَذاعَ,"publicize, publicise, air",36,11,3.27,يجعل الأمر مُتاحاً ومعروفاً بشكل عام,make public
+awn3-00975760-v,أَذَاعَ,air,42,12,3.5,يتم نقله عبر القنوات الإذاعية والتلفزيونية,be broadcast
+awn3-00983576-v,"تَلَعْثَمَ, تأتأ","bumble, stutter, stammer",96,15,6.4,يتحدث بصعوبة مع توقفات غير معتادة وأصوات متكررة، إما بسبب مشاكل في الكلام أو بسب,speak haltingly
+awn3-01003339-v,"شَرَحَ, بَيَّنَ","set forth, expound, exposit",35,5,7.0,يعطي أو يذكر تفسيراً مفصلاً لشيء ما,state
+awn3-01020937-v,"نَصَّ, اِشْتَرَطَ","stipulate, qualify, condition",34,117,0.29,يحدده كشرط أو مطلب في عقد أو اتفاق,specify as a condition or requirement in a contract or agreement; make an expres
+awn3-01060096-v,"سَحَقَ, خَشْخَشَ","crunch, scranch, scraunch",64,21,3.05,يصدر صوت ضوضاء أو تكسّر ناتج عن ضغط أو سحق الأشياء القاسية سوياً,make a crushing noise
+awn3-01065952-v,شَارَكَ,share,42,11,3.82,يخبر شخصاً آخر بأفكاره ومشاعره وما إلى ذلك,communicate
+awn3-01091334-v,عَيَّنَ,"station, post, send",58,19,3.05,يُرسل الشخص للتمركز في مكان ما ليقوم بعمل معين لفترة محددة,assign to a station
+awn3-01102003-v,خَسِرَ,lose,36,11,3.27,يفشل ويُهزم في معركة أو نزال أو سباق,fail to win
+awn3-01110559-v,"هَزَمَ, تَغَلَّب على","get the better of, overcome, defeat",76,18,4.22,يهزم شيئاً أو ينجح في التعامل مع الصعوبات أو المشاكل أو ينتصر في نزاع مع أحد,win a victory over
+awn3-01128150-v,"بثّ ألْغام فِي, لغم, زَرَعَ أَلْغَام فِي",mine,32,9,3.56,يزرع الألغام المتفجرة داخل الأرض,lay mines
+awn3-01129272-v,حَاصَرَ,"blockade, seal off",91,20,4.55,يُطوّق بلداً أو مكاناً بالجنود والسفن وما إلى ذلك لمنع الأشخاص أو البضائع من الد,impose a blockade on
+awn3-01197471-v,سَمَّنَ,"fatten, fat, flesh out",53,17,3.12,يجعل الشخص سميناً أو ممتلئاً بإعطائه المزيد من الطعام,make fat or plump
+awn3-01200388-v,اِسْتَقْلَبَ,"metabolize, metabolise",78,21,3.71,يستخدم العمليات الكيميائية داخل الجسم ليحول الغذاء إلى طاقة، ونمو جديد، وفضلات,produce by metabolism
+awn3-01218568-v,أَمْسَكَ,"grasp, hold on",42,11,3.82,يمسك الشيء بسرعة ثم يُحكم عليه بقوة وإحكام,hold firmly
+awn3-01240465-v,أَخْطَأَ,miss,47,13,3.62,عدم القدرة على الصول إلى شيء ما أو الفشل في ذلك,fail to reach
+awn3-01280991-v,تَجَعَّدَ,"wrinkle, ruckle, crease",32,108,0.3,يتسبب بحدوث تجعيدات على سطح ناعم,"make wrinkles or creases on a smooth surface; make a pressed, folded or wrinkled"
+awn3-01302626-v,سَقَطَ,fall off,42,8,5.25,يبتعد عن شيء كان مرتبطاً به ويقع على الأرض,come off
+awn3-01326622-v,قَتَلَ,kill,18,62,0.29,يتسبب بالموت عمداً,"cause to die; put to death, usually intentionally or knowingly"
+awn3-01481053-v,أَغْلَقَ,close,43,13,3.31,يمنع الوصول إلى مكان ما بإغلاقه بحاجز أو حد,bar access to
+awn3-01483784-v,عَلَّقَ,suspend,50,11,4.55,يعلق شيئاً بتثبيته في شيء ما فوقه ويتركه حر الحركة,hang freely
+awn3-01496276-v,اِسْتَكَنَّ,"ensconce, settle",52,10,5.2,يجعل نفسه مرتاحاً أو آمناً جداً أو ثابتاً في مكان ما,fix firmly
+awn3-01542421-v,تَشَرَّب,absorb,51,13,3.92,يسحب المادة من خلال السطح إلى الداخل حتى يتشبّع بها,become imbued
+awn3-01543626-v,"اِمْتَصَّ, تَشَرَّبَ","take in, take up",24,6,4.0,يقبل الامتصاص إلى الداخل,accept
+awn3-01572394-v,رَكَّبَ,"install, instal, put in",49,14,3.5,يضع الشيء في مكانه الصحيح ويجعله جاهزاً للاستخدام,set up for use
+awn3-01607942-v,قتل مِن أجْل المُعْتقد,martyr,58,16,3.62,يقتل شخصاً ويجعله شهيداً بسبب معتقداته الدينية أو السياسية,kill as a martyr
+awn3-01627934-v,طَرَقَ,beat,51,16,3.19,يضرب المعدن بمطرقة حتى يصنع منه شكلاً أو يجعله أرقّ,shape by beating
+awn3-01646466-v,"أَحْدَثَ, سَبَّبَ","effect, effectuate, set up",36,7,5.14,يُحدث شيئاً ويضعه شيئاً موضع التنفيذ,produce
+awn3-01656555-v,"أنْتج مِن مواد خام, صنع مِن مواد خام","create from raw material, create from raw stuff",74,17,4.35,يصنع من المواد الأولية وينتج منها مواد مختلفة عن المواد الداخلة في التصنيع,make from scratch
+awn3-01790725-v,"أَسْخَطَ, أَغَاظَ","infuriate, exasperate, incense",40,12,3.33,يثير الغضب أو الانزعاج الشديد لدى شخص ما,make furious
+awn3-01801062-v,بَكِى,mourn,42,12,3.5,يشعر بالحزن الشديد وبالأخص على وفاة شخص ما,feel sadness
+awn3-01801358-v,"حَزِنَ, اِبْتَأسَ","grieve, sorrow",37,10,3.7,يشعر بيأس وحزن عميق يأكل القلب ويؤلمه,feel grief
+awn3-01813288-v,"سَيْطَرَ, تَجَاوَزَ","overwhelm, overpower, sweep over",14,48,0.29,يؤثر عليه بقوة,"overcome, as with emotions or perceptual stimuli"
+awn3-01839438-v,تَحَرَّكَ,"travel, go, move",18,62,0.29,يتحرك من مكان لآخر,"change location; move, travel, or proceed, also metaphorically"
+awn3-01884106-v,خَفَقَ,"beat, pound, thump",72,17,4.24,ينبض إيقاعياً بشكل أقوى وأسرع من المعتاد، بسبب الخوف أو الجهد أو التمرين,move rhythmically
+awn3-01910315-v,"تَمَشَّى, سَارَ","foot, leg it, hoof",30,4,7.5,يتحرك متقدماً باستخدام الساقين,walk
+awn3-01942285-v,تَزَلَّجَ,ski,55,18,3.06,يتنقل باستخدام الزلاجات على الثلج أو الماء أو الرمل الخ,move along on skis
+awn3-01950855-v,جَدَّفَ,row,55,16,3.44,يجلس في القارب ويجعله يتحرك عبر الماء باستخدام المجاديف,propel with oars
+awn3-01988916-v,"جَلَسَ, قَعَدَ","sit down, sit",76,11,6.91,يحرك جسده بحيث يجعل الجزء الأسفل مستقراً على كرسي أو على الأرض وظهره منتصباً,take a seat
+awn3-01990883-v,أَغْرَقَ,sink,43,13,3.31,يغمر الشيء أو الشخص بالماء حتى يغطيه تماماً,cause to sink
+awn3-01991795-v,"غسْرِل, خَلطَ بالجِلْسرين","glycerolize, glycerolise",52,17,3.06,يعالج بالغليسيرين ( سائل لزج كحولي سكري) أو يحفظ فيه,place in glycerol
+awn3-02012411-v,"غَادَرَ, رَحَلَ","depart, take leave, quit",61,16,3.81,يذهب إلى مكان ما وخاصة في سفر أو رحلة. سأرحل إلى مكان غير هذا,go away or leave
+awn3-02055618-v,مر ّ,"travel by, pass by, surpass",29,9,3.22,يمر بجانب شخص أو شيء ليتجاوزه,move past
+awn3-02062372-v,تَمَلْمَلَ,fidget,58,15,3.87,يقوم بحركات صغيرة متواصلة دون هدف لأنه عصبي أو يشعر بالملل,move restlessly
+awn3-02067699-v,تَذَلَّلَ,"fawn, crawl, creep",109,23,4.74,يتصرف تجاه أحدهم بطريقة تظهر أنه صغير وأقل شأناً منه وأنه الأقوى، بوجه متجه نحو ,show submission or fear
+awn3-02079296-v,هَرَبَ,"scat, run, scarper",11,38,0.29,يغادر بسرعة,flee; take to one's heels; cut and run
+awn3-02128137-v,"فاحت منه رائِحة, فاح",smell,77,12,6.42,يكون لديه خاصية إمكانية إدراك الناس له من خلال حاسة الشم حيث يطلق رائحة معينة,emit an odor
+awn3-02154940-v,شَاهَدَ,watch,56,16,3.5,ينظر باهتمام ولفترة من الزمن خاصة إلى شيء متحرك أو متغير,look attentively
+awn3-02155378-v,شَاهَدَ,"watch, view, see",51,12,4.25,ينظر إلى شيء لفترة من الزمن، وخاصة شيء يتحرك ويتغير,see or watch
+awn3-02169987-v,"عَايَنَ, فَحَصَ, تَفَحَّصَ",inspect,67,19,3.53,ينظر إلى شيء أو شخص بعناية لاكتشاف معلومات عنه، أو التأكد من شيء ما,look over carefully
+awn3-02173796-v,رَاقَبَ,observe,54,17,3.18,يشاهد باهتمام وانتباه كيف يحدث شيء ما ليعرف المزيد عنه,watch attentively
+awn3-02177332-v,"ضَجَّ, دَوَّى","make noise, resound, noise",47,12,3.92,يصدر صوتاً مرتفعاً يملأ المكان بالضجيج أو الصخب,emit a noise
+awn3-02196212-v,تَبَّلَ,"season, flavor, flavour",43,14,3.07,يضيف نكهة للطعام باستخدام التوابل والمنكهات,lend flavor to
+awn3-02213047-v,اِشْتَرَى,get,30,8,3.75,يحصل على الشيء مقابل دفع المال,purchase
+awn3-02224722-v,رَعَى,"sponsor, patronize, patronise",76,21,3.62,يتولى الرعاية والدعم المادي والمعنوي لكل ما يخص نشاطاً أو مؤسسة عامة أو خاصة,assume sponsorship of
+awn3-02233480-v,خَصَّصَ,"assign, allot, portion",36,8,4.5,يُعطى شيء حصة من شيء متوفر لغرض معين,give out
+awn3-02242564-v,"تَبَرَّعَ, سَاهَمَ, قَدَّمَ","put up, contribute",65,7,9.29,يعطي شيئاً، وخاصة المال، ليدعم أو ينجز شيئاً بالاشتراك مع الآخرين,provide
+awn3-02245101-v,وَظَّفَ,recruit,51,14,3.64,يسعى لتوظيف الآخرين بمحاولة إقناعهم للانضمام للشركة,seek to employ
+awn3-02250775-v,"بَاعَ, تَعَامَلَ, تَاجَر",deal,4,37,0.11,يبيع,sell (especially of illegal material)
+awn3-02253955-v,سَجَّلَ,"log in, log on, log-in",57,16,3.56,يتصل بنظام الكمبيوتر بإدخال مجموعة من أحرف أو أرقام معينة,enter a computer
+awn3-02258764-v,كانَ مَدِينا,owe,78,10,7.8,يحتاج إلى دفع المال أو إعطاء شيء لشخص قد سبق أن أقرضك المال أو فعل شيئاً لأجلك,be in debt
+awn3-02303432-v,سَوَّق,market,70,16,4.38,إتاحة السلع للمشترين بطريقة تشجع الناس على شرائها، يتاجر ويسوق لبضائعه,deal in a market
+awn3-02303593-v,عَرَضَ,"offer, bid, tender",78,17,4.59,يعرض مبلغاً معيناً ليدفعه مقابل شيء معروض للبيع والتنافس مع أشخاص آخرين لشرائه,propose a payment
+awn3-02304648-v,نَاقَصَ,underbid,38,11,3.45,يعطي سعراً أقل مما يستحق ويبخس في ثمنه,bid too low
+awn3-02314987-v,"رَدَّ, أَعَادَ, أرْجَعَ","render, return",30,9,3.33,يُعيد الشيء الذي أُخذ مرة أخرى,give back
+awn3-02354702-v,ضَمِنَ,secure,99,17,5.82,يتأكد أن مقترض المال سوف يرده من خلال إعطاء الحق للدائن بامتلاك الرهن الذي كان ق,assure payment of
+awn3-02396335-v,,"enthrone, throne",89,27,3.3,يضع الملك أو الملكة على العرش خلال مراسم التنصيب لتحديد البداية الرسمية لفترتهم ,put a monarch on the throne
+awn3-02429959-v,تَطَوَّعَ,"volunteer, offer",61,12,5.08,يعرض أو يوافق على فعل شيء بحرية وإرادة كاملين ودون طلب من أحد,agree freely
+awn3-02470917-v,قَاطَعَ,boycott,144,45,3.2,الامتناع الاختياري عن التعامل أو البيع والشراء من شخص أو بلد أو منظمة، أو المشار,refuse to sponsor; refuse to do business with
+awn3-02493705-v,قَامَ بِـ,pay,22,6,3.67,يفعل شيئاً ويقدمه لشخص,render
+awn3-02505278-v,عَاقَبَ,"punish, penalize, penalise",10,42,0.24,يفرض عقوبة,impose a penalty on; inflict punishment on
+awn3-02516942-v,اِنْغَمَسَ,indulge,54,17,3.18,يسمح لنفسه بالتصرف بحرية في أي شيء يمكن أن يجلب المتعة,give free rein to
+awn3-02534046-v,"أَخْفَقَ, فَشِلَ","fail, go wrong, miscarry",46,15,3.07,يكون غير ناجح فيما يسعى لتحقيقه أو فيما يتوقعه,be unsuccessful
+awn3-02548492-v,"أَطَاعَ, اِمْتَثَلَ",obey,75,14,5.36,يتصرف وفقاً لما يُطلب منه أو يؤمر به من قبل أحد، أو من قبل قانون أو تعليمات,be obedient to
+awn3-02555993-v,"اِهْتَمَّ بِـ, اِعْتَنَى","care, give care",54,16,3.38,يعتقد أن شيئاً ما مهم وعليه تقديم الرعاية والاهتمام له,provide care for
+awn3-00114629-a,غَاضِب,angry,116,24,4.83,أن يكون لديك شعور قوي ضد أحد تصرف بشكل سيء، ما يجعلك ترغب بالصراخ عليه أو إيذائه,feeling or showing anger
+awn3-00473062-a,"غَيْرَ مَنْشُور, غَيْر مَطْبُوع",unpublished,40,13,3.08,ما لم يتم طباعته ونشره وبيعه من الكتابات,not published
+awn3-01414308-a,"مُحْتَمَل, مُتَوَقَّع",likely,14,54,0.26,له فرصة الحدوث,has a good chance of being the case or of coming about
+awn3-01493085-a,غَيْر نَاضِج,immature,59,14,4.21,ما زال صغيراً ولم يصل إلى مرحلة من النمو بحيث يمكنه الإنتاج,not yet mature
+awn3-01513206-a,شَدِيد,intense,15,69,0.22,قوي بدرجة عالية,possessing or displaying a distinctive feature to a heightened degree
+awn3-01555990-a,كَثِير,many,27,195,0.14,عدد كبير لا محدود من شيء ما,a quantifier that can be used with count nouns and is often preceded by ‘as’ or 
+awn3-01645077-a,جَدِيد,new,31,113,0.27,ما أتى للوجود أو اكتُشِف مؤخراً,not of long duration; having just (or relatively recently) come into being or be
+awn3-01684118-a,"عُضْوِي, عُضْوِيّ",organic,23,92,0.25,له خصائص الكائنات الحية,being or relating to or derived from or having properties characteristic of livi
+awn3-01714268-a,غَيْر مَدْفُوع,unpaid,28,8,3.5,عمل أو سلعة لم يتم دفع أجرها,not paid
+awn3-01921311-a,كَمَّي,quantitative,20,70,0.29,يخص الكميات بالأرقام,expressible as a quantity or relating to or susceptible of measurement
+awn3-02143325-a,لاجِنْسِي,"asexual, nonsexual",104,27,3.85,غياب وجود أمشاج ذكرية تلتقي مع أمشاج أنثوية حيث يصنع الكائن الحي المزيد من أمثال,not having or involving sex
+awn3-02951729-a,تَجْرِيبِي,experimental,118,34,3.47,مبني على التجارب والاختبارات العلمية باستخدام طرق وأفكار ومواد جديدة لم يتم تجرب,relating to or based on experiment
+awn3-00060735-r,"فِعْلِيَّا, وَاقِعِيَّا",de facto,58,18,3.22,موجود في الحقيقة، رغم أنه غير قانوني أو غير مقصود بالضرورة,in reality or fact
+awn3-00104448-r,مُتَقَدِّمَاً,forth,46,13,3.54,من مكان ما إلى مكان آخر للأمام بحيث يمكن رؤيته,out into view
+awn3-00105032-r,على الأقل,"at least, at the least",69,13,5.31,إشارة إلى أن الموجود أو المذكور حالياً هو أقل ما يمكن بالعدد أو النوع,not less than
+awn3-00105215-r,"على الأكْثر, على  أكْثر تقْدِير","at most, at the most",71,13,5.46,إشارة إلى أن الموجود أو المذكور حالياً هو أكثر شيء ممكن بالعدد أو النوع,not more than
+awn3-00124579-r,عِرْقِيَّاً,ethnically,101,25,4.04,بشكل يتعلق بالعرق من حيث الانتماء إلى مجموعة معينة من الناس تشترك في الثقافة وال,with respect to ethnicity
+awn3-00137473-r,مُعْجَمِيَّاَ,lexically,73,17,4.29,على نحو له علاقة بكلمات ومفردات اللغة والتي تتميز بشكلها النحوي والتركيبي,by means of words
+awn3-00199833-r,لَمْسَا,"tactually, haptically",37,8,4.62,بطريقة اللمس وباستخدام الحواس اللمسية,by touch
+awn3-00230340-r,"عَقْلِيَّا, دِهْنِيَّا",mentally,61,12,5.08,بشكل له علاقة بالنشاط الذهني، يحدث بواسطة العقل أو يكون داخله,in your mind
+awn3-00394435-r,لوغرثميا,logarithmically,70,23,3.04,بطريقة خاصة باللوغاريتمات ( وهي عدد المرات التي يُضرب فيها الرقم بنفسه,in a logarithmic manner

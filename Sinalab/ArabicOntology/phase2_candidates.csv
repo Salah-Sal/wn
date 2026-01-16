@@ -1,0 +1,613 @@
+ili_id,oewn_pos,matched_english,oewn_words,ao_words,ao_gloss,oewn_definition
+i64973,n,adrenal gland,adrenal gland|adrenal|suprarenal gland,الغدة الكظرية,غدة صماء فوق الكلية تفرز هرمون الأدرينالين.,either of a pair of complex endocrine glands situated near the kidney
+i65764,n,pituitary gland,pituitary|pituitary gland|pituitary body|hypophysis,غدة نُخَامِيّة,غدة صَمّاء في قاع المخ تفرز عدة هرمونات حيوية هامة,the master gland of the endocrine system; located at the base of the brain
+i56039,n,musjid,masjid|musjid,مَسْجِدٌ|جَامِعٌ,معبد مخصص للمسلمين ويؤدون بعض عباداتهم,(Islam) a Muslim place of worship
+i52081,n,coal mine,coal mine|coalpit,منجم فحم,منجم يستخرج منه الفحم، أو يصنع فيه الفحم النباتي,a mine where coal is dug from the ground
+i52995,n,distillery,distillery|still,مصنع التقطير,مصنع تجري فيه عمليات التقطير وخاصة تقطير المشروبات الكحولية,a plant and works where alcoholic drinks are made by distillation
+i86387,n,vela,Vela,مَايْكْرُوسْكُوبْ|قِيطُسْ|قِنْطَوُرُسْ|طُوقَانُ|كَوْثَلٌ|حِرْبَاءٌ|هِنْدِيٌّ|بِرْكَارٌ|جُؤْجُؤٌ|جَبَّارٌ|جَوْزَاءُ|عَنْقَاءُ|كُوزٌ|سُدْسِيَّةٌ|فُرْنٌ|فِرْجَارٌ|طَاوُوسٌ|ذُبَابٌ,تشكيلة من خمس نجوم براقة، تشاهد في الجزء الجنوبي للأرض و,a constellation in the Southern Hemisphere between Carina and Pyxis
+i85172,n,cassiopeia,Cassiopeia,قِيفْيَاوْسْ|سَهْمٌ1|قِيثَارَةٌ|دَجَاجَةٌ|دُجَاجَةٌ|دِجَاجَةٌ|ثُرَيَّا|ثُعْبَانٌ|زَرَافَةٌ|وَشَقٌ|وَرَلٌ|تَنِّينٌ|فِرْسَاوُس,تشكيلة من النجوم أبدية الظهور,a W-shaped constellation in the Northern Hemisphere near Polaris
+i69097,n,direction,direction,نَاحِيَةٌ|جِهَةٌ|اِتِّجَاهٌ,علاقة تدلل على موقع شيء معين زمانيا أو مكانيا أو بالنسبة لموقع شيء آخر، ودون أن يرتبط هو بهذا الشيء,a general course along which something has a tendency to develop
+i68131,n,relation,relation back|relation,وُصْلَةٌ|تَوْصِيلٌ|وَصْلٌ1|رَبْطٌ|عَلَاقَةٌ|عِلَاقَةٌ2|رَابِطَةٌ|اتِّحَادٌ|اِتِّصَالٌ|عُصْبَةٌ,وصف لصلة بين شيئين أو ظاهرتين ،  بحيث يستلزم تغيير أحدهما لتغير الآخر .,(law) the principle that an act done at a later time is deemed by law to have occurred at an earlier
+i111006,n,acataphasia,acataphasia,حَصِرَ|حَصِرَ عن|حَصِرَ في|عَيِيٌّ|عَيَّ ب|عَيَّ في|أَعْجَمٌ|أَلْكَنٌ|لَكِنَ|أَفْحَمَ,عجز عن التعبير اللفظي بما يفيد المعنى المقصود.,a disorder in which a lesion to the central nervous system leaves you unable to formulate a statemen
+i22129,v,pain,trouble|ail|pain,تَوَجُّعٌ|مُعَانَاةٌ|تَأَلُّمٌ|أَلَمٌ|وَصَبٌ|وَجِعٌ|وَجَعٌ|عَذَابٌ|تَأَوُّهٌ|أَنِينٌ,أحد الظواهر الوجدانية الأساسية هي حال نفسية معينة يصعب تعريفها ،  وتتميز بإحساس مادي أو معنوي بعدم ا,cause bodily suffering to and make sick or indisposed
+i61800,n,smoothness,smoothness,لَيْنٌ|إِرْهَافٌ|أَسَالَةٌ|لُيُونَةٌ|لَيانٌ|لِيْنٌ|طَرَاوَةٌ|لُدُونَةٌ|صَقْلٌ|مَلَّاسَةٌ|مَلَاسَةٌ|رَخَاوَةٌ|نُعُومَةٌ|رَخَاصَةٌ,خصية مادية لسطح الجسم المصقول الخالي من النتوءات والخشونة,the quality of being free from errors or interruptions
+i52784,n,den,den,عَرينٌ,مأوى الحيوانات العظيمة المفترسة، خاصة الأسد,a room that is comfortable and secluded
+i8163,s,adult,adult|big|full-grown|fully grown|grown,مُدْرِكٌ|يانعٌ|نَاضِجٌ|يَافِعٌ|بالِغٌ|رَاشِدٌ|مُهْتَدٍ|عاقِلٌ,.صفة للشيء مكتمل النمو وأصبح قادراً على الإنتاج,(of animals) fully developed
+i45121,n,pen,pen,زَرِيبَةٌ|حَظِيرَةٌ,مأوى للدواب، يصنعه الإنسان، ويكون محصورا ومحاط لحبسها وحمايتها,female swan
+i63571,n,station,station,مَحَطَّةٌ|مَحِطَّةٌ|مَرْكَزٌ|مَوْقِفٌ|مَحَطٌّ,منشط مخصص لوصول أو إقلاع المركبات ولافراغ او تحميل الركاب والبضائع,the frequency assigned to a broadcasting station
+i116603,n,zinc oxide,zinc oxide|flowers of zinc|philosopher's wool|philosophers' wool,أبيض الزنك|أبيضُ الزِّنك|أكسيد الزنك|أكسيد الزِّنك الأبيض|ألبوم نهيل|هيدروزنكيت|صوف الفيلسوف|زهرة الزنك,مادة مسحوق أبيض من أكسيد الزنك ينتج من حرق فلز الزنك في الهواء، يستعمل صبغاً أبيض بديلاً أبيض الرصاص,oxide of zinc; a white powder used as a pigment or in cosmetics or glass or inks and in zinc ointmen
+i114386,n,asbestos,asbestos,أَمِيَانِت|أَسْبِسْتٌ|أَسْبِسْتُوس,معدن غير قابل للاحتراق يستطاع فصله بسهولة إلى ألياف قابلة للإنشاء يمكن عزلها و تلبيدها.,a fibrous amphibole; used for making fireproof articles; inhaling fibers can cause asbestosis or lun
+i114238,n,caliche,caliche,تِيبِيتِيتٌ,قشرة تترسب على سطح التربة في المناطق شبه الصحراوية تتركب من كربونات الكلسيوم وأحيانا تتكون من نترات ,nitrate-bearing rock or gravel of the sodium nitrate deposits of Chile and Peru
+i110819,n,learning disability,learning disorder|learning disability,صعوبات التعلم|صعوبات التعلم الخاصة|صعوبات خاصة في التعلم|صعوبة التعلم,افتقار التلميذ إلى الإنجاز أو القدرة عليه في مجال واحد أو أكثر من مجالات التعلم، وذلك بالمقارنة إلى ,a disorder found in children of normal intelligence who have difficulties in learning specific skill
+i116229,n,steatite,soapstone|soaprock|soap-rock|steatite,سْتِيتَيْتٌ|طَلْقٌ4,حجر يتركب من سليكات المغنسيوم المهدرجة وهو دهني الملمس ويستعمل مسحوق الطلق النقي في صنع بعض مساحيق ا,a soft heavy compact variety of talc having a soapy feel; used to make hearths and tabletops and orn
+i2342,s,primitive,primitive,تَمْهِيديٌّ|أَوَّلِيٌّ|اِبْتِدَائِيٌّ|بَدَائيٌّ|بُدائيٌّ|بَدْئِيَّةٌ|بَادِئٌ,وصف يطلق على الصورة الأولى للأشياء وعلى المجتمعات الإنسانية المتأخرة (مقابل المتحضرة ),used of preliterate or tribal or nonindustrial societies
+i32140,v,church,church,كَنِيسَةٌ|بِيعَةٌ,معبد مخصص لممارسة الشعائر الدينية روّاده النصارى,perform a special church rite or service for
+i31954,v,burrow,burrow|tunnel,جُحْرٌ,مأوى على شكل حفرة، تأوي اليه صغار الحيوانات والحشرات,move through by or as by digging
+i37141,n,remand,remand,يؤجل|يرجع|يرد|يعيد,يعيد الدعوى إلى المحكمة التي أتت منها الاجراء اللازم،  يوقف رهن التحقيق,the act of sending an accused person back into custody to await trial (or the continuation of the tr
+i35962,n,pitch,pitch,قِيرٌ|قَارٌ|زِفْتٌ|قَطْرَانٌ|قَطِرَانٌ|قِطْرَانٌ,متخلف قاتم اللون كثيف القوام يتبقى بعد تقطير القطران، وغالبا ما يتجمد في درجات الحرارة العادية إلى ك,the action or manner of throwing something
+i49879,n,air cushion,air cushion|inflatable cushion,نابض هوائي|وسادة هوائية|ياي هوائي|منظومة تعليق هوائية,نبيطة ميكانيكية تستخدم هواءً محجوزاً في حيز معين لتخميد الاهتزاز وتجنب حدوث صدمات.,a cushion usually made of rubber or plastic that can be inflated
+i16864,a,chronological,chronological,ملف يومي|ملف استمراري|ملف قراءة|ملف تاريخي,يحوي صور للوثائق مرتبة ترتيباً تاريخياً (زمنياً) ويعرف هذا الملف أحياناً باسم الملف التاريخي أو المل,relating to or arranged according to temporal order
+i6754,s,diagonal,aslant|aslope|diagonal|slanted|slanting,مَائِلٌ|قُطْرِيَّةٌ,وصف للخط المستقيم الذي يصل بين رأسين غير متجاورين.,having an oblique or slanted direction
+i35670,n,emergence,emergence|emersion,بُرُوزٌ|طُلُوعٌ|خُرُوجٌ|نُتُوءٌ1,زائدة تظهر على سطح الجسم,the act of emerging
+i28675,v,mill,mill,طَاحُونٌ|طَاحُونَةٌ|رَحَىً2,آلة تستعمل في سحق المواد الصلبة بشكل عام والحبوب بشكل خاصّ ،,roll out (metal) with a rolling machine
+i40092,n,shop,shop class|shop,حَانُوتٌ|مَتْجَرٌ|دُكَّانٌ,منشط يدار من مؤسسة لبيع السلع وتقديم الخدمات للزبائن,a course of instruction in a trade (as carpentry or electricity)
+i1915,s,fluid,fluid|unstable,سَيَّالٌ1|سَائِبٌ|مَائِعٌ,مادة تتحرك جسيماتها بسهولة، وتغير أمكنتها النسبية دون أن تنفصل عن كتلتها، وقابلة للانضغاط وبذا تكون ,subject to change; variable
+i48079,n,charger,charger|courser,شَحَّانٌ,جهاز يستخدم لإمداد البطّاريات بالطاقة الكهربائية,formerly a strong swift horse ridden into battle
+i109,s,true,true|dead on target,صَحِيحٌ2|صَائِبٌ,صفة للشيء إذا طابق الحقيقة أو المواصفات المطلوبة دون خطأ,accurately placed or thrown
+i116321,n,stibnite,stibnite,لمحة الانتيمون|الانتيمون الرمادي|ستبنيت,معدن يتركب من ثالث كبريتيد الانتيمون (نت2 كب3),a soft grey mineral; the chief ore of antimony
+i8420,s,abnormal,abnormal,مُخَالِفٌ|نَقِيضٌ|شَاذٌّ,صفة ما ينحرف عن القاعدة أو النمط، وتستعمل صفة للفرد أو السلوك الذي خالف الطبيعة أو المعتاد.,much greater than the normal
+i36235,n,induction,trigger|induction|initiation,تَوَقُّدٌ|اِتِّقَادٌ|اِحْتِدَامٌ|تَأَجُّجٌ|حَثٌّ|تَوَهُّجٌ|حَرِيقٌ|اِشْتِعالٌ|لَهيبٌ|اِسْتَعَارَ|اِلْتِهابٌ|لَظَىً|اِحْتِرَاقٌ|أَجِيجٌ,وصف لشدة اشتعال النار وتوهجها,an act that sets in motion some course of events
+i57934,n,train station,railway station|railroad station|railroad terminal|train station|train depot,محطة قطار,محطة للقطارات,a terminal/node where trains load or unload passengers or goods
+i116677,n,cenozoic era,Cenozoic|Cenozoic era|Age of Mammals,حقب الحياة الحديثة|حقب السينوزوى|حقب الكاينوزوى|حقبة السينوزوى,الزمن الجيولوجي الذي تلا حقب الحياة المتوسطة. ويتميز بوجود كائنات حية أرقى من سابقاتها، وأهمها النبا,approximately the last 63 million years
+i115418,n,haematite,hematite|haematite,هِيمَاتَيت,معدن أكسيد حديديك، صيغته الكيميائية ح2 ا3 (,the principal form of iron ore; consists of ferric oxide in crystalline form; occurs in a red earthy
+i72417,n,zeta,zeta,جهازُ زِيتا|جهازُ صِفرِ الطاقة للِحرارة النوَوِيَّة,جهازُ صِفرِ الطاقة لِدراسة التفاعُلات الحراريةِ النوَوِيّة المَحصورة,the 6th letter of the Greek alphabet
+i71900,n,affidavit,affidavit,تَصْرِيحٌ,إقرار أو تقرير كتابي مصحوب بقسم يؤديه المقرر أمام موظف رسمي,written declaration made under oath; a written statement sworn to be true before someone legally aut
+i36650,n,activation,activation,حَفْزٌ|تَنْشِيِطٌ,عملية تحفيز كيميائية تستخدم في التفاعلات لتسريع التفاعل بين المواد,making active and effective (as a bomb)
+i22915,v,rust,rust,صَدَأٌ|تَآكُلٌ,خليط من أكسيد وهدروكسيد وكربونات الحديد، يتكون على سطح الحديد عند تعرضه للهواء الرطب.,become coated with oxide
+i68763,n,geophysics,geophysics|geophysical science,الجيوفيزيقا|علم فيزيقا الأرض,علم يبحث في الصخور وتراكيبها ومحتوياتها من حيث انطباق علم الطبيعة عليها.,geology that uses physical principles to study properties of the earth
+i115735,n,sapropel,sapropel,سَابْرُوبِيلٌ,مادة لَزِجة غروانية تنشأ في المستنقعات نتيجة للتعطن، وعندما تجف تصبح كتل صلبة دكناء اللون لا بريق له,sludge (rich in organic matter) that accumulates at the bottom of lakes or oceans
+i38821,n,anatomy,anatomy,فن التشريح|علم التشريح,أحد فروع علم الأحياء، يُعنى بدراسة شكل وبنية الكائنات الحية وأجزائها (أعضاء، وأنسجة),a detailed analysis
+i50164,n,armory,armory|armoury|arsenal,مَصْنَع أَسلِحَة,مصنع مخصّص لإنتاج المعدّات العسكريّة,a place where arms are manufactured
+i38355,n,pick,pick,فأسٌ دقيقة الطَّرَفين|صافور,أداة زراعية لحفر الأرض أو تقطيع الخشب,a basketball maneuver; obstructing an opponent with one's body
+i75751,n,earthquake,earthquake|quake|temblor|seism,زِلْزَالٌ|رَجْفَةٌ,اهْتِزاز قَويّ يُصيبُ بَعض المَواقع من الأَرض بتَأْثير بَعض العَوامل الطَّبيعيَّة في جَوْفها,shaking and vibration at the surface of the earth resulting from underground movement along a fault 
+i91781,n,orthoptist,orthoptist,أخصائي التدريب البصري|اختصاصي التدريب البصري,فرد متخصص ( من غير الأطباء ) في إجراء التدريبات البصرية : وخاصة تلك التدريبات التي تساعد على تناسق ع,a specialist in orthoptics
+i68929,n,moral philosophy,ethics|moral philosophy,أَخْلَاقٌ,علم يبحث في الأحكام القيمية التي تنصب على الأفعال الإنسانية من ناحية أنها خير أو شر ، وهو أحج العلوم,the philosophical study of moral values and rules
+i60184,n,thermoregulator,thermostat|thermoregulator,تِرْمُوسْتَاتٌ,جهاز يستخدم في تنظيم الحرارة باستخدام التمدد التفاضلي لعنصر حساس يتغير شكله بتغير درجات الحرارة,a regulator for automatically regulating temperature by starting or stopping the supply of heat
+i68758,n,thermionics,thermionics,الانبعاث الأيوني الحراري|ثرميونيات,ظاهرة إنتاج جسيمات مشحونة ( إلكترونات أو أيونات عند السطوح المسخنة.,the branch of electronics dealing with thermionic phenomena (especially thermionic vacuum tubes)
+i40093,n,workshop,workshop,مَشْغَلٌ|مَعْمَلٌ,موقع مخصّص لممارسة الأعمال اليدويّة أو الحرفيّة أو الصناعيّة ذات الإنتاجيّة الخفيفة,a brief intensive course for a small group; emphasizes problem solving
+i52854,n,diaphragm,diaphragm|stop,رِقٌّ,نوع من أنواع الدف,a mechanical device in a camera that controls size of aperture of the lens
+i51649,n,cathode,cathode,كَاثُودْ|مَهْبَطٌ|مَهْبِطٌ|مِهْبَطٌ,قطب الدائرة الكهربية,a negatively charged electrode that is the source of electrons entering an electrical device
+i50565,n,bathometer,bathymeter|bathometer,مِعْمَاقٌ,مقياس أعماق,an instrument that measures the depth of water
+,n,ampholyte,amphoteric electrolyte|ampholyte,الأيون الهجين|ثنائي الشحنة,جزيء متعادل يحمل شحنة موجبة وأخرى سالبة ومثال ذلك أيون الحمض الأميني,"A substance that acts as a base or an acid, depending on the pH of the solution into which it is int"
+i50480,n,barometer,barometer,بَارُومِتَر,جهاز يستخدم لقياس ضغط الجو.,an instrument that measures atmospheric pressure
+i114060,n,bornite,bornite|peacock ore,بُورْنَيْتٌ,معدن يتركب من كبريتد الحديد والنحاس يتبلور في نظام المكعب،  لونه بين البني والأحمر النحاسي مكسره محا,a mineral consisting of sulfides of copper and iron that is found in copper deposits
+i114658,n,benzol,benzene|benzine|benzol,غازُولين|بِنْزُولٌ|بَنْزِينٌ|بِنْزِينٌ,مركب أروماتي يتكون من الكربون والإيدروجين؛ صيغته الكيميائية (ك6 يد6). وهو سائل عديم اللون يغلي عند 8,a colorless liquid hydrocarbon; highly flammable; carcinogenic; the simplest of the aromatic compoun
+i80988,n,central bank,central bank,البنك المركزي|بنك الإصدار,المؤسسة المالية العامة التي تشكل سلطة نقدية، أي التي تصدر أوراق النقد وأحيانا النقود المعدنية، وتحفظ,a government monetary authority that issues currency and regulates the supply of credit and holds th
+i68388,n,algebra,algebra,جَبْرٌ,فرع من فروع العلوم الرياضية يقوم على إحلال الرموز محل الأعداد المجهولة أو المعلومة، أنشأه الخوارزمي ,the mathematics of generalized arithmetical operations
+i113925,n,cm,curium|Cm|atomic number 96,كَمْ,أداة لغوية تستخدم للسؤال عن كمية الشيء ومقداره,a radioactive transuranic metallic element; produced by bombarding plutonium with helium nuclei
+i29236,v,barrel,barrel,بَرْمِيلٌ|بِرْمِيلٌ|وِعاءٌ,وحدة قياس عالمية لكمية النفط الخام تسأوي 159 لتراً أو 42 غالوناً,put in barrels
+i40920,n,apposition,juxtaposition|apposition|collocation,تَرَاكُبٌ,زيادة جدار الخلية في الغلظ بإضافة مادة التغليظ طبقة فوق أخرى.,the act of positioning close together (or side by side)
+i39538,n,experiment,experiment,تَجْرِبَةٌ,تنظيم محكم للظروف والشروط التي يمكن أن تلاحظ فيها ظاهرة معينة سعيا لتحديد العوامل المؤثرة في هذه الظ,a venture at something new or different
+i24199,v,charge,charge,حَمْلٌ,الرسابة التي يحملها مجرى المياه وتدل عليها نسبة حجم الرسابة إلى حجم المياه في مقطع عرضي معين على الم,saturate
+i12116,s,cl,one hundred fifty|150|cl,كل,في اللغة الإنجليزية تعتبر رمز للعنصر الهالوجيني الكلور,being ten more than one hundred forty
+i19878,r,am,ante meridiem|A.M.|a.m.|am|AM,مر,,before 12 noon
+i17440,a,arithmetic,arithmetical|arithmetic,الأريثماطيقي|علم العدد,علم يبحث في خواص الأعداد وما بينها من نسب وعلاقات عددية ، وهو قسمان : نظري و عملي ، وأطلق عليه حديثا,relating to or involving arithmetic
+i106354,n,accretion,accretion,تَزَايُدٌ|تَضَايُفٌ,تكاثر في كمية الشيء أو حجمه,(law) an increase in a beneficiary's share in an estate (as when a co-beneficiary dies or fails to m
+i113661,n,dross,impurity|dross,خَبَثٌ,زَبَدٌ يطفو على سطح المعادن المصهورة، ويكون غالباً من الشوائب وأكاسيد المعادن.,worthless or dangerous material that should be removed
+i64967,n,thyroid gland,thyroid gland|thyroid,غُدَّة درَقية,غُدّة صماء تقع بالقرب من الحَنْجَرة وتفرز هرمونً الثيروكسين الذييدخل اليود في تركيبه وهو مسؤول عن تن,located near the base of the neck
+i32511,v,image,image,مَفْهُومٌ,ما يتكون في الذهن حول شيء ما,"render visible, as by means of MRI"
+i2816,s,verbal,verbal,لَفْظِيٌّ|حَرْفِيّ|حِرْفِيّ,صفة ما يتعلق بالألفاظ دون عناية بالمدلول ومنه الجدل اللفظي,communicated in the form of words
+i6858,s,refrigerant,refrigerant|refrigerating,بَارِد|مُسْقِط للحرارة|مُبَرِّد,مادة تستخدم في خفض الطاقة الحرارية في الاجسام,causing cooling or freezing
+i21902,v,crane,crane|stretch out,وِنْش|مِرْفَاعٌ,مُعدة تدار بمحرك تستعمل لرفع الأحمال رأسياً أو نقلها أفقياً أو لكليهما.,stretch (the neck) so as to see better
+i39289,n,tort,tort|civil wrong,اِعْتِداءٌ|إِسَاءَةٌ,جريمة تنال بالعنف أو تهدد بالخطر الحقوق اللصيقة بالإنسان,(law) any wrongdoing for which an action for damages may be brought
+i1505,s,microcrystalline,microcrystalline,مجهرى الحبيبات|دقيق التبلور|دقيق التحبب|دقيقُ التبلْوُر|مِجهرِي البلّورات,ل صفة الشيء المتكون من دقائق صغيرة جداً مجتمعة بشكل معين و واضح,containing crystals that are visible only under a microscope
+i41116,n,philanthropy,philanthropy|philanthropic gift,حب البشر|الخيرية,أومعناها الجهود التي تبذل عن منبع من حب الأفضل للبشرية لتنمية الرفاهية الاجتماعية بالعطاء بالمال أو ,voluntary promotion of human welfare
+i80348,n,family,family|fellowship,أُسْرَةٌ,تشكيلة تضم أفراد العائلة الذين يعيشون في بيت واحد وتربطهم صلة الدم أو النسب,an association of people who share common beliefs or activities
+i27889,v,pumice,pumice,خُرْفُشٌ,صخر بركانى خفيف ذو ثقوب ومسمات تملؤها الغازات والهواء الذي احتبس داخله أثناء تكوينه ويستخدم في التدل,"rub with pumice, in order to clean or to smoothen"
+i63506,n,indestructibility,indestructibility,اللاتَلَفِّية|اللافَنائِيّة|عدمُ قابليّة التّلف,عدمُ قابليّة الشيء للفساد وانتهاء الصلاحية و َناء,the strength to resist destruction
+i25976,v,file,charge|lodge|file,مِبْرَدٌ,أداةٌ بها سطوح خَشِنة ، تُستعمل لتسوِية الأشياء أو تشكيلها بالتأَكل أو السَّحْل,file a formal charge against
+i114684,n,reagent,reagent,كَاشِفٌ|مُفَاعِلٌ,مادّة كيمأويّة تستخدم للتعرُّف على الأجسام بواسطة التفاعلات التي تُحْدثها ، ولإظهار حالة محلول ما عن,a chemical agent for use in chemical reactions
+i29740,v,coal,coal,فَحْمٌ2,صخر رسوبي عضوي ذو لون أسود نتج عن تحلل المواد النباتية في الأزمان الجيولوجية بالضغط والحرارة وهو على,take in coal
+i116513,n,vitamin e,vitamin E|tocopherol|E,فيتامين ي|ألفا توكوفيرول,مادة فينولية زيتية القوام تستخلص من زيوت بعض النباتات العنية به أو بتحضيره كيميائيا يستعمل مضادا للع,a fat-soluble vitamin that is essential for normal reproduction; an important antioxidant that neutr
+i114839,n,hydraulic cement,hydraulic cement|Portland cement,اسمنت بورتلاندي|اسمنت مائي|اسمنت هيدروليكي,اسمنت ينتج من حرق الحجر الجيري غير النقي الذي يحتوي على كميات وافرة من الالومينا والسليكا.,a cement that hardens under water; made by heating limestone and clay in a kiln and pulverizing the 
+i9206,s,mineral,mineral,فِلِزٌّ|مَعْدِنٌ|مَعْدَنٌ,مادة غير عضوية طبيعية متجانسة التركيب، لها صفات فيزيقية متجانسة، وتركيب كيميائي ثابت.وقد توجد المعاد,composed of matter other than plant or animal
+i25622,v,pump,pump,مِضَخَّةٌ,نبيطة تزيد ضغط السوائل لدفعها أو رفعها.,question persistently
+i64749,n,cartilage,cartilage|gristle,غُضْرُوفٌ,نسيج ضام كثيف، وهو مركب من خلايا متخصصة تدعى الخلايا الغضروفية,tough elastic tissue; mostly converted to bone in adults
+i90994,n,practical nurse,licensed practical nurse|LPN|practical nurse,ممرضة,دور لشخص يقوم على مراعاة المرضى والعناية بهم وإجراء الأمور الطبية الخاصة,a nurse who has enough training to be licensed by a state to provide routine care for the sick
+i115746,n,naphthalene,naphthalene,نَفْتَالِين,هدروكربون أروماتى يتكون من حلقتين مندمجتين من حلقات البنزين، وينتج من تقطير قطران الفحم، يوجد على هي,a white crystalline strong-smelling hydrocarbon made from coal tar or petroleum and used in organic 
+i67641,n,quantum,quantum,كَمٌّ,الجزء الذي لا يتجزأ من كل مقدار من طاقة ذات تردد معين ومقداره يسأوي حاصل ضرب ثابت بلانك في التردد.,(physics) the smallest discrete quantity of some physical property that a system can possess (accord
+i25869,v,claw,claw,كُلَّابٌ|مِخْلَبٌ,ظفر حاد مقوس في نهايات أصابع الأطراف الأربعة في آكلات اللحوم,attack as if with claws
+i49947,n,altar,altar,مَذْبَحٌ,مكان محدد في كنائس اليهود والنصارى يذبح عليه القُرْبَان للآلهة,a raised structure on which gifts or sacrifices to a god are made
+i8744,a,normal,normal,عَادِيٌّ,صفة تدل على وجود أي شيء بصورته وهيئته المعهودة والمتعارف عليها,being approximately average or within certain limits in e.g. intelligence and development
+i41711,n,faith,faith,إِيمَانٌ,اعتقاد راسخ لا يقل في قوته عن اليقين ولكن لا يمكن نقله عن طريق البرهان ، يعتمد أساسا على الثقة وطمأن,loyalty or allegiance to a cause or a person
+i66548,n,art,art|artistry|prowess,فَنٌّ,تعبير خارجي عما يحدث في النفس من بواعث و تأثرات بواسطة الخطوط أو الألوان أو الحركات أو الأصوات أو ال,a superior skill that you can learn by study and practice and observation
+i81702,n,aphelion,aphelion,نُقطة الذَّنب|نقطة الذنب|نقطة الرأس|نقطة قبْوية,ابعد نقطة في فلك السيار عن الشمس,apoapsis in solar orbit; the point in the orbit of a planet or comet that is at the greatest distanc
+i36816,n,regeneration,re-formation|regeneration,تَجَدُّدٌ|تَجْدِيدٌ,عملية تكُّون أنسجة جديدة يحتاجها الكائن الحي أو أنسجة جديدة بدلا مما فُقِد.,forming again (especially with improvements or removal of defects); renewing and reconstituting
+i25286,v,postulate,postulate|posit,مُسَلَّمةٌ,قضية ليست بديهية بذاتها ولا يستطاع البرهنة عليها، ومع ذلك يسلم بها، ويمكن أن تستخلص منها نتائج لا ير,take as a given; assume as a postulate or axiom
+i79030,n,mineral water,mineral water,مياه معدنية,مياه طبيعية تخرج من الينابيع وتحتوي على نسبة ضئيلة من الأملاح أو الغازات الذائبة فيها.,water naturally or artificially impregnated with mineral salts or gasses; often effervescent; often 
+i22120,v,stream,stream,قَنَاةٌ|مَجْرَىً,مسيل من الماء العذب يجري في اتجاه معين صغيرا كان ام كبيرا.,exude profusely
+i114069,n,china clay,china clay|china stone|kaolin|kaoline|porcelain clay,كَاوْلِينٌ|غَضَارٌ,صخر رسوبي من نوع خاص من الطين الأبيض يصلح لصنع الأواني الخزرفية.,a fine usually white clay formed by the weathering of aluminous minerals (as feldspar); used in cera
+i52578,n,crystal,crystal|watch crystal|watch glass,بَلُّوْرٌ|بِلَّوْرٌ|تَبَلْوُرٌ,جسم يحتوي على ذرات أو أيونات، أو جزيئات تنتظم في ترتيب هندسي يتكرر في الأبعاد الثلاثة الرئيسية.,a protective cover that protects the face of a watch
+i22551,v,surge,surge,تَمَوُّرٌ|عَرَامَةٌ,تغير مفاجئ في الفلطية (أو التيار) لحدوث تفريغ كهربائي في الدائرة,see one's performance improve
+i3616,s,grave,dangerous|grave|grievous|serious|severe,قَبْرٌ|ضَرِيحٌ|لَحْدٌ|رَمْسٌ|مَرْقَدٌ|مَدْفِنٌ,موضع دفن الإنسان بعد مفارقته للحياة,causing fear or anxiety by threatening great harm
+i93627,n,therapist,therapist|healer,مُعالِجٌ|مُدَاوٍ|آسٍ|طَبْيبٌ,الشخص الذي يساعد الأفراد على التخلص من المرض أو العجزالجسدي أو النفسي,a person skilled in a particular type of therapy
+i5206,s,satellite,satellite,قَمَرٌ|تَابِعٌ1,جرم سماوي يدور حول كوكب آخر، لا يشمل ذلك الكواكب التي تدور حول شُمُوس,surrounding and dominated by a central authority or power
+i24605,v,drift,drift,سَفِينٌ|سَانِدَةٌ|خَابُورٌ|إِزْمِيلٌ|إِسْفِينٌ|دِسَارٌ|وَتَدٌ|وَتِدٌ,قطعة مسطّحة مستدقة أو شبه مخروطية مسلوبة من الصلب تستخدم لنزع جذع المثقب أو عدد القطع المستدقة من مو,be piled up in banks or heaps by the force of wind or a current
+i53679,n,fighter aircraft,fighter|fighter aircraft|attack aircraft,طائرة مقاتلة,طائرة حربية مصممة أساساً لتحطيم طائرات أخرى في الجو وتتميز بسرعة المنأورة وهي صغيرة نسبياً,a high-speed military or naval airplane designed to destroy enemy aircraft in the air
+i57214,n,photographic paper,photographic paper|photographic material,ورق فوتغرافي,ورق مغطى بمادة حساسة للضوء كأملاح الفضة أو أملاح الحديد وسيانيد، ويعرف أيضا باسم الورق الحساس.,light-sensitive paper on which photograph can be printed
+i99677,n,mustard oil,mustard oil,زيت الخردل,سائل دهني يستخلص من بذور الخردل، يحتوى على أليل ثيوسيانات وأليل ثيوكارباميد يتميز برائحته النفاذة وط,oil obtained from mustard seeds and used in making soap
+i115665,n,magnetite,magnetite|magnetic iron-ore,مَغْنِيتِيت|مَغْنِتَيْت,مادة حديدية صلبة ذات شكل معين لها قطبان وتجذب نوع خاص من المواد وتولد مجالاً في محيطها,an oxide of iron that is strongly attracted by magnets
+i98753,n,haustorium,haustorium,مَثْعَبٌ|مِمَصٌّ|سَحَّارَةٌ,فرع متخصص من الخيط الفُطْرى المتطفل، يتغلغل داخل الخلايا الحية للعائل ويمتص منها الغذاء، وهناك مَمَص,a root-like attachment in parasitic plants that penetrates and obtains food from the host
+i116610,n,zirconium oxide,zirconium oxide|zirconia|zirconium dioxide,زركونيا|أكسيد الزركونيوم,مسحوق أبيض متبلور له صفة قابضة ولم يعد يستعمل في الطب,a white crystalline oxide; used in refractories and in insulation and abrasives and enamels and glaz
+i63104,n,aquamarine,greenish blue|aqua|aquamarine|turquoise|cobalt blue,أكوامارين|الزمرد الأزرق,ضرب من مجموعة معادن الزمرد،  لونه مائل إلى الزرقة وتركيبه الكيميائي سليكات الألومنيوم والبريليوم،  و,a shade of blue tinged with green
+i113896,n,astatine,astatine|At|atomic number 85,استاسين|ألابامين,عنصر كيمأوي نادر رمزه (ستا)،,a highly unstable radioactive element (the heaviest of the halogen series); a decay product of urani
+i29936,v,mint,mint|coin|strike,نَعْنَاعٌ,نبات بري عطري من الفصيلة الشفوية له رائحة نفاذة يستخدم طازجاً أو جافاً ويحضر به الشاي,"form by stamping, punching, or printing"
+i111247,n,whooping cough,whooping cough|pertussis,شَهْقَةٌ|شُهَاقٌ,مرض معد ينتشر بين الأطفال يبدأ بصعوبة في التنفس وينتقل بعد ذلك إلى مرحلة التنفس السريع والحاجة إلى ا,a disease of the respiratory mucous membrane
+i56303,n,mixer,mixer,خَلَّاطٌ,جهاز يستعمل في مزج المواد بعضها ببعض بطريقة جيدة .,electronic equipment that mixes two or more input signals to give a single output signal
+i62913,n,viscosity,viscosity|viscousness,لُزُوجَةٌ,تماسك أجزاء المادة لسائلة بعضها ببعض بشكل يمنع من سلاستها بحيث تصبح بطيئة وصعبة الانزلاق على الأسطح,resistance of a liquid to shear forces (and hence to flow)
+i115754,n,natural gas,natural gas|gas,غاز طبيعي,خليط قابل للاشتعال من المركبات الهيدروكربونيَّة أكثره من الميثان يوجد في الطبيعة في فجوات الصُّخور ا,a fossil fuel in the gaseous state; used for cooking and heating homes
+i13554,s,cartilaginous,cartilaginous|gristly|rubbery,غُضْرُوفِيٌّ,صفة لن,difficult to chew
+i109366,n,secant,secant|sec,قَاطِعٌ|فَاصِلٌ|باتِرٌ|حادٌّ|عَائِقٌ|حَاجِزٌ|حَدٌّ1|حَاسِمٌ|مَاضٍ|الْمَاضِي|نَافِذٌ1,مَعكُوس جَيب التَمام,ratio of the hypotenuse to the adjacent side of a right-angled triangle
+i18159,r,ce,CE|C.E.|Common Era,سر,الرمز الكيمأوي للسيريوم,of the period coinciding with the Christian era; preferred by some writers who are not Christians
+i112690,n,dysphonia,dysphonia,بحة الصوت,اضطراب وخشونة في الصوت يتميز بإخراج الأصوات من الحنجرة بشكل غير واضح بسبب مرض أو تهتك في الأوتار الص,speech disorder attributable to a disorder of phonation
+i56722,n,oil tanker,oil tanker|oiler|tanker|tank ship,ناقلة زيت|ناقلة نفط|ناقِلةُ زيت,سفينة كبيرة بها خزانات ضخمة تنقل خام النفط من حقوله إلى حيث يكرر ويصنع.,a cargo ship designed to carry crude oil in bulk
+i68770,n,climatology,climatology,علم المناخ,العلم الذي يبحث في دراسة المناخ فوق منطقة معلومة خلال مدّة معينة، كما يبحث في العناصر الجوية لهذا ال,meteorology of climates and their phenomena
+i57555,n,porcelain,porcelain,بُورْسُلِينٌ,خزف صلد أبيض نصف شفاف يصنع بتسخين خليط من الكأولين والرمل وبعض الإضافات الأخرى إلى درجة الانصهار.,ceramic ware made of a more or less translucent ceramic
+i38683,n,fifo,first in first out|FIFO,الوارد أولا يخرج أولا|الوارد أولاً يخرج أولاً|اختبار الانعكاس في الُمُعامِل,أسلوب محاسبي لتسجيل المخزونات في الأعمال التجارية. وتعرف هذه الطريقة بطريقة الوارد أولا يخرج أولا. و,inventory accounting in which the oldest items (those first acquired) are assumed to be the first so
+i68546,n,oncology,oncology,علم الأورام|مبحث الأورام,علم يبحث في انقسام وتزايد الخلايا بشكل مرضي وكيفية التعامل معها وعلاجها,the branch of medicine concerned with the study and treatment of tumors
+i52236,n,compressor,compressor,ضَاغِطٌ,جهاز يُنقص ميكانيكيا حجم غاز أو بخاره بزيادة القوة المبذولة عمودياً على وحدة المساحة,a mechanical device that compresses gasses
+i36019,n,projection,expulsion|projection|ejection|forcing out,عَرْضٌ1|إِسْقَاطٌ,وصف في التحليل النفسي ،  أسلوب من أساليب الدفاع عن النفس وتبرير تصرفاتها ،  ويتلخص في ميل الشخص إلى ,the act of expelling or projecting or ejecting
+i27508,v,scavenge,scavenge,كَسَحَ|كَسَحَ من,أزالَ الغازاتِ المحترقةَ من أُسطوانة المُحرْك,feed on carrion or refuse
+i61779,n,faintness,dimness|faintness,غَثَيَانٌ|إِغْمَاءٌ,حالة عضوية تتميز بالدوار أو الضعف العضلي، و فقدان جزئي للوعي.,the quality of being dim or lacking contrast
+i15362,a,fossil,fossil,حَفْرِيَّةٌ|أَحَافِيرُ,أثر و بقايا النبات أو الحيوان منذ آلاف السنين بعضها أوراق أو حجارة وغيرها، وغالبا ما تأخذ الاحفورة ش,characteristic of a fossil
+i115932,n,plaster of paris,plaster of Paris|plaster,جِبْسٌ|جَصٌّ|جِصٌّ|مِلَاطٌ,كبريتات الكالسيوم التي تحتوي جزيئاتها على نصف جزيء من الماء، وتحضر بتسخين الجبس، وهي مادة سريعة الشك,any of several gypsum cements; a white powder (a form of calcium sulphate) that forms a paste when m
+i27839,v,rocket,rocket,صَارُوخٌ|قَذِيفَةٌ|مَقْذُوفٌ,مقذوف يدفع بقوة بالنفث نتيجة لاحتراق دوافع جامدة أو سائلة ويحمل داخله الوقود والمؤكسد ويصل الى مسافا,propel with a rocket
+i23507,v,axe,ax|axe,فَأْسٌ|مِعْوَلٌ|مِنْكَاشٌ|بَلْطَةٌ|مِخَدَّةٌ|مَخَدَّةٌ,أداة من الصلب حدها إسفيني ذات يد خشبية طويلة نسبيا،  تستخدم لقطع الأشجار والأخشاب.,terminate
+i116468,n,pitchblende,uraninite|pitchblende,يُورُانِينَيْتٌ|بِتْشْبْلِنْدٌ,معدن يتكون في أساسه من ثاني أكسيد اليورانيوم (,a mineral consisting of uranium oxide and trace amounts of radium and thorium and polonium and lead 
+i98138,n,torsion,torsion|torque,لَيٌّ|تَوَتُّرٌ,حالة تصيب الصخر عند تعرضه لازدواجين حول محور التفاف واحد ولكن في اتجاهين متعاكسين,a twisting force
+i59676,n,reinforcement,strengthener|reinforcement,مُعَزِّزٌ|تَعْزِيزٌ,صفة الحدث أو المكافئة التي تزيد من احتمال حدوث السلوك وتكراره في المستقبل.,a device designed to provide additional strength
+i2439,s,liquid,liquid|limpid,سَائِلٌ 2|رَخْوٌ|رُخْوٌ|رِخْوٌ|مَائِعٌ,حالة المادة بين الصلابة والغازية يتغير شكلها تبعا للوعاء الحأوي لها، ولكن لا يتغير حجمها.,clear and bright
+i41007,n,retardation,slowdown|lag|retardation,تَباطَأَ|تَباطَأَ في|تَقاصَرَ|تَقاصَرَ عن|تَقَاصُرٌ,عملية نَقص السرعة في وحدة الزمن,the act of slowing down or falling behind
+i114021,n,wolfram,tungsten|wolfram|W|atomic number 74,وُلْفْرَامْيُومٌ|وُلَفْرامٌ,عنصر فلزي فضي اللون عدده الذري 74 ووزنه الذري 183، 85 ينصهر عند 3370م يوجد في خامات الولفراميت وخامة,a heavy grey-white metallic element; the pure form is used mainly in electrical applications; it is 
+i9817,s,floral,floral|flowered,زَهْرِيٌّ,صفة لما يتعلق بالزهرة أو بالفلورة.,resembling or made of or suggestive of flowers
+i4151,s,elementary,elementary|simple|uncomplicated|unproblematic,سُلَالِيٌّ|عُنصُريٌّ|عِرْقيٌّ,خاص بعنصرٍ أو بعَناصر كيمأوية,easy and not involved or complicated
+i25373,v,plant,plant|implant,مَعْمَلٌ,موقع عمل مخصّص لصناعة أو صيانة السّلع والبضائع ونحوهما من منتجات ماديّة,put firmly in the mind
+i35834,n,straddle,straddle,اِنْفَرَجَ,شقّ ما بين الشيئين,the option to buy or sell a given stock (or stock index or commodity future) at a given price before
+i27991,v,asphalt,asphalt,قِيرٌ|قَارٌ|زِفْتٌ|قَطْرَانٌ|قَطِرَانٌ|قِطْرَانٌ|أَسْفَلْتٌ,مادة مكوّنة من البتيومين وبعض المواد المعدنية. لونها أسود أو بني،  طرية غالباَ وتجف عند تعرضها للهوا,cover with tar or asphalt
+i85127,n,brook,brook|creek,نُهَيْرٌ|نَهْرٌ|جَدْوَلٌ,رافد صغير من الماء الجاري.,a natural stream of water smaller than a river (and often a tributary of a river)
+i85538,n,hot spring,hot spring|thermal spring,حَمَّةٌ,مسطح مائي ذو مياه دافئة عذبة ومتدفقة,a natural spring of water at a temperature of 70 F or above
+i67661,n,parameter,parameter|parametric quantity,بَارَامِتِرْ|مِقْيَاسٌ|مِعْيَارٌ,مِقدارٌ مُتغيِّر القيمة تتعين قيمته بالرجوع لنقطة أو دالة محددة,a constant in the equation of a curve that can be varied to yield a family of similar curves
+i51477,n,housing,caparison|trapping|housing,مَنْزِلٌ,مأوى الإنسان، ينزل ويحل فيه لفترة طويلة كانت أم قصيرة,"stable gear consisting of a decorated covering for a horse, especially (formerly) for a warhorse"
+i36646,n,regression,regression|regress|reversion|retrogression|retroversion,اِنْحِسَارٌ|جَزْرٌ|تَرَاجُعٌ,ارتداد البحر عن ا اليابسة التي كان قد غطاها,returning to a former state
+i114791,n,graphite,graphite|black lead|plumbago,بْلَمْبَاجُو|جِرَافِيتٌ,شكل من أشكال عنصر الكربون، وهو أسود ناعم الملمس، قشري، يستعمل في صناعة جفنات مقأومة للحرارة وأقلام ا,used as a lubricant and as a moderator in nuclear reactors
+i50333,n,backhoe,backhoe,جرافة عكسية|حفارة خلفية,حفارة ميكانيكية مزودة بذراع مفصلية مثبت بها قادوس يسحب باتجاه المكنة أثناء التشغيل.,an excavator whose shovel bucket is attached to a hinged boom and is drawn backward to move earth
+i107297,n,acidification,acidification,تَحَمُّضٌ|تَحْمِيضٌ,عملية إضافة لأحد الأحماض إلى المحلول لرفع درجة تركيز أيون الهيدروجين لهذا المحلول.,the process of becoming acid or being converted into an acid
+i39761,n,toilet,toilet|toilette,مِرْحَاضٌ,منشط مخصص لقضاء الحاجة,the act of dressing and preparing yourself
+i36723,n,abreaction,catharsis|katharsis|abreaction,تَنْفِيسٌ|تَصْرِيفٌ,إيجاد مخرج للتخفيف من ضغط شيء ما,(psychoanalysis) purging of emotional tensions
+i1662,s,hoarse,gruff|hoarse|husky,بحة في الصوت|صوت أحبش,اضطراب صوتي مثير للإزعاج يتميز بالخشونة والغلاظة نتيجة مسبب عارض كمرض أو داء مزمن وغيره. ويتميز بإطل,deep and harsh sounding as if from shouting or illness or emotion
+i85028,n,atoll,atoll,أَتُول,جزر,an island consisting of a circular coral reef surrounding a lagoon
+i113910,n,cadmium,cadmium|Cd|atomic number 48,كد,الرمز الكيمأوي للكادميوم,a soft bluish-white ductile malleable toxic bivalent metallic element; occurs in association with zi
+i12008,s,3,three|3|iii,ثَلاثَةٌ,عَدَد طَبيعي أَوّلِي يَدُلُّ عَلى قيمَة مَجْموع اثْنَيْن وَواحِد، وَهُوَ أَصْغَر مِن العَدَد أَربَعَ,being one more than two
+i659,a,terrestrial,terrestrial,تُرَابِيٌّ|بَرِّيٌّ|أَرْضيٌّ,وصف لكل ما ينسب إلى اليابسة أو ما يخرج منها,operating or living or growing on land
+i66702,n,mores,mores,عادات المجتمع|اعراف المجتمع,الممارسات والطقوس والقواعد الخاصة التي تتميز بها الشعوب عن بعضها البعض في جميع مناحي الحياة,(sociology) the conventions that embody the fundamental values of a group
+i108993,n,calorie,Calorie|kilogram calorie|kilocalorie|large calorie|nutritionist's calorie,كَالُورِي|سُعْرٌ1,وحدة قياس الطاقة الحرارية في النظام المتري – وتسأوي كمية الحرارة اللازمة لرفع درجة حرارة جرام واحد م,a unit of heat equal to the amount of heat required to raise the temperature of one kilogram of wate
+i3245,a,constant,constant,ثَابِتٌ,المحافظ على شكله تحت أي ظرف ولا يتفكك تركيبه,steadfast in purpose or devotion or affection
+i55461,n,lab,lab|laboratory|research lab|research laboratory|science lab,مَخْبَرٌ|مُخْتَبَرٌ|مَعْمَلٌ,معمل تُجرَى فيه التحليلات الكيماوية أو الاختبارات العلمية وغيرها ويكون مُجَهَّزَاً بِآلاَتٍ دَقِيقَة,a workplace for the conduct of scientific research
+i49938,n,alligator wrench,alligator wrench,مفتاح ربط تمساحي|غراب,مفتاح ربط ذو فكين يشكلان حرف,a wrench with a v-shaped jaw and serrations on one side (resembles the open jaws of an alligator)
+i55013,n,hygrometer,hygrometer,هَيجْرُومِتِرٌ|مِرْطابٌ,جهاز يقيس مدى تشبع الهواء ببخار الماء,measuring instrument for measuring the relative humidity of the atmosphere
+i61105,n,whetstone,whetstone,حَجَر التّجلِيخ|حَجَر الشَّحذ|حَجَر الصَّقِل|حجر الشحذ,قطعة خاصة صلبة تستخدم لحك الأسطح لتنعيمها وتلميعها أو جعلها حادة,a flat stone for sharpening edged tools or knives
+i111524,n,pellagra,pellagra|Alpine scurvy|mal de la rosa|mal rosso|maidism,بلاغرا|حصاب|الجرب اليابس,مرض ناتج عن سوء التغذية نتيجة فقدان مادة النياسين ومن أعراضه التهاب الجلد والاغشية المخاطية واضطرابا,a disease caused by deficiency of niacin or tryptophan (or by a defect in the metabolic conversion o
+i116359,n,tannin,tannin|tannic acid,تَنِّينٌ,,any of various complex phenolic substances of plant origin; used in tanning and in medicine
+i59290,n,spectrophotometer,spectrophotometer,فوتومتر طيفي|اسبكتروفوتومتر|مقياس الضوء الطيفي,جهاز بصري لدراسة كثافات الألوان المتناظرة للأطياف ومقارنتها بعضها ببعض .,a photometer for comparing two light radiations wavelength by wavelength
+i64517,n,macula,macule|macula,لَطْخَةٌ|بُقْعَةٌ2,مساحة صغيرة من سطح يخالف لونها لون بقية أجزائه.,a patch of skin that is discolored but not usually elevated; caused by various diseases
+i92328,n,psychopath,sociopath|psychopath,مضطرب عقليا|اضطراب عقلي|سيكو باتي,حالة من عدم الاتزان واضطراب الشخصية بالإضافة لخلل في السلوك والمشاعر الظاهرة تجعل الشخص صعب الفهم وم,someone with a sociopathic personality; a person with an antisocial personality disorder (‘psychopat
+i115868,n,petroleum,petroleum|crude oil|crude|rock oil|fossil oil,نَفْتَا|زَيْتٌ|نَفْطٌ2|نِفْطٌ|بَتْرُولٌ|بِتْرُولٌ,مادة هيدروكربونية معقدة تنتج من المواد العضوية والكائنات الحية الميتة التي دفنت تحت الأرض وتحولت إلى,a dark oil consisting mainly of hydrocarbons
+i22061,v,twin,twin,تَوْأَمٌ,بلورة تبدو كأنها تكونت من بلورتين أو عدة بلورات كلها من طائفة واحدة ومماثلة وتتوازى توازيا غير تام، ,give birth to twins
+i115620,n,limonite,limonite,لَيْمُونِيْتٌ,,a widely occurring iron oxide ore; a mixture of goethite and hematite and lepidocrocite
+i50299,n,awl,awl,سُنْبُكٌ|مِثْقَابٌ|مِثْقَبٌ|مِخْرَمَةٌ|خَرَّامَةٌ|مِخْرَازٌ,أداة تستخدم لصنع فتحات نافذة في الورق أو غيره من المواد,a pointed tool for marking surfaces or for punching small holes
+i64860,n,soft palate,soft palate|velum,الشق الحلقي|سقف الحلق الرخو|شق الحلق,تجويف أو فتحة في سقف الفم، بحيث قد توجد في سقف الحلق الصلب (الحنك) أو في سقف الحلق الرخو أو كليهما ك,a muscular flap that closes off the nasopharynx during swallowing or speaking
+i63629,n,inclination,tilt|list|inclination|lean|leaning,مَيْلٌ,الزأوية الواقعة بين اتجاه شدة المجال المغنطيسي للأرض في مكان مّا وبين مستوى الأفق في ذلك المكان.,the property possessed by a line or surface that departs from the vertical
+i105845,n,branchlet,branchlet|twig|sprig,فُرَيْعٌ|عُسْلُوجٌ|غُصَيْنٌ,الفرع الصغير من ساق النبات.,a small branch or division of a branch (especially a terminal division); usually applied to branches
+i7254,s,conglomerate,conglomerate,رَصيصٌ,صخر رسوبي يتكون من حطام صخور قديمة في هيئة حصى مستدير مدملق متراص رصا محكما في محيط من مادة رسوبية ل,composed of heterogeneous elements gathered into a mass
+i68781,n,mineralogy,mineralogy,عِدَانَةٌ,العلم الذي يدرس خصائص وصفات المعادن حيث يهتم بتركيبها الكيميائي والبلوري,the branch of geology that studies minerals: their structure and properties and the ways of distingu
+i116546,n,white lead,white lead|ceruse|lead carbonate,اِسْفِيدَاجٌ|إسبيداجٌ,كربونات الرصاص القاعدية وهو مادة بيضاء تستخدم في عملية الطلاء,a poisonous white pigment that contains lead
+i51226,n,bulb,bulb,بَصَلَةٌ,جزء أرضي من النبات يتكون من ساق قرصية تحمل حراشيف لحمية بها مواد غذائية مختزنة وتخرج من تلك الساق جذ,a rounded part of a cylindrical instrument (usually at one end)
+i39073,n,sterilisation,sterilization|sterilisation,تَعْقيمٌ,إبادة البكتريا والكائنات الدقيقة الأخرى، ويتم ذلك عادة باستعمال الحرارة أو الأشعة فوق البنفسجية أو م,the act of making an organism barren or infertile (unable to reproduce)
+i66019,n,appendix,appendix|vermiform appendix|vermiform process|cecal appendage,زَائِدَةٌ|لَاحِقَةٌ|مُلْحَقٌ2,العضو أو الجزء منه المتصل بمحور، كورقة النبات بالنسبة إلى الساق، أو الأطراف بالنسبة إلى الجسم.,a vestigial process that extends from the lower end of the cecum and that resembles a small pouch
+i60782,n,variometer,variometer,فاريومتر|مقياس التغير|مِقياس التغيِّر,جهاز ذو مقياس يستخدم فيه الحث المتغير ويقاس به مقدار تغيره,a measuring instrument for measuring variations in a magnetic field
+i114902,n,lignite,lignite|brown coal|wood coal,فحم خشبي|فحم لجنيتى|لجنيت,فحم له مظهر الخشب، ويتكون في المرحلة التالية للحث، وهو يحوى من الكربون نسبة أعلى، وقد يكون لونه بنيا,intermediate between peat and bituminous coal
+i21946,v,wash,wash,كسح,جرف الرسوبيات إلى خارج الموقع الذي تكونت فيه.,to cleanse (itself or another animal) by licking
+i9768,s,moral,moral,خُلُقِيٌّ|أَخْلَاقِيٌّ|أَدَبيٌّ|مَعْنَويٌّ,كل ما له صله بالأخلاق كالضمير أو العمل أو الحكم الأخلاقي ،  ويقابل اللاأخلاقي.,psychological rather than physical or tangible in effect
+i29837,v,metallize,metalize|metallize,مَعْدَنَ,طلي أو أشْرب بالمعدن,coat with metal
+i75423,n,adjustment,adjustment|accommodation|fitting,اِنْتِظامٌ|تَجانُسٌ|تَوَافُقٌ|اتِّسَاقٌ,تلاؤم الكائن الحي مع بيئة، إما بتغيير سلوكه أو بتغيير بيئته أو بتغييرهما معا.,making or becoming suitable; adjusting to circumstances
+i52288,n,constitution,USS Constitution|Constitution|Old Ironsides,قِوَامٌ|بِنْيَةٌ|تَكْوِينٌ|تَرْكِيبٌ,كيان الشيء أو مجموع صفاته من حيث علاقة بعض هذه الصفات ببعض.,a United States 44-gun frigate that was one of the first three naval ships built by the United State
+i113713,n,plexiglas,Plexiglas|plexiglass,بُولِيثِينٌ|بُولْيَثِيلِينٌ,ضَربٌ من البلاستيك,a light transparent weather resistant thermoplastic
+i113751,n,dimethyl ketone,acetone|propanone|dimethyl ketone,أَسِيتُونٌ,مركب عضوي يتكون من الكربون والإيدروجين والأكسجين،  صيغته الكيميائية (ك3 يد6 أ) (C3 H6 O) وهو سائل عد,the simplest ketone; a highly flammable liquid widely used as an organic solvent and as material for
+i81763,n,headwater,headwater,أعالي النهر|مَنابعُ النهر,الأحباس العليا للنهر قرب منبعه.,the source of a river
+i75780,n,warping,warp|warping,تَحْدِيبٌ|اِحْديدابٌ,ارتفاع طفيف في القشرة الأرضية يقصر عن أحداث طيات أو ملخ في الطبقات.,a moral or mental distortion
+i68764,n,geomorphology,morphology|geomorphology,جِيُومُورْفُولُوجْيَا,علم يبحث فيه عن الأرض من حيث تضاريسها كالمرتفعات والمنخفضات وغيرها، وعلاقاتها بجيولوجيتها.,the branch of geology that studies the characteristics and configuration and evolution of rocks and 
+i68766,n,stratigraphy,stratigraphy,علم طبقات الأرض|الاستراتجرافيا,علم يختص بدراسة طبقات الأرض وعلاقة بعضها ببعض من حيث الوضع والعمر والتركيب الحجري والمحتوى الحفري وغ,the branch of geology that studies the arrangement and succession of strata
+i78285,n,vinegar,vinegar|acetum,خَلٌّ,سائل يحتوي على نسبة 5% تقريبا من حمض الخليك يحضر بالأكسدة الانزيمية لعصائر الفواكه المخمرة ويستعمل ت,sour-tasting liquid produced usually by oxidation of the alcohol in wine or cider and used as a cond
+i81088,n,ecosystem,ecosystem,النظام البيئي|االبيئي|الأنموذج البيئي,مجموعة مؤتلفة من جميع القوى الموجودة في بيئة أو في حقل معين، كما في ( النظام البيئي العائلي) ومن الم,a system formed by the interaction of a community of organisms with their physical environment
+i107532,n,electrodeposition,electrodeposition,ترسيب إلكتروليتي|ترسيب كهربائي,ترسيب مادة ما على إلكترود بإمرار تيار كهربائي خلال محلول إلكتروليتي.,the deposition of a substance on an electrode by the action of electricity (especially by electrolys
+i25660,v,bar,bar|debar|exclude,بَارٌ2,وحدة لقياس الضغط تعادل مليون داين على السنتمتر المربع,prevent from entering; keep out
+i23465,v,bud,bud,بُرْعُمَةٌ|بُرْعُمٌ,تركيب يبرز من ساق النبات يمثل بداءة فرع جديد أو زهرة، يتكون من أوراق حديثة تحيط بقمة نامية. ومنه ما ,start to grow or develop
+i52559,n,crucible,crucible|melting pot,بَوْتَقَةٌ|بُوتَقَةٌ|بُودَقَةٌ,وعاء تصهر فيه المعادن وغيرها، ويصنع من مادة حرارية ذات درجة حرارة انصهار عالية.,a vessel made of material that does not melt easily; used for high temperature chemical reactions
+i35621,n,placement,placement,تَخْدِيمٌ|اِسْتِخْدَامٌ|تَعْيِينٌ|تَوْظِيفٌ,تحديد العمل للفرد في احد الأجهزة بحيث يكون مناسبا لتحقيق غرض معين ويستخدم الأخصائيون هذا الاصطلاح بم,contact established between applicants and prospective employees
+i76376,n,boredom,boredom|ennui|tedium,مَلَلٌ,حالة نفسية يشعر معها الفرد بالضيق بشيء ما والميل إلى الانصراف عنه.,the feeling of being bored by something tedious
+i2225,a,saturated,saturated|pure,مُشْبَعٌ,صفة للمحلول الذي وصل تركيزه إلى أقصى حد ممكن، ولا يمكن أن يذيب أكثر مما به من مذاب.,(of color) being chromatically pure; not diluted with white or grey or black
+i107843,n,photochemical reaction,photochemical reaction,تفاعل كيميائي ضوئي,تفاعل كيميائي يحدث في الضوء أو تفاعل يزيد معدله عند تعريضه للضوء .,a chemical reaction produced by the action of light
+i8631,s,factitious,factitious,صُنْعِيٌّ|اصْطِنَاعِيٌّ,وصف لما هو غير طبيعي ومصنع للمشابهة للطبيعي أو الأصلي.,not produced by natural forces
+i16889,a,polish,Polish,مادة تلميع|مادة صقل|مادة صَقْل,مادة تستعمل في تنظيف الأسطح وزيادة لمعانها.,of or relating to Poland or its people or culture
+i111216,n,meningitis,meningitis,التهاب السحايا|التهاب سحائي,مرض يتسبب من الفيروس أو البكتيريا ويحدث التهاب بالأعضاء المحيطة بالمخ أو النخاع والحبل الشوكي أو كلي,infectious disease characterized by inflammation of the meninges (the tissues that surround the brai
+i10360,s,preservative,preservative,مادة حافظة|مادة حافِظةٌ|مادة مانِعةٌ للفَساد,مادة تساعد على منع تحلل المواد العضوية أو تلفها، ومن أمثلتها بعض البنزوات والسلسلات والفلوريدات.,tending or having the power to preserve
+i60993,n,water glass,water clock|clepsydra|water glass,سلِيكات الصوديوم|الزجاج المائي|الزُّجاج المائي,سليكات الصوديوم المائية توجد على هيئة سائل شفاف غليظ القوام تستعمل في صناعة الورق والنسيج والطلاء وغ,clock that measures time by the escape of water
+i60842,n,vibrator,vibrator,هَزَّازٌ,جهاز معملى هزاز يستعمل في فصل المساحيق إلى جسيمات مختلفة الأوزان,mechanical device that produces vibratory motion; used for massage
+i12009,s,4,four|4|iv,أَرْبَعَةٌ,عَدَد طَبيعي مُرَكّب يَدُلّ عَلى قِيمَة مَجْموع ثَلاثَة وَواحِد، وَهُوَ أَصْغَر مِن العَدَد خَمْسَة,being one more than three
+i112675,n,schizophrenia,schizophrenia|schizophrenic disorder|schizophrenic psychosis|dementia praecox,اِنْفِصَامٌ|فِصامٌ,مرض عقلي مظهره اضطرابات في موقف الشخص إزاء الواقع، وانفصال بين النواحي العقلية من الشخصية والوجدانية,any of several psychotic disorders characterized by distortions of reality and disturbances of thoug
+i37285,n,exhaustion,exhaustion,نَهَكٌ,حالة قصوى من التعب تتوقف عندها القدرة على الاستجابة للتنبيه.,the act of exhausting something entirely
+i28511,v,mortar,mortar,هَاوَنٌ|هَاوُنٌ|هَاوُونٌ,إناء مستدير القاع يصنع عادة من النحاس أو الحديد أو الزجاج أو الرخام أو غيرها، يستعمل في سحق المواد.,plaster with mortar
+i68671,n,physics,physics|physical science,فِيزِيقَا,علم ينصب على دراسة الظواهر الطبيعية ،  وهو في التاريخ القديم والمتوسط ولدى بعض المحدثين أحد أقسام ال,"the physical properties, phenomena, and laws of something"
+i114625,n,mineral wool,mineral wool|rock wool,صوف معدني,كتلة متشابكة من الخيوط تنتج عند التبريد المفاجئ لمصهور الخبث، ويستعمل الصوف المعدني في عمليات العزل ,a light fibrous material used as an insulator
+i40318,n,decantation,decantation,صَفْقٌ,سكب السائل الصافي من إناء فتتخلف الرواسب أو السوائل الأخرى في قاع الإناء.,the act of gently pouring off a clear liquor (as from its original bottle) without disturbing the le
+i21870,v,entrance,entrance|spellbind,مَنْفَذٌ|مَدْخَلٌ,مسلك يشكل المكان الذي يدخل منه لمكان آخر,put into a trance
+i65284,n,pancreas,pancreas,بَنْكِرْيَاسٌ,,a large elongated exocrine gland located behind the stomach; secretes pancreatic juice and insulin
+i65770,n,pineal gland,pineal gland|pineal body|epiphysis cerebri|epiphysis,غدّة صَنَوبَرية,,a small endocrine gland in the brain; situated beneath the back part of the corpus callosum; secrete
+i31490,v,route,route,طَرِيقٌ|سَبِيلٌ,منشط مخصص بهدف الانتقال من نقطة تواجد مكانية لأخرى,divert in a specified direction
+i59901,n,temple,synagogue|temple|tabernacle,هَيْكَلٌ,معبد يقيم فيه اليهودُ الشعائر الدينية يشيدونه ليكون البيتُ الضخمُ المقدَّسُ لهم,(Judaism) the place of worship for a Jewish congregation
+i59603,n,stock exchange,stock exchange|stock market|securities market,بُورْصَةٌ,متجر مَالِيَّ يَجْتَمِعُ فِيهَا وُكَلاَءُ الشَّرِكَاتِ الكُبْرَى والتُّجَّارُ وَعُمَلاَءُ الْمَصَارِ,an exchange where security trading is conducted by professional stockbrokers
+i57445,n,shopping center,plaza|mall|center|shopping mall|shopping center,مُول,متجر ضخم يضم العديد من المحال التجارية الضخمة في بقعة مكانية واحدة,mercantile establishment consisting of a carefully landscaped complex of shops representing leading 
+i33095,v,shelter,shelter,مَلْجَأٌ|مَأْوَىً,منشط مخصص لإيواء المحتاجين أو الأشخاص الهاربون من تحدي أو خطر ما,invest (money) so that it is not taxable
+i27139,v,master,overcome|get over|subdue|surmount|master,مَدْرَسٌ,صرح ممثل بمساحة أو مكان تمارس فيه عملية التعليم والدراسة,get on top of; deal with successfully
+i36585,n,butchery,slaughter|massacre|mass murder|carnage|butchery,مَسْلَخٌ|مَذْبَحٌ|مَجْزَرٌ,منشط خصص لذبح وسلخ البهائم,the savage and excessive killing of many people
+i28189,v,cabin,cabin,قَمَرَةٌ|كُوخٌ,,"confine to a small space, such as a cabin"
+i85934,n,pacific ocean,Pacific|Pacific Ocean,المحيط الهادي,محيط، هو الأكبر والأعمق بين المحيطات الخمسة، يغطي ثلث سطح الأرض، تصل مياهه جميع القارات ماعدا قارتي ,the largest ocean in the world
+i34199,v,cage,cage|cage in,قَفَصٌ,مأوي الطائر الذي يحبس فيه ويكون على شكل صندوق مصنوع من اعمدة متشابكة,confine in a cage
+i58453,n,sarcophagus,sarcophagus,نَاوُوسٌ,مقبرة الموتى عند النصارى,a stone coffin (usually bearing sculpture or inscriptions)
+i58945,n,silo,silo,صَوْمَعَةٌ,مجمع مخصص لتحفظ يه الحبوب لمدة من الزمن,a cylindrical tower used for storing silage
+i55573,n,laundry,laundry,مَغْسَلَةٌ,منشط مخصص لتنظيف الاشياء من الاوساخ والعوالق,workplace where clothes are washed and ironed
+i112853,n,princedom,princedom,إِمَارَةٌ,دولة نظام الحكم فيها وراثيا كالنظام الملكي ويحكمها أمير,the dignity or rank or position of a prince
+i24348,v,camp,camp,مُخَيَّمٌ,منزل اللاجئين المشردين من بيوتهم,give an artificially banal or sexual quality to
+i55652,n,library,library,مَكْتَبَةٌ,ملتقى مخصص لدراسة او اعارة بعض المطبوعات والمخطوطات بأنواعها المتعددة,a building that houses a collection of books and other materials
+i34938,v,tent,camp|encamp|camp out|bivouac|tent,خَيْمَةٌ,منزل مؤقت، مصنوع من الوبر أَو الشعر أَو الصوف أو نحوه، يقام على أَعْوَاد ويشد بأطناب,live in or as if in a tent
+i28625,v,birdnest,birdnest|bird-nest,وَكْرٌ|عُشٌّ|وَكْنٌ,مأوي الطائر، يصنعه من قش واعواد ونحوه، ليبيض ويُفرخ فيه,gather birdnests
+i12010,s,5,five|5|v,خَمْسٌ1|خَمْسَةٌ,عَدَد طَبيعي أَوّلي يَدُلُّ عَلى قِيمَة مَجْموع أَرْبَعَة وَواحِد، وَهُوَ أَصْغَر مِنْ العَدَد سِتَّ,being one more than four
+i37798,n,land,farming|land,وَطَنٌ|بَلَدٌ|دَوْلَةٌ,منطقة جيوسياسية لها حُدُود معروفة وشَعْب وفيها حُكُومَة ومُؤسَّسَات مُنَظَّمَة، ولها شخصية اعتبارية ,agriculture considered as an occupation or way of life
+i83501,n,egypt,Egyptian Empire|Egypt,مِصْرُ2,دولة معروفة في أقصى شمال شرق إفريقية يخترقها نهر النيل سميت بذلك منذ زمن بعيد,an ancient empire to the west of Israel; centered on the Nile River and ruled by a Pharaoh; figured 
+i12011,s,6,six|6|vi|half dozen|half-dozen,سِتَّةٌ,عَدَد طَبيعي مُرَكَّبْ يَدُلُّ عَلى قِيمَة مَجْموع خَمْسَة وَواحِد، وَهُوَ أَصْغَر مِنْ العَدَد سَبْ,being one more than five
+i56337,n,monastery,monastery,دَيْرٌ,معبد لدى النصارى واليهود للعبادة والتأمل، يتميز بوجود رهبان أو راهبات أو نساك يقطنون به ويعتنون به.,the residence of a religious community
+i12012,s,7,seven|7|vii,سَبْعَةٌ,عَدَد طَبيعي أَوَّلي يَدُلُّ عَلى قِيمَة مَجْموع سِتَّة وَواحِد، وَهُوَ أَصْغَر مِنْ العَدَد ثَمانِي,being one more than six
+i28374,v,canopy,canopy,ظُلّةٌ|مَظَلَّةٌ|مِظَلَّةٌ|سَقِيفَةٌ,منزل صغير منعزل يُستَظَل به من الحر ويُستتر به البرد والمطر، يتواجد في محطات النقل والبيوت والاماكن ,cover with a canopy
+i55526,n,lane,lane,مَسْلَكٌ|مَسَارٌ,طريق ضيق ذو اتجاه واحد,a well-defined track or path; for e.g. swimmers or lines of traffic
+i59809,n,supermarket,supermarket,سوبر ماركت,متجر كبير لبيع السلع الاستهلاكية,a large self-service grocery store selling groceries and dairy products and household goods
+i12013,s,8,eight|8|viii,ثَمَانِيَةٌ,عَدَد طَبيعي مُرَكّّبْ يَدُلُّ عَلى قِيمَة مَجْموع سَبْعَة وَواحِد، وَهُوَ أَصْغَر مِنْ العَدَد تِسْ,being one more than seven
+i34193,v,jail,imprison|incarcerate|lag|immure|put behind bars,حَبْسٌ|مُعتَقَلٌ|سِجْنٌ|مَحْبِسٌ,منشط مخصص لإيواء الأشخاص المحكوم عليهم فترات زمنية يحرموا فيها حرياتهم,"lock up or confine, in or as in a jail"
+i53275,n,dye-works,dye-works,مَدْبَغَةٌ|مَصْبَغَةٌ,مشغل مخصّص لدباغة الأقمشة والجلود وإكسابها الألوان المختلفة,a workshop where dyeing is done
+i50375,n,bakery,bakery|bakeshop|bakehouse,مَخْبِزٌ|تَنُّورٌ|فُرْنٌ,مشغل مخصّص لإنتاج الأغذية المخبوزة وإنضاجها بالحرارة، مثل الخبز والمعجّنات والكعك والفطائر ونحوها,a workplace where baked goods (breads and cakes and pastries) are produced or sold
+i33221,v,market,market,سُوقٌ,منشط يحوي العديد من المتاجر والمحلات التي تعرض السلع والخدمات بهدف البيع والشراء,"engage in the commercial promotion, sale, or distribution of"
+i29608,v,pasture,crop|browse|graze|range|pasture,مَرْعَىً,منشط ترتع فيه الحيوانات وتأكل الاعشاب,feed as in a meadow or pasture
+i12014,s,9,nine|9|ix,تِسْعَةٌ,عَدَد طَبيعي مُرَكَّب يَدُلُّ عَلى قِيمَة مَجْموع ثَمانِيَة وَواحِد، وَهُوَ أَصْغَر مِنْ العَدَد عَش,being one more than eight
+i40815,n,office,office,مَكْتَبٌ,منشط مخصص لممارسة الاعمال الممنهجة والمنظمة لتسسير امر ما ويكون عادة تابعا لمؤسسة ويسير وفق قوانين خ,a religious rite or service prescribed by ecclesiastical authorities
+i33401,v,site,locate|place|site,مَحَلٌّ,مكان هويته مرتبطة بما يحتله من موجودات مادية أو أحداث، يكتسب هويته من المحتل وتتغير هويته بتغير مُحت,assign a location to
+i59717,n,studio,studio,اِسْتُودْيُو|أُسْتُودْيُو|إِسْتُوْدْيُو,منشط خصص لإلتقاط وتحرير جميع انواع الصور وما يتعلق بها من فنون,workplace consisting of a room or building where movies or television shows or radio programs are pr
+i51842,n,chicken yard,chicken yard|hen yard|chicken run|fowl run,خُمٌّ,مأوى الطيور، خاصة الدجاج، تحبس فيه، ويكون بشكل وحجم كوخ او غرفة صغيرة,an enclosed yard for keeping poultry
+i35447,v,object,object,قَائِمٌ|قَيُّومٌ|وَاقِعِيٌّ|ذَاتٌ1|مَوْجُودٌ|شَيْءٌ|حَقِيقِيٌّ|كَائِنٌ2,شيء له ذات مستقلّة بنفسه، وحاضر كليّاً في الزّمن، ويُدرك بذاته قياساً أو لذاته اعتباراً,be averse to or express disapproval of
+i3710,s,occurrent,occurrent,سَيْرورَةٌ|حُصُولٌ|حُدُوثٌ,الشيء الذي تُدرك ذاته وأجزائه بجريانه عبر الزمن,presently occurring (either causally or incidentally)
+i63751,n,information,information|selective information|entropy,تَعْبِيرٌ,شيء يمثل أو يدلل على كينونات أخرى علائقياً، ويحمل معلومة بغض النظر عن كيفية تمثيل أو تجسيد هذه المعل,(communication theory) a numerical measure of the uncertainty of an outcome
+i24929,v,process,process,عَمَلِيَّةٌ,حدث تراكمي يتكون من سلسلة من الأفعال المتراتبة، التي تحدث بشكل متتابع على خط الزمن,perform mathematical and logical operations on (data) according to programmed instructions in order 
+i12015,s,10,ten|10|x,عَشْرَةٌ|عَشْرٌ,عَدَد طَبيعي مُرَكَّب يَدُلُّ عَلى قِيمَة مَجْمُوع تِسْعَة وَواحِد وَهُوَ أَصْغَر مِنْ العَدَد أَحَد,being one more than nine
+i41717,n,refuge,recourse|resort|refuge,مَخْبَأٌ|مَلَاذٌ|مَلْجَأٌ|مَعْقِلٌ,منزل يأْوِي إليه الناس للإختباء أو الحماية من الخطر أو الضرر,act of turning to for assistance
+i27238,v,barricade,barricade|barricado,مِتْرَاسٌ,مَلْجَأ يَسْتَتِرُ بِهِ الجُنْدِيُّ أَوِ الْمُدَافِعُ عَنْ نَفْسِهِ كَالَحائِطِ أَوِ الْحَاجِزِ,block off with barricades
+i1465,s,quality,quality,سِمَةٌ|مَيْزَةٌ|مِيزَةٌ|خَاصِّيَّةٌ|صِفَةٌ,منوط يلازم كينونات أخرى ليحدّد صفاتها، ويميّزها عن غيرها,of high social status
+i113363,n,capability,capability|capacity,مَقْدِرَةٌ|قُدْرَةٌ,منوط يصف حَالَةُ التَّهَيُّؤِ الَّتِي تكُونُ عَلَيْهَا الكينونات اسْتِعْدَاداً لعمل شَيْءٍ مَّا,the susceptibility of something to a particular treatment
+i39228,n,role,role,مُهِمَّةٌ1|مَهَمَّةٌ|مُهِمَّةٌ2|دَوْرٌ,منوط يمثّل مجموعة الأنشطة المترابطة التي تقوم بها موجودات لإيفاء غرض معيّن,normal or customary activity of a person in a particular social setting
+i26010,v,state,submit|state|put forward|posit,وَضْعٌ|هَيْئَةٌ|حَالَةٌ,منوط يعبّر عن صفات الشيء بالنسبة لظروف وتغيّرات معيّنة,put before
+i25172,v,abstract,abstract,مُجَرَّدٌ|نَظَرِيٌّ|تَجْريديّ,شيء تدرك ذاته بالذّهن فقط، دون قياس أو تمثيل أو تجسيد اعتباريّ، وليس له موقع في الزمان أو المكان,consider a concept without thinking of a specific example; consider abstractly or theoretically
+i22899,v,number,number|keep down,رَقْمٌ|عَدَدٌ,حدّ رياضيّ يعبّر عن كميّة، يستعمل في العدّ والقياس,place a limit on the number of
+i21960,v,set,dress|arrange|set|do|coif,فِئَةٌ|مَجْمُوعَةٌ,حدّ رياضيّ يتكوّن من أعداد أو رموز أو حدود رياضيّة أخرى، ويشار إليه كوحدة واحدة,arrange attractively
+i108136,n,composite number,composite number,عَدَدْ مُرَكّب|عَدَدْ مُؤَلّف,عَدَدْ طَبيعي يَقْبَل القِسْمَة على أَكْثَرْ مِنْ عَدَدَيْن موجَبَيْن,an integer that is divisible without remainder by at least one positive integer other than itself an
+i97777,n,event,event,فَعَّالِيَّةٌ|حَدَثٌ|وَاقِعَةٌ2,حدث غير تراكمي يتكون من سلسلة من العمليات و/او الأفعال تدرك كحدث واحد، أجزاءه الزمنية غير متشابهة، و,a phenomenon located at a single point in space-time; the fundamental observational entity in relati
+i38423,n,action,action,فِعْلٌ,حدث لا يمكن تقسيمه إلى احداث جزئية ولا يمتد لفترة من الزمن,the most important or interesting work or activity in a specific area or field
+i3480,a,material,substantial|real|material,مَادَّةٌ,موجود مادي يشكّل الَّلبِنة الأساسية التي تتكون منها الموجودات المادية الأخرى، ويدرك بذاته لصفات تميز,having substance or capable of being treated as fact; not imaginary
+i81452,n,organism,organism,مُتَعَضٍّ,موجود ماديّ قائم بذاته، يُظهر صفة الحياة، يقوم بمجموعة من الأنشطة والعمليات الحيوية، وهو قادر على ال,a system considered analogous in structure or function to a living body
+i71066,n,virus,virus|computer virus,حُمَّةٌ|فَيْرُوسٌ,موجود مادي يمارس نشاطه الحيوي في خلية العائل فقط، سريع التكاثر ويتكون من حمض نووي (DNA or RNA) محاط ,a software program capable of reproducing itself and usually capable of causing great harm to files 
+i25400,v,attribute,assign|attribute,مُسْنَدٌ1|مَسْنَدُ|مِسْنَدُ|هَيْئَةٌ|سِمَةٌ|مَيْزَةٌ|مِيزَةٌ|شَكْلٌ1|حَالَةٌ|مَزِيَّةٌ|نعْتٌ|خَصْلَةٌ|صِفَةٌ,مجرّد يصف ويُعبّر عن قيمة خاصيّة لشيء ما دون استعمال وحدة قياس,decide as to where something belongs in a scheme
+i63843,n,quantity,quantity,قَدَرٌ|قِسْطٌ|مِقْدَارٌ|مِقْيَاسٌ|كَمِّيَّةٌ|قَدْرٌ,مجرّد يُعبّر عن قيمة لخاصيّة شيء ما بوحدة قياس,an adequate or large amount
+i64540,n,spinal canal,spinal canal|vertebral canal|canalis vertebralis,تجويف دماغي,تجويف ظهري كوّنته الفقرات الظهرية للعمود الفقاري،ويضم بداخله الحبل الشوكي,the canal in successive vertebrae through which the spinal cord passes
+i66098,n,chest cavity,chest cavity|thoracic cavity,تجويف صدري,تجويف بطني حوضي يضم في داخله أعضاء الجهازالتنفسي والقلب ويحاط بغشاء من الاديم المتوسط,the cavity in the vertebrate body enclosed by the ribs between the diaphragm and the neck and contai
+i66323,n,pelvic cavity,pelvic cavity,تجويف حوضي,تجويف بطني حوضي محاط بالعظم ويضم في داخله الاعضاء التناسلية والمثانة والكولون الحوضي والمستقيم,the space bounded by the bones of the pelvis and containing the pelvic viscera
+i65314,n,cranial cavity,cranial cavity|intracranial cavity,تجويف دماغي|تجويف مخي,تجويف ظهري يضم الدماغ والسائل الدماغي ويحاط بالقحف المخي,the cavity enclosed by the cranium
+i53350,n,organ,electric organ|electronic organ|Hammond organ|organ,عُضْوٌ,بناء حيوي مكون من مجموعة من الأنسجة التي تقوم بعمل وظيفة معينة أو عدة وظائف,(music) an electronic simulation of a pipe organ
+i39596,n,proposition,proposition,مَقُولَةٌ,مجرد فرضي، جزئي أو كلي، يحتمل الصواب والخطأ,a task to be dealt with
+i51687,n,cell,cell|electric cell,خَلِيَّةٌ,بناء حيوي يمثل الوحدة التركيبيّة والوظيفيّة الأساسيّة في جميع الكائنات الحيّة,a device that delivers an electric current as the result of a chemical reaction
+i65502,n,cytoskeleton,cytoskeleton,هيكل خلوي|شبكة خلوية,بناء حيوي رابط يتكون من شبكة من ألياف وانيبيبات بروتينية تنتشر داخل السيتوسول، تُكسب الخلية شكلها وت,a microscopic network of actin filaments and microtubules in the cytoplasm of many living cells that
+i80499,n,function,function,غَرَضٌ|عَمَلٌ|وَظِيفَةٌ,قابلية الموجودات للقيام بمهامّ معيّنة لتحقيق غرض وجودها,a formal or official social gathering or ceremony
+i25024,v,place,place|come in|come out,مَوْضِعٌ|مَوْقِعٌ|مَكَانٌ,موجود إعتباري يعبر عن منطقة مادية، يكتسب هويته من طبيعة الأحداث التي تقام فيه أو الموجودات الحاضرة ف,take a place in a competition; often followed by an ordinal
+i70692,n,collection,solicitation|appeal|collection|ingathering,مَجْمُوعَةٌ|جَمْعٌ|تَشْكِيلَةٌ,موجود اعتباري يتكون من عدد من الموجودات المادية، يدرك وجودهم كوحدة واحدة,request for a sum of money
+i30113,v,tissue,weave|tissue,نسيج حيوي,بناء حيوي يتكون من مجموعة من الخلايا المتماثلة التي تقوم بوظيفة محددة، وتربط بينها مادة بين خلوية تن,"create a piece of cloth by interlacing strands of fabric, such as wool or cotton"
+i62072,n,organization,organization|organisation|system,جَمْعِيَّةٌ|هَيْئَةٌ|نِظَامٌ|شَرِكَةٌ|شِرْكَةٌ|مُؤَسَّسَةٌ|مُنَظَّمَةٌ|تَنْظِيمٌ|مُنْشَأَةٌ,شخصية اعتبارية منشأة، تتمتع بشخصية قانونية مستقلة عن الكيانات الاعتبارية المؤسِسة له,an ordered manner; orderliness by virtue of being methodical and well organized
+i66127,n,abdominal cavity,abdominal cavity|abdomen,تجويف بطني,تجويف جسمي أمامي يقع تحت التجوي الصدري وفوق التجويف الحوضي، يضم بداخله ،المعدة والكبد والمرارة والطح,the cavity containing the major viscera; in mammals it is separated from the thorax by the diaphragm
+i64528,n,microtubule,microtubule,أنيبيبات دقيقة,تركيبة هيكلية خلوية جوفاء تتكون من بروتين يسمى تيوبيولين، غير ثابتة لانها تتفكك وتتكون في اوقات مختل,a microscopically small tubule
+i105180,n,ascomycete,ascomycete|ascomycetous fungus,فطر كيسي|فطر زقي,فطر يكون أبواغ جنسية تحمل في محفظة تشبه الكيس,any fungus of the class Ascomycetes (or subdivision Ascomycota) in which the spores are formed insid
+i42969,n,flagellum,flagellum,سَوْطِيَّاتٌ|سَوْطٌ1,زائدة خلوية شعرية طويلة توجد بأعداد قليلة على سطح الخلية,"a lash-like appendage used for locomotion (e.g., in sperm cells and some bacteria and protozoa)"
+i98194,n,cell wall,cell wall,جدار خلوي,سطح خلية يحيط بالغشاء البلازمي، يتكون من كربوهيدرات عديدة التسكر,a rigid layer of polysaccharides enclosing the membrane of plant and prokaryotic cells; maintains th
+i98220,n,tracheophyta,Tracheophyta|division Tracheophyta,نبات وعائي,نبات يحتوي على أوعية ناقلة,in former classifications: comprising plants with a vascular system including ferns and fern allies 
+i98330,n,gymnospermae,Gymnospermae|class Gymnospermae|Gymnospermophyta|division Gymnospermophyta,نبات معرى البذور,نبات بذري لا زهري بذوره معراه، ويكون مخاريط,plants having naked seeds not enclosed in an ovary; in some systems considered a class (Gymnospermae
+i98662,n,angiospermae,Angiospermae|class Angiospermae|Magnoliophyta|division Magnoliophyta|Anthophyta,نبات مغطى البذور|نبات زهري|نبات مزهر,نبات بذري زهري بذوره مغطاه، ويكون ثمار,comprising flowering plants that produce seeds enclosed in an ovary; in some systems considered a cl
+i4171,a,monocotyledonous,monocotyledonous,ذو فلقة,نبات مغطى البذور بذوره لها فلقة واحدة، أوراقه طويلة و رفيعة يكون تعرقها متوازي,(of a flowering plant) having a single cotyledon in the seed as in grasses and lilies
+i4170,a,dicotyledonous,dicotyledonous,ذو فلقتين,نبات مغطى البذور بذوره لها فلقتين، وتكون أوراقه عريضة ذات تعرق شبكي,(of a flowering plant) having two cotyledons in the seed
+i65570,n,ribosome,ribosome,رَايْبُوسُومٌ,عضية غير محاطة بغشاء، تتكون من بروتين و r RNA ،تقوم ببناء البروتين الخاص بالخلية,an organelle in the cytoplasm of a living cell; they attach to mRNA and move down it one codon at a 
+i65509,n,golgi apparatus,Golgi body|Golgi apparatus|Golgi complex|dictyosome,جهاز غولجي,عضية محاطة بغشاء تتكون من حويصلات وحزم من الاكياس الغشائية المنبسطة و المرتبة بشكل موازٍ لبعضها وتتق,a netlike structure in the cytoplasm of animal cells (especially in those cells that produce secreti
+i65507,n,lysosome,lysosome,جسم مُحَلِل,عضية محاطة بغشاء تنشأ من جهازغولجي، تحتوي على إنزيمات تسمى إنزيمات التحليل المائي لها القدرة على هضم,an organelle found in the cytoplasm of most cells (especially in leukocytes and liver and kidney cel
+i65565,n,mitochondrion,mitochondrion|chondriosome,مَيْتُوكُنْدْرِيَا,عضية محاطة بغشاء قادرة على الانقسام، تقوم بانتاج الطاقة داخل الخلية,an organelle containing enzymes responsible for producing energy
+i104881,n,plastid,plastid,بْلَاسْتِيدَاتٌ,عضية محاطة بغشاء قادرة على الانقسام، توجد في النبات و الطحالب فقط، تقوم بصناعة وتخزين مركبات كيميائي,any of various small particles in the cytoplasm of the cells of plants and some animals containing p
+i65573,n,vacuole,vacuole,فجوة خلوية,عضية محاطة بغشاء مليئة بسائل يحتوي على مركبات عضوية وغير عضوي، تختلف تركيبها حسب احتياج الخلية,a tiny cavity filled with fluid in the cytoplasm of a cell
+i65571,n,centrosome,centrosome|central body,مُرَيْكِزٌ,عضية غير محاطة بغشاء تتكون من أنيبيبات دقيقة، لها دور مهم في انقسام الخلية بحيث تكون خيوط المغزل الت,small region of cytoplasm adjacent to the nucleus; contains the centrioles and serves to organize th
+i64920,n,nucleus,lens nucleus|nucleus,نَوَاةٌ,عضية محاطة بغشاء يحوي معظم المادة الورائية للخلية، توجد في خلايا الكائنات حقيقية النواة، وتتحكم بكاف,the central structure of the lens that is surrounded by the cortex
+i65512,n,nucleolus,nucleolus|nucleole,نُوَيَّةٌ,عضية غير محاطة بغشاء كروية الشكل، مسئولة عن صناعة وبناء الرايبوسوم و r RNA,a small round body of protein in a cell nucleus; such organelles contain RNA and are involved in pro
+i42615,n,protista,Protista|division Protista,كائن طلائعي,كائن حي حقيقي النواة يفتقر لوجود أنسجة أو أعضاء,"eukaryotic one-celled living organisms distinct from multicellular plants and animals: protozoa, sli"
+i104947,n,slime mold,slime mold|slime mould,فطر غروي,كائن طلائعي فطري ليس له جدر خلوية، يتميز ببروتوبلازم ذي ألوان جذابة ويكون كتلة غروية لزجة ومتلألئة,a naked mass of protoplasm having characteristics of both plants and animals; sometimes classified a
+i42759,n,red algae,red algae,طحلب أحمر,طحلب يحتوي على صبغات حمراء وبنفسجية,marine algae in which the chlorophyll is masked by a red or purplish pigment; source of agar and car
+i42695,n,brown algae,brown algae,طحلب بني,طحلب عديد الخلايا وكبير الحجم يعيش في مياه البحار ويتميز بلونه البني,algae having the chlorophyll masked by brown and yellow pigments
+i42687,n,diatom,diatom,طحلب ذهبي,طحلب يخزن المواد الغذائية على شكل مادة كريزولامينارين وزيوت,microscopic unicellular marine or freshwater colonial alga having cell walls impregnated with silica
+i42724,n,chlorophyte,green algae|chlorophyte,طحلب أخضر,طحلب يحتوي كلوروفيل (a، b) وصبغة الكاروتين، له جدار خلوي يحتوي سليولوز,algae that are clear green in color; often growing on wet ricks or damp wood or the surface of stagn
+i42721,n,euglenophyte,euglenoid|euglenophyte|euglenid,طحلب يوغلينا,طحلب وحيد الخلية ، يحتوي صبغات كلوروفيل (a،  b) وصبغة الكاروتين، يمتلك بقعة عينية حساسة للضوء تساعده,marine and freshwater green or colorless flagellate organism
+i42776,n,dinoflagellate,dinoflagellate,طحلب ناري,طحلب وحيد الخلية، تحتوي خلاياه صبغة الزانثوفيل التي تعطيه اللون الأخضر المصفر إلى البني,chiefly marine protozoa having two flagella; a chief constituent of plankton
+i42620,n,protozoa,Protozoa|phylum Protozoa,كائن أولي|كائن طلائعي شبيه بالحيوانات,كائن طلائعي غير ذاتي التغذية,"in some classifications considered a superphylum or a subkingdom; comprises flagellates, ciliates, s"
+i42802,n,sporozoa,Sporozoa|class Sporozoa,كائن بوغي,كائن أولي إجباري التطفل يتحرك بواسطة الانزلاق في سوائل جسم العائل,strictly parasitic protozoans that are usually immobile; includes plasmodia and coccidia and piropla
+i42773,n,mastigophora,Mastigophora|class Mastigophora|Flagellata|class Flagellata,كائن ذو أسواط,كائن أولي يتحرك بالأسواط,protozoa having flagella
+i42653,n,ciliophora,Ciliata|class Ciliata|Ciliophora|class Ciliophora,كائن ذو أهداب,كائن أولي يتحرك بالأهداب,class of protozoa having cilia or hairlike appendages on part or all of the surface during some part
+i9760,s,animal,animal|carnal|fleshly|sensual,حَيَوَانٌ,كائن حقيقيّ النّواة غير ذاتيّ التّغذية، و قادر على الحركة,marked by the appetites and passions of the body
+i43021,n,urochordata,Urochordata|subphylum Urochordata|Urochorda|subphylum Urochorda|Tunicata,حَيَوَانٌ حَبْلِيّ الذَّيْل,حبليّ يكون الحبل الظّهريّ فيه في منطقة الذّيل لليرقة، ويختفي عند الأفراد البالغة,tunicates
+i43016,n,cephalochordata,Cephalochordata|subphylum Cephalochordata,حَيَوَانٌ حَبْلِيّ الرَّأْس,حبليّ يكون الحبل الظّهريّ فيه ممتدّاً على طول السّطح الظّهري له، ويبقى طيلة حياة الحيوان مثل السّهيم,a chordate subphylum defined by the presence of a notochord that persists throughout life
+i43049,n,agnatha,Agnatha|superclass Agnatha,كَائِنٌ لا فَكِّيّ,فقاريّ ليس له فكّان، وليس له أطراف مزدوجة,superclass of eel-shaped chordates lacking jaws and pelvic fins: lampreys; hagfishes; some extinct f
+i43078,n,gnathostomata,Gnathostomata|superclass Gnathostomata,كَائِنٌ فَكِّيّ,فقاريّ له فكّان، وله أطراف مزدوجة,comprising all vertebrates with upper and lower jaws
+i49977,n,amphibian,amphibian|amphibious aircraft,كَائِنٌ بَرْمائِيٌّ,كائن فكّي يعيش حياة مزدوجة بين البرّ واليابسة,an airplane designed to take off and land on water
+i27317,v,fish,fish,سَمَكَةٌ,كائن فكّيّ مائيّ يغطّي جلده قشور,catch or try to catch fish or shellfish
+i43083,n,cartilaginous fish,cartilaginous fish|chondrichthian,سَمَكَة غُضْرُوفِيَّة,سمكة هيكلها الدّاخلي يتكوّن من غضاريف,fishes in which the skeleton may be calcified but not ossified
+i48829,n,proboscidea,Proboscidea|order Proboscidea,كَائِنٌ ذو خُرْطُومٌ|حَيَوَانٌ ذو خُرْطُومٌ,كائن ثدييّ مشيميّ شفته العليا وأنفه استطالا إلى خرطوم، واستطالت القواطع لتشكّل الأنياب,an order of animals including elephants and mammoths
+i45239,n,insectivora,Insectivora|order Insectivora,آكِلُ الحَشَرات,كائن ثدييّ مشيميّ يتغذّى على الحشرات,shrews; moles; hedgehogs; tenrecs
+i46701,n,chiroptera,Chiroptera|order Chiroptera,خُفَّاشٌ,كائن ثدييّ مشيميّ قادر على الطيران,an old order dating to early Eocene: bats: suborder Megachiroptera (fruit bats); suborder Microchiro
+i13804,a,ungulate,ungulate|ungulated|hoofed|hooved,كائن ذو حافر|حيوان ذو حافر,كائن ثديي مشيمي يمتلك حوافر في نهاية أطرافه,having or resembling hoofs
+i48194,n,artiodactyla,Artiodactyla|order Artiodactyla,كائن زوجي الأصابع|حافر زوجي الأصابع,كائن ذو حافر زوجي الأصابع,an order of hooved mammals of the subclass Eutheria (including pigs and peccaries and hippopotami an
+i48049,n,perissodactyla,Perissodactyla|order Perissodactyla,كائن فردي الأصابع|حافر فردي الأصابع,كائن ذو حافر فردي الأصابع,"nonruminant ungulates: horses, tapirs, rhinoceros, extinct forms"
+i48552,n,xenarthra,Xenarthra|suborder Xenarthra,كائن عديم الأسنان|حيوان عديم الأسنان,كائن ثديي مشيمي ليس له أسنان,armadillos; American anteaters; sloths
+i47762,n,lagomorpha,Lagomorpha|order Lagomorpha,كائن أرنبي|حيوان أرنبي,كائن ثديي مشيمي أطرافه الخلفية أطول و أقوى من أطرافه الأمامية,"rabbits, hares, pikas; formerly considered the suborder Duplicidentata of the order Rodentia"
+i27311,v,bird,bird|birdwatch,طَائِرٌ,كائن فكي يغطي جسمه الريش,watch and study birds in their natural habitat
+i44226,n,crocodile,crocodile,تِمْسَاحٌ,زاحف ليس له درع، رأسه على شكل حرفV,large voracious aquatic reptile having a long snout with massive jaws and sharp teeth and a body cov
+i31120,v,snake,snake,حَيَّةٌ|أَفْعَىً,كائن حرشفي عديم الأطراف,move along a winding path
+i91099,n,lizard,lounge lizard|lizard,سِحْلِيَّةٌ,كائن حرشفي تمتلك زوجان من الأطراف تحمل أصابع تنتهي بمخالب,a man who idles about in the lounges of hotels and bars in search of women who would support him
+i105540,n,vascular tissue,vascular tissue,نسيج نباتي وعائي,نسيج نباتي يقوم بنقل الماء و الغذاء داخل جسم النبات,tissue that conducts water and nutrients through the plant body in higher plants
+i105549,n,xylem,xylem,خَشَبٌ 2,نسيج نباتي وعائي يقوم بنقل الماء والأملاح من الجذر وإلى باقي أجزاء النبات ويعطي الدعامة,"the woody part of plants: the supporting and water-conducting tissue, consisting primarily of trache"
+i105551,n,phloem,phloem|bast,لِحَاءٌ,نسيج نباتي وعائي يقوم بنقل الغذاء الجاهز من الأوراق إلى جميع أجزاء النبات,"(botany) tissue that conducts synthesized food substances (e.g., from leaves) to parts where needed;"
+i65893,n,circulatory system,circulatory system|cardiovascular system,جهاز دوران,نظام حيوي حيواني ينقل بواسطة الدم المغذيات، الغازات، والفضلات من وإلى الخلايا، يساعد على مواجهة الأم,the organs and tissues involved in circulating blood and lymph through the body
+i65883,n,reproductive system,reproductive system|genital system,جهاز تناسلي,نظام حيوي حيواني مسئول عن عملية التكاثر الجنسي,organs and tissues involved in the production and maturation of gametes and in their union and subse
+i65331,n,lymphatic system,lymphatic system|systema lymphaticum,جهاز لمفاوي,نظام حيوي حيواني دوراني يجري فيه سائل اللمف الشفاف الذي يميل لونه إلى الصفرة، يشبه هذا السائل في ترك,the interconnected system of spaces and vessels between body tissues and organs by which lymph circu
+i64965,n,endocrine system,endocrine system,جهاز غدد صماء,نظام حيوي حيواني يضم جميع الأنسجة والخلايا ذات الفعالية الغدية الصمية وهي عبارة عن خلايا غدية افرازي,the system of glands that produce endocrine secretions that help to control bodily metabolic activit
+i65884,n,urinary system,urogenital system|urogenital apparatus|urinary system|urinary apparatus|genitourinary system,جهاز بولي,نظام حيوي حيواني يقوم بصناعة وتخزين وإخراج البول,the system that includes all organs involved in reproduction and in the formation and voidance of ur
+i64964,n,digestive system,digestive system|gastrointestinal system|systema alimentarium|systema digestorium,جهاز هضمي|نظام هضمي,نظام حيوي حيواني مسئول عن هضم الأغذية حيث يحول جزيئات الغذاء المعقدة والكبيرة إلى جزيئات أصغر قابلة ,the system that makes food absorbable into the body
+i35,s,spongy,spongy|spongelike,إِسْفَنْجِيٌّ,حيوان لافقاري بسيط مثبت بالصخور في الماء ،لا يمتلك أنسجة حقيقية,like a sponge in being able to absorb liquids and yield it back when compressed
+i45508,n,annelida,Annelida|phylum Annelida,دودة حلقية,حيوان لافقاري جسمه مكون من عُقَل,"segmented worms: earthworms, lugworms, leeches"
+i45484,n,roundworm,nematode|nematode worm|roundworm,دودة اسطوانية,حيوان لافقاري جسمه غير مقسم وأسطواني الشكل,unsegmented worms with elongated rounded body pointed at both ends; mostly free-living but some are 
+i44582,n,chelicerata,Chelicerata|superclass Chelicerata,كائن ذو كلابات,مفصلي القدم تكون الزوائد الموجودة على القطعة الأولى من الجسم متحورة إلى كلابات أو ملاقط لتغذية، ويفت,"spiders, scorpions, horseshoe crabs"
+i94189,n,insect,worm|louse|insect|dirt ball,حَشَرَةٌ,مفصلي القدم يمتلك ثلاثة أزواج من الأرجل، و قد يحمل بعضها زوجا من الأجنحة,a person who has a nasty or unethical character undeserving of respect
+i45693,n,cephalopoda,Cephalopoda|class Cephalopoda,كائن رأسي القدم,كائن رخوي يمتلك أقداما متحورة إلى أذرع تحيط بالفم في الرأس، جهازه الدوراني مغلق، وجهازه العصبي متطور,"octopuses, squids, cuttlefish, pearly nautilus"
+i45615,n,polyplacophora,Polyplacophora|class Polyplacophora,كائن متعدد الأصداف,كائن رخوي يمتلك صدفة مكونة من ثمانية قطع,small class of marine mollusks comprising the chitons; sometimes considered an order of the subclass
+i45454,n,flatworm,flatworm|platyhelminth,دودة مفلطحة|دودة مسطحة,كائن لا فقاري جسمه مسطح ،عديم التجويف,parasitic or free-living worms having a flattened body
+i45455,n,turbellaria,Turbellaria|class Turbellaria,تِيرْبِلَّارْيَا,دودة مفلطحة غير متطفلة، تعيش حرة طليقة في المياه العذبة أو المالحة، جسمها غير مقسم قطع، ولها جهاز هض,free-living flatworms
+i45457,n,trematoda,Trematoda|class Trematoda,دودة ورقية,دودة مفلطحة متطفلة، جسمها غير مقسم إلى قطع، ولها جهاز هضمي,parasitic flatworms (including flukes)
+i45468,n,cestoda,Cestoda|class Cestoda,سِيسْتُودَا,دودة مفلطحة متطفلة، جسمها مقسم إلى قطع ، ليس لها جهاز هضمي ، لها مماصات وخطافات في الجزء الأمامي من ,a class of parasitic flatworms (Cestoda)
+i47735,n,echinoidea,Echinoidea|class Echinoidea,قنفد البحر,حيوان جلد شوكي يفتقر للأذرع جسمه مغطى بالأشواك,sea urchins and sand dollars
+i47742,n,crinoidea,Crinoidea|class Crinoidea,كائن زنبقي,حيوان جلد شوكي له أذرعه الطويلة متفرعة يشبه الزهور,the class of sea lilies (Crinoidea)
+i47751,n,holothuroidea,Holothuroidea|class Holothuroidea,خيار البحر,حيوان جلد شوكي جسمه محاط بغلاف عضلي سميك وقوي، لا يمتلك أشواك ويعتبر اعتبار حيوان جلد شوكي,class of echinoderms including the sea cucumbers
+i45368,n,cnidaria,Cnidaria|phylum Cnidaria|Coelenterata|phylum Coelenterata,حيوان لاسع,حيوان لافقاري بحري يمتلك خلايا لاسعة على سطح جسمه,"hydras, polyps, jellyfishes, sea anemones, corals"
+i45393,n,anthozoa,Anthozoa|class Anthozoa|Actinozoa|class Actinozoa,حيوان لاسع زهري,حيوان لاسع مثبت على الصخور له لوامس حول الفم لتساعده في التقاط فريسته، يتغذى على الرخويات والقشريات,a large class of sedentary marine coelenterates that includes sea anemones and corals; the medusoid 
+i45373,n,scyphozoa,Scyphozoa|class Scyphozoa,حيوان لاسع فنجاني,حيوان لاسع فيه الطور الميدوسي هو السائد حيث يكون الفم من أسفل,coelenterates in which the polyp stage is absent or at least inconspicuous: jellyfishes
+i45379,n,hydrozoa,Hydrozoa|class Hydrozoa,حيوان لاسع هايدري,حيوان لاسع يتميز دورة حياته بوجود إما الطرازين الميدوسي والبوليبي، أو الطراز البوليبي,coelenterates typically having alternation of generations; hydroid phase is usually colonial giving 
+i65885,n,respiratory system,respiratory system|systema respiratorium,جهاز تنفسي,نظام حيوي حيواني يزود خلايا جسم الإنسان بالأكسجين الضروري لأنشطتها، ويخلصها من ثاني أكسيد الكربون,the system for taking in oxygen and giving off carbon dioxide; in terrestrial animals this is accomp
+i24270,v,star,star|asterisk,نَجْمٌ,جرم سماوي مضيء بذاته بسبب انبعاث الضوء والحرارة من مكوناته الغازية,mark with an asterisk
+i85987,n,planet,planet,كَوْكَبٌ,جرم سماوي يدور في مدار حول نجم أو بقايا نجم وهو كبير بما يكفي ليصبح شكله مستديرًا و يسيطر على المنطق,any celestial body (other than comets or satellites) that revolves around a star
+i36284,n,castle,castle|castling,قَلْعَةٌ,حصنٌ على مكانٍ مرتفع، ويكون مبناً كبير او مجموعة من المباني المحمية المنيعة,interchanging the positions of the king and a rook
+i54346,n,gold mine,goldmine|gold mine,مَنْجَمُ ذَهَب,منجم يُستخرج منه الذّهب الخام:,a mine where gold ore is found
+i52339,n,copper mine,copper mine,مَنْجَمُ نُحَاس,منجم يُستخرج منه النّحاس الخام,a mine where copper is dug from the ground
+i58948,n,silver mine,silver mine,مَنْجَمُ فِضَّة,منجم تُستخرج منه الفضّة الخام,a mine where silver ore is dug
+i59775,n,sulfur mine,sulphur mine|sulfur mine,مَنْجَمُ كِبْرِيت,منجم يُستخرج منه الكبريت الخام,a mine where sulphur is dug from the ground
+i27438,v,quarry,quarry,مَقْلَعٌ|مَحْجَرٌ,منجم مخصّص لاستخراج الحجارة,extract (something such as stones) from or as if from a quarry
+i38609,n,salt mine,treadmill|salt mine,مَنْجَمُ مِلح,منجم لاستخراج الملح من الصّخور,a job involving drudgery and confinement
+i18211,r,well,well|good,بِئْرٌ,موقع استخراج الموائع أو الغازات ويكون على شكل حفرة في جوف الأرض,(often used as a combining form) in a good or proper or satisfactory manner or to a high standard (‘
+i50183,n,artesian well,artesian well,بِئْرٌ أَرتُوازيّة|بِئْرٌ أُرتُوازيّة,بئر مخصّص لاستخراج الماء من حوض أرتوازيّ في جوف الأرض,a well drilled through impermeable strata into strata that receive water from a higher altitude so t
+i66273,n,exoskeleton,exoskeleton,هيكل خارجي,بناء حيوي غير خلوي يتكون من اجزاء خلايا او مواد وتراكيب شكلت بناء حيوي مثل الكولاجين والجيلايكوبرويت,the exterior protective or supporting structure or shell of many animals (especially invertebrates) 
+i64980,n,thymus,thymus gland|thymus,غدة زعترية,غدة صماء تقع على القصبة الهوائية أعلى القلب، تكون كبيرة لدى الأطفال وتستمر في الضمور طوال سن المراهق,a ductless glandular organ at the base of the neck that produces lymphocytes and aids in producing i
+i56723,n,oil well,oil well|oiler,بِئْر بِتْرول|بِئْر بِتْروليّة|بِئرٌ نَفْط|بِئْر نِفط,بئر مخصّص لاستخراج البترول من جوف الأرض,a well that yields or has yielded oil
+i85024,n,atlantic ocean,Atlantic|Atlantic Ocean,المحيط الأطلسي|المحيط الأطلنطي,محيط، ثاني أكبر المحيطات الخمسة، يقع بين قارتيّ أوروبا وأفريقيا شرقا، وبين قارة أمريكا بأقسامها الشم,the 2nd largest ocean; separates North and South America on the west from Europe and Africa on the e
+i85569,n,indian ocean,Indian Ocean,المحيط الهندي,محيط، يأتي ترتيبه بعد المحيطين الهادي والأطلسي من حيث المساحة، يمتد من إفريقيا غربا الى أستراليا وأن,"the 3rd largest ocean; bounded by Africa on the west, Asia on the north, Australia on the east and m"
+i82062,n,habitation,habitation,مَأْوَىً|مَرْبِضٌ,مأوى الحيوان، يسكنه او يلوذ اليه بشكل متكرر,the native habitat or home of an animal or plant
+i23209,v,time,time,مُدَّةٌ|زَمَنٌ|فَتْرَةٌ,مجرّد يمثّل جزءاً من خطّ الزّمن المدرك، تدرك ذاته بنقطة بداية ونقطة نهاية طولها يمثّل زمن أحداث أو م,adjust so that a force is applied and an action occurs at the desired time
+i1737,a,omnivorous,omnivorous,حَيَوَانٌ قارِتِيّ,كائن ثدييّ مشيميّ يتغذّى على اللّحوم والنّبات,feeding on both plants and animals
+i63744,n,interval,interval|separation,فَتْرَةٌ,زمن يُكَمَّم ويُحسب بناءً على ما يناط به من أحداث فلكيّة، له بداية ونهاية غيرمتساوية، تخلو من الثغرا,the distance between things
+i46312,n,pinnipedia,Pinnipedia|suborder Pinnipedia,كَائِنٌ ثَدْيِيٌّ شِبْهُ مائِيّ|حَيَوَانٌ ثَدْيِيٌّ شِبْهُ مائِيّ|حَيَوَانٌ زَعْنَفِيّ القَدَم,كائن ثدييّ مشيميّ يعيش بشكل جزئيّ في المسطّحات المائيّة,seals; sea lions; walruses
+i64153,n,moment,consequence|import|moment,نقطة زمنية,زمن يدرك اعتباراً كنقطة واحدة مع اختلاف الأمتداد الزمني بين بدايته ونهايته,having important effects or influence
+i37666,n,house,house,مَسْكَنٌ|مَسْكِنٌ|سَكَنٌ|سُكْنَةٌ|بَيْتٌ1|مَنْزِلٌ|دَارٌ,منزل الإنسان الذي يعيش فيه ويستقر,play in which children take the roles of father or mother or children and pretend to interact like a
+i3955,s,instant,clamant|crying|exigent|insistent|instant,لَحْظَةٌ,نقطة زمنية قصيرة بمقدار لحظ العين، وقد تطول وتقصر بحسب سياق القائل,demanding attention
+i39255,n,end,end,نِهَايَةٌ|آخِرَةٌ|أَجَلٌ,نقطة زمنية ينتهي عندها زمن يستغرقه حدث ما,"(American football) a position on the line of scrimmage, designating players at each end of the defe"
+i36671,n,start,start|starting,مُفْتَتَحٌ|مُسْتَهَلٌّ|فَاتِحٌ|غُرَّةٌ|مُقَدِّمَةٌ|مُقَدَّمَةٌ|باكورَةٌ|بَدْءٌ|بِدَايَةٌ|مَطْلَعٌ2|مَطْلِعٌ|أَوَّلُ|بَادِئٌ,نقطة زمنية يبدأ عندها الزمن الذي يستغرقه حدث ما,a turn to be a starter (in a game at the beginning)
+i18423,r,now,nowadays|now|today,الآنَ|تَوَّاً|حَالٌ,نقطة زمنية موقعها الزمني يحدده القائل عندما يدركها كحاضر بالنسبة له، ويكون بُعدها الزمني قصير جداً ي,in these times
+i24850,v,date,date,وَقْتٌ|أَجَلٌ|مِيقَاتٌ|مَوْعِدٌ,نقطة زمنية تحدد بتاريخ زمني أو أحد مقاييس الوقت على خط الزمن,assign a date to; determine the (probable) date of
+i85871,n,nile,Nile|Nile River,نِيْلٌ2,نهر، أطول الأنهار في العالم، يقع في قارة افريقيا، له رافدين أساسيين هما النيل الأبض والنيل الأزرق​,the world's longest river (4150 miles); flows northward through eastern Africa into the Mediterranea
+i116927,n,midnight,midnight,منتصف الليل|نصف الليل,نقطة زمنية تمثل الساعة الثانية عشر صباحاً اصطلاحاً، بالنسبة لموقع ما على سطح الأرض,12 o'clock at night; the middle of the night
+i34723,v,dawn,dawn,فَجْرٌ|فَلَقٌ|فَلْقٌ,نقطة زمنية تمثل أول طلوع بياض الأفق,appear or develop
+i116785,n,afterlife,afterlife|hereafter,آخِرَةٌ,ماصدق من نهاية، نقطة زمنية باعتبار بعض الآديان تعبر عن نهاية الحياة الدنيا وبدأ البعث للحياة الأخرى,life after death
+i54970,n,hut,hovel|hut|hutch|shack|shanty,كُوخٌ,منزل صغير يستعمل كمأوى موقت، ومبني بطريقة بدائية من عشب أو قش أو طين أو جليد أو نحوه,small crude shelter used as a dwelling
+i12004,s,0,zero|0,صِفْرٌ,عَدد طَبيعي يَدُلُّ عَلَى انعِدام القيمَةِ العَدَدِيَّةِ، عِندَ إضافَتِهِ لأيّ عّدّد آخر يبْقى العَد,indicating the absence of any or all units under consideration
+i12006,s,1,one|1|i|ane,وَاحِدٌ,عَدَد طبيعي يَدُلُّ على ما لا يَقبَل التَّعدُّد بِحال وَهُوَ أََصغَر الأَعداد الطبيّعية الموجَبَة، و,used of a single unit or thing; not two or more
+i12007,s,2,two|2|ii,اِثْنَانِ,عَدَد طَبيعي أَوْلي يَدُلّ عَلَى ضِعْفَي العَدَدِ واحدِ، وَهُوَ أَصْغَر مِنْ العَدَد ثَلاثَة,being one more than one
+i17093,a,faucal,faucal,,,of or relating to the fauces
+i17225,a,salivary,salivary,,,of or relating to saliva
+i60650,n,turnery,turnery,مِخْرَطَةٌ,مشغل مخصّص لتشكيل اللّدائن والخشب والمعادن باستخدام الآلات الدوّارة,products made on a lathe
+i50197,n,atelier,artist's workroom|atelier,مَرْسَمٌ,مشغل مخصّص لممارسة فنون الرّسم (SubtypeOf 95%),a studio especially for an artist or designer
+i50285,n,auto factory,automobile factory|auto factory|car factory,مَصْنَع سَيّارات,مصنع مخصّص لإنتاج السيّارات والمركبات ذات الدّفع الآليّ التي تسير على الطّرق,a factory where automobiles are manufactured
+i60160,n,textile mill,textile mill,مَصْنَع غَزْل ونَسِيج,مصنع مخصّص لصناعة الخيوط وإنتاج الأقمشة,a factory for making textiles
+i59534,n,steel factory,steel mill|steelworks|steel plant|steel factory,مَصْنَع حَديد وصُلْب,مصنع مخصّص لتحويل الحديد الخام وإنتاجه بخصائص وتركيبات مختلفة,a factory where steel is made
+i56718,n,oil refinery,oil refinery|petroleum refinery,مِصْفاة بِتْرُول|مِصْفاة نَفْط|مِصْفاة نِفْط|مَعْمَل تَكْرير النَّفْط|مَعْمَل تَكْرير بِتْرُول,مصنع مخصّص لتصفية النّفط الخام واستخلاص منتجات نفطيّة منه,a refinery for petroleum
+i56982,n,paper mill,paper mill,مَصْنَع وَرَق,مصنع مخصّص لتصنيع وإنتاج الورق بأشكاله المختلفة,a mill where paper is manufactured
+i52686,n,dairy,dairy|dairy farm,مَصْنَع أَلْبان,مصنع مخصّص لتعبئة وإنتاج الحليب وصناعة الألبان بمشتقّاتها المختلفة,a farm where dairy products are produced
+i61199,n,winery,winery|wine maker,مَصْنَع نَبيذ,مصنع مخصّص لإنتاج النّبيذ بتخمير بعض أنواع الفواكه كالعنب والتّفاح,an establishment where wine is made
+i51118,n,brewery,brewery,مَصْنَع بِيرَة|مَصْنَع جِعَة,مصنع مخصّص لتخمير وإنتاج الجعة,a plant where beer is brewed by fermentation
+i26490,v,word,give voice|formulate|word|phrase|articulate,كَلِمَةٌ|كِلْمَةٌ,تعبير كتابي للإشارة أو الدلالة على معنى,put into words or an expression
+i68856,n,natural language processing,natural language processing|NLP|human language technology,مُعالَجَة اللُغات الطَبيعّية,,the branch of information science that deals with natural language information
+i68970,n,computational linguistics,computational linguistics,اللِسانيّات الحاسوبيّة,,the use of computers for linguistic research and applications
+i4268,s,diacritic,diacritic|diacritical,تَشْكِيلَةٌ,,capable of distinguishing
+i69821,n,lemma,lemma,جِذْعٌ,كلمة يتم اختيارها اصطلاحا، وتستعمل كمدخلة معجمية للتعبير عن وحدة صرفية (مجموعة كلمات مختلفة تصريفيا),the heading that indicates the subject of an annotation or a literary composition or a dictionary en
+i22580,v,stem,stem,سَاقٌ,"الكلمة بعد إزالة السوابق واللواحق منها، وهي ليست بالضرورة تعادل الجذر. مثلا كلمة مكتبة"" ساقها ""مكتب""",remove the stem from
+i23528,v,root,root,جَذْرٌ2|جِذْرٌ,,cause to take roots
+i28163,v,prefix,prefix,سابِقَة,ج. سوابق,attach a prefix to
+i28164,v,suffix,suffix,لَاحِقَةٌ,ج. لواحق,attach a suffix to
+i64400,n,corpus,corpus,مُدَوَّنَةٌ,ج. مدونات,the main part of an organ or other bodily structure
+i68964,n,epistemology,epistemology,إِبِسْتِيمُولُوجِيَا,,the philosophical theory of knowledge
+i68946,n,ontology,ontology,أُنْطُولُوجِيَا,فلسفيا، فرع من فروع الفلسفة التحليلية وتعني علم الوجود بما هو موجود، وهي تعلو الابستمولوجيا في نظرية,the metaphysical study of the nature of being and existence
+i64055,n,realism,realism|pragmatism,وَاقِعِيَّةٌ,,the attribute of accepting the facts of life and favoring practicality and literal truth
+i62580,n,idealism,high-mindedness|idealism|noble-mindedness,مِثَالِيَّةٌ,,elevated ideals or conduct; the quality of believing that ideals should be pursued
+i68212,n,materialism,materialism|physicalism,مَادِّيَّةٌ,,(philosophy) the philosophical theory that matter is the only reality
+i68249,n,skepticism,agnosticism|skepticism|scepticism,اِرْتِيَابِيَّةٌ|شُكوكيَّةٌ,,the disbelief in any claims of ultimate knowledge
+i68199,n,conceptualism,conceptualism,تَصَوُّريَّةٌ,,the doctrine that the application of a general term to various objects indicates the existence of a 
+i68218,n,nominalism,nominalism,اِسْميَّةٌ,,(philosophy) the doctrine that the various objects labeled by the same term have nothing in common b
+i67276,n,reductionism,reductionism,اخْتِزَالِيَّةٌ,,the analysis of complex things into simpler constituents
+i69017,n,lexical semantics,lexical semantics,الدلالة اللغوية,,the branch of semantics that studies the meanings and relations of words
+i40350,n,conceptualization,conceptualization|conceptualisation|formulation,تَصَوُّرٌ,,inventing or contriving an idea or explanation and formulating it mentally
+i26682,v,instance,exemplify|illustrate|instance,مِصْدَاقٌ|ماصَدَقٌ,الشيء الذي يصدق (أي يحقق) صفات المفهوم/الكلي.,clarify by giving an example of
+i2955,s,universal,cosmopolitan|ecumenical|oecumenical|general|universal,كُلِّيٌّ,,of worldwide scope or applicability
+i25832,v,gloss,color|colour|gloss,تَبْصِرَةٌ,,give a deceptive explanation or excuse for
+i70238,n,glossary,glossary|gloss,مُعجَم مُصطلحات,,an alphabetical list of technical terms in some specialized field of knowledge; usually published as
+i60135,n,term,terminus|terminal figure|term,مُصْطَلَحٌ,,(architecture) a statue or a human bust or an animal carved out of the top of a square pillar; origi
+i62353,n,polysemy,polysemy|lexical ambiguity,مُشتَرك لَفظي,,the ambiguity of an individual word or phrase that can be used (in different contexts) to express tw
+i80612,n,synset,synset,رَدائِف,مجموعة من المترادفات، كلمة او اكثر، تشير الى مفهوم مشترك فيما بينها.,a set of one or more synonyms
+i68952,n,formal logic,symbolic logic|mathematical logic|formal logic,مَنْطِقٌ,,any logical system that abstracts the form of statements away from their content in order to establi
+i26266,v,predicate,connote|predicate,مَحْمُولٌ|صِفَةٌ,,involve as a necessary condition of consequence; as in logic
+i25288,v,premise,premise|premiss,مُقَدِّمَةٌ,ج. مقدمات,take something as preexisting and given
+i64300,n,interoperability,interoperability,تَوافُقْيَّةٌ,,(computer science) the ability to exchange and use information (usually in a large heterogeneous net
+i56615,n,node,node|client|guest,عُقْدَةٌ,,(computer science) any computer that is hooked up to a computer network
+i71363,n,relational database,relational database,قاعدة بيانات علائقية,,a database in which relations between information items are explicitly specified as accessible attri
+i72766,n,query language,command language|query language|search language,لُغَة اِستِعلام,,a source language consisting of procedural operators that invoke functions to be executed
+i36762,n,optimization,optimization|optimisation,تَحْسِينٌ,,the act of rendering optimal
+i107450,n,data mining,data mining,تَنقيب في البَيانات,,data processing using sophisticated data search capabilities and statistical algorithms to discover 
+i70576,n,mailing list,mailing list,بَريد جَماعي,,a list of names and addresses to which advertising material is mailed
+i65298,n,leaflet,cusp|leaflet,مَطْوِيٌّ,,a thin triangular flap of a heart valve
+i69622,n,lexeme,lexeme,لَكْسيم|وِحدَة صَرفية,مجموعة الكلمات التي تختلف عن بعضها تصريفا (صيغ مختلفة لنفس الكلمة) فقط، وليس اختلافا اشتقاقياً، وهذه,a minimal unit (as a word or stem) in the lexicon of a language; ‘go’ and ‘went’ and ‘gone’ and ‘goi
+i73875,n,inflection,modulation|inflection,تَصْرِيفٌ|صِيغَةٌ,,a manner of speaking in which the loudness or pitch or tone of the voice is modified
+i37467,n,derivation,derivation,مُشْتَقٌّ,,the act of deriving something or obtaining something from a source or origin
+i30452,v,pattern,model|pattern,وَزْنٌ|تَفْعِيلَةٌ,,plan or create according to a model or models
+i69697,n,verbal noun,verbal noun|deverbal noun,مَصدَر فِعِل,,a noun that is derived from a verb
+i69718,n,pronoun,pronoun,ضَمِيرٌ,مثل: انا، انت، هي، هم، انتما ...,a function word that is used in place of a noun or noun phrase
+i69720,n,demonstrative pronoun,demonstrative pronoun|demonstrative,اِسْم إشارة,مثل: هذا، ، تلك، ذاك، وغيرها. تنقسم أسماء الإشارة من حيث الدلالة إلى الـمُشار إليه ثلاثة أقسام هي : ,a pronoun that points out an intended referent
+i68638,n,morphology,morphology,صَرْفٌ,تشكيل وتوليد الكلمات سواء الصيغ (inflections) او المشتقات (derivations),the branch of biology that deals with the structure of animals and plants
+i22382,v,scroll,scroll,اِسْتَعْرَضَ,يتنقل، صعودا/نزولا او يمينا/يسارا، للاطلاع على محتويات صفحة الكترونية او ملف الكتروني. [ استَعرَضَ، ,move through text or graphics in order to display parts that do not fit on the screen
+i74598,n,white paper,white book|white paper,ورقة تعريفية,,a government report; bound in white
+i28298,v,character,character,حَرْفٌ,أصغر وحدة تمثيل كتابية,engrave or inscribe characters on
+i35747,n,mark,bell ringer|bull's eye|mark|home run,رَمْزٌ|عَلَامَةٌ,حرف ليس جزء من الأبجدية أو الأعداد,something that exactly succeeds in achieving its goal
+i72472,n,punctuation mark,punctuation|punctuation mark,عَلامَةُ تَرقيْم,حرف يستعمل للفصل بين كلمات، أو أجزاء من الجملة,the marks used to clarify meaning by indicating separation of words into sentences and clauses and p
+i69695,n,proper noun,proper noun|proper name,اسم العلم,مقولة فرعية للاسم، تحيل دلاليا على شيء أو شخص، خاص وفريد، يتميز بتسميته عن باقي الأشياء من صنفه.,a noun that denotes a particular thing; usually capitalized
+i6061,s,generic,generic,اسم جنس,كلمة تَصلح لتسمية طبقة طبيعية من الأشياء.,applicable to an entire class or group
+i35861,n,occupation,occupation|occupancy|moving in,مِهْنَةٌ,,the act of occupying or taking possession of a building
+i88467,n,top executive,baron|business leader|king|magnate|mogul,الادارة العليا,,a very wealthy or powerful businessperson
+i38553,n,chief executive,President of the United States|President|Chief Executive,رئيس تنفيذي,,the office of the United States head of state
+i93466,n,surveyor,surveyor,مَسَّاحٌ,,an engineer who determines the boundaries and elevations of land or structures
+i25255,v,engineer,mastermind|engineer|direct|organize|organise,مُهَنْدِسٌ,,plan and direct (a complex undertaking)
+i88572,n,life scientist,biologist|life scientist,عالم في العلوم الطبيعية,,(biology) a scientist who studies living organisms
+i90521,n,historian,historian|historiographer,مُؤَرِّخٌ,,a person who is an authority on history and who studies it and writes about it
+i88103,n,counselor,advocate|counsel|counselor|counsellor|counselor-at-law,مُسْتَشَارٌ,,a lawyer who pleads cases in court
+i34646,v,tutor,tutor,مدرس خاص|معلم خصوصي,,act as a guardian to someone
+i88282,n,designer,architect|designer,مُصَمِّمٌ,,someone who creates plans to be used in making something (such as buildings)
+i89277,n,fashion designer,couturier|fashion designer|clothes designer|designer,مُصمِّم الأزياء,,someone who designs clothing
+i88069,n,actor,actor|doer|worker,مُمَثِّلٌ,,a person who acts and gets things done
+i89381,n,dancer,dancer|professional dancer|terpsichorean,رَاقِصٌ,,a performer who dances professionally
+i71005,n,editor,editor program|editor,مُحَرِّرٌ,,(computer science) a program designed to perform such editorial functions as rearrangement or modifi
+i92002,n,photographer,photographer,مُصَوِّرٌ,,someone who takes photographs professionally
+i91986,n,pharmacist,pharmacist|druggist|chemist|apothecary|pill pusher,صَيْدلانيٌّ,,a health professional trained in the art of preparing and dispensing drugs
+i93911,n,veterinarian,veterinarian|veterinary|veterinary surgeon|vet,طبيب بيطري,,a doctor who practices veterinary medicine
+i92502,n,registered nurse,registered nurse|RN,ممرض مسجل,,a graduate nurse who has passed examinations for registration
+i92322,n,psychiatrist,psychiatrist|head-shrinker|shrink,طبيب نفسي,,a physician who specializes in psychiatry
+i93458,n,surgeon,surgeon|operating surgeon|sawbones,جرَّاحٌ,,a physician who specializes in surgery
+i88415,n,bailiff,bailiff,غَفيرٌ,,an officer of the court who is employed to execute writs and processes and make arrests etc.
+i34570,v,cook,fudge|manipulate|fake|falsify|cook,طَاهٍ2,,"tamper, with the purpose of deception"
+i90401,n,animal trainer,animal trainer|handler,مدرب الحيوانات,,one who trains or exhibits animals
+i21983,v,barber,barber,حَلَّاقٌ,,perform the services of a barber: cut the hair and/or beard of
+i33847,v,cashier,cashier,أمين الصندوق,,"discharge with dishonor, as in the army"
+i40129,n,model,model|modelling|modeling,عارض/ة أزياء,,the act of representing something (usually on a smaller scale)
+i91241,n,stonemason,mason|stonemason,حَجَّارٌ,,a craftsman who works with stone or brick
+i33786,v,carpenter,carpenter,نَجّارٌ,,work as a carpenter
+i89711,n,electrician,electrician,كَهْرَبَائِيٌّ,,a person who installs or repairs electrical or telephone lines
+i90219,n,glazier,glass cutter|glass-cutter|glassworker|glazier|glazer,زَجَّاجٌ,,someone who cuts flat glass to size
+i88418,n,baker,baker|bread maker,خَبَّازٌ,,someone who bakes bread or cake
+i94177,n,woodworker,woodworker,عامل بالأخشاب,,someone who makes things out of wood
+i93316,n,flight attendant,steward|flight attendant,مضيفة طيران,,an attendant on an airplane
+i68278,n,learning,eruditeness|erudition|learnedness|learning|scholarship,تَعَلُّمٌ,عملية إدراكية يحدث فيها تكيف سلوكي طويل الأمد نسبيًا كنتيجة للتجربة.,profound scholarly knowledge
+i56132,n,memory,memory|computer memory|storage|computer storage|store,,,an electronic memory device
+i67170,n,short-term memory,short-term memory|STM|immediate memory,,,what you can repeat immediately after perceiving it
+i67172,n,long-term memory,long-term memory|LTM,,,your general store of remembered information
+i67167,n,operant conditioning,operant conditioning,التكيف الفعال,تعلم القدرة على توقع الأحداث المستقبلية بناءً على الخبرة الماضية للشخص وآثارها على سلوكه.,conditioning in which an operant response is brought under stimulus control by virtue of presenting 
+i36435,n,habituation,habituation,تَعَوُّدٌ,ضعف الاستجابة السلوكية لمثير معين بعد التعرض له بشكل متكرر (مثال، ضعف ردة فعل الخوف عند ظهور صوت عال,a general accommodation to unchanging environmental conditions
+i39764,n,sensitization,sensitizing|sensitising|sensitization|sensitisation,تَوْعيةٌ,زيادة في الاستجابة السلوكية يعد التعرض لمثير بشكل متكرر (مثال: تعريض حيوان لصدمة كهربائية خفيفة بشمل,rendering an organism sensitive to a serum by a series of injections
+i61578,n,alertness,alertness|sharp-sightedness|on the qui vive,تَأَهُّبٌ|حَذَرٌ,حالة من الانتباه النشط المبني على وعي حسي عالي كالتأهب لرد فعل سريع عند مواجهة خطر ما.,lively attentiveness
+i67309,n,judging,judgment|judgement|judging,حُكْمٌ,عملية إدراكية تكون نتيجتها رأي أو اعتقاد,the cognitive process of reaching a decision or drawing conclusions
+i39883,n,arousal,foreplay|arousal|stimulation,إِثَارَةٌ,حالة جسدية ونفسية تتسم بالنشاط أو ردة الفعل على المثيرات.,mutual sexual fondling prior to sexual intercourse
+i10561,s,thinking,intelligent|reasoning|thinking,,عملية عقلية تنطوي على التلاعب باللغة العقلية و / أو الصور العقلية,endowed with the capacity to reason
+i66514,n,imagination,resource|resourcefulness|imagination,تَخَيُّلٌ,عملية ذهنية تقوم على إنتاج صور وأفكار داخل دماغ الإنسان دون أي تدخل مباشر من قِبَل الحواس,the ability to deal resourcefully with unusual problems
+i6545,s,attending,ministrant|attending,اِنْتِبَاهٌ,عملية ذهنية يتم بها التركيز على مثيرات معينة دون غيرها.,giving practical help to
+i66917,n,perception,perception,,الادراك الحسي: القدرة على الادراك عن طريق الحواس مثل الادراك بحاسة الشم او النظر والخ..,knowledge gained by perceiving
+i61462,n,agreeableness,agreeableness|agreeability,,,a temperamental disposition to be agreeable
+i11862,s,seeing,seeing,,,"having vision, not blind"
+i80948,n,intelligence,intelligence|intelligence service|intelligence agency,,,a unit responsible for gathering and interpreting information about an enemy
+i61366,n,introversion,introversion,,,(psychology) an introverted disposition; concern with one's own thoughts and feelings
+i40289,n,planning,planning,,هي عملية إدراكية تهدف إلى وضع خطوات متخلية لتحقيق هدف ما.,the act or process of drawing up plans or layouts for some project or enterprise
+i61611,n,conscientiousness,conscientiousness|painstakingness,,,the trait of being painstaking and careful
+i76451,n,irascibility,irascibility|short temper|spleen|quick temper,,,a feeling of resentful anger
+i64235,n,representation,representation,,تَمثيل,the right of being represented by delegates who have a voice in some legislative body
+i3805,a,hearing,hearing,,,able to perceive sound
+i109389,n,communication,communication,,,a connection allowing access between persons or places
+i67929,n,belief,impression|feeling|belief|notion|opinion,,,a vague idea in which some confidence is placed
+i64088,n,preference,preference,,,grant of favor or advantage to one over another (especially to a country or countries in matters of 
+i268,s,wanting,deficient|lacking|wanting,,,inadequate in amount or degree
+i39826,n,tasting,tasting|savoring|savouring|relishing|degustation,,,taking a small amount into the mouth to test its quality
+i5787,s,smelling,redolent|smelling,,,(used with ‘of’ or ‘with’) noticeably odorous
+i8565,s,touching,affecting|poignant|touching,,,arousing affect
+i36187,n,attachment,fastening|attachment,,,the act of fastening things together
+i67212,n,daydreaming,reverie|revery|daydream|daydreaming|oneirism,احلام اليقظة,انفصال قصير المدى عن محيط الشخص المباشر ، يتم خلاله عدم وضوح اتصال الشخص بالواقع واستبداله جزئيًا بف,absentminded dreaming while awake
+i61579,n,vigilance,watchfulness|vigilance|weather eye,تَرْكِيزٌ,القدرة على المحافظة على التركيز والتأهب لفترة زمنية طولية.,vigilant attentiveness
+i35734,n,orgasm,orgasm|climax|sexual climax|coming,,,the moment of most intense pleasure in sexual intercourse
+i76098,n,libido,libido,رغبة فطرية|لبيدو,,(psychoanalysis) a Freudian term for sexual urge or desire
+i61365,n,extraversion,extraversion|extroversion,,,(psychology) an extroverted disposition; concern with what is outside the self
+i66748,n,self-consciousness,self-consciousness,,,self-awareness plus the additional realization that others are similarly aware of you
+i66663,n,proprioception,proprioception,,,the ability to sense the position and location and orientation and movement of the body and its part
+i61560,n,intentionality,intentionality,,,expressive of intentions
+i62950,n,retention,retentiveness|retentivity|retention,,,the power of retaining liquid
+i91962,n,personality,personality,,,a person of considerable prominence
+i39995,n,appraisal,appraisal,,,"an expert estimation of the quality, quantity, and other characteristics of someone or something"
+i39423,n,anger,wrath|anger|ire|ira,غَضَبٌ,عملية عاطفية سلبية فيها استياء وتيقظ عالي وفيها ميول عدائي وحافز لفعل معين,belligerence aroused by a real or supposed wrong (personified as one of the deadly sins)
+i37604,n,irritation,annoyance|annoying|irritation|vexation,,,the act of troubling or annoying someone
+i63475,n,fury,ferocity|fierceness|furiousness|fury|vehemence,,,the property of being wild or turbulent
+i35279,v,rage,rage,,,be violent; as of fires and storms
+i61544,n,aggression,aggression,,,a disposition to behave aggressively
+i67534,n,grief,grief|sorrow,,,something that causes great unhappiness
+i41585,n,contempt,contempt,,,a willful disobedience to or disrespect for the authority of a court or legislative body
+i30770,v,disgust,disgust|revolt|nauseate|sicken|churn up,,,cause aversion in; offend the moral sense of
+i66895,n,jealousy,jealousy,,,zealous vigilance
+i30628,v,fear,reverence|fear|revere|venerate,,,regard with feelings of respect and reverence; consider hallowed or exalted or be in awe of
+i39426,n,terror,terror,,,the use of extreme fear in order to coerce people (especially for political reasons)
+i112540,n,anxiety,anxiety|anxiousness,,,(psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental 
+i113128,n,despair,despair|desperation,,,a state in which all hope is lost or absent
+i3232,s,crying,crying|egregious|flagrant|glaring|gross,,,conspicuously and outrageously bad or reprehensible
+i38301,n,surprise,surprise|surprisal,,,the act of surprising someone
+i35052,v,interest,concern|interest|occupy|worry,,,be on the mind of
+i30794,v,joy,gladden|joy,,,make glad or happy
+i76121,n,sexual pleasure,sexual pleasure,,,pleasure derived from sexual activities
+i39419,n,pride,pride|superbia,,,unreasonable and inordinate self-esteem (personified as one of the deadly sins)
+i62760,n,serenity,repose|quiet|placidity|serenity|tranquillity,,,a disposition free from stress or emotion
+i76109,n,amusement,amusement,,,a feeling of delight at being entertained
+i76311,n,elation,elation|high spirits|lightness,,,a feeling of joy and pride
+i76318,n,euphoria,euphoria|euphory,,,a feeling of great (usually exaggerated) elation
+i39850,n,love,sexual love|lovemaking|making love|love|love life,,,sexual activities (often including sexual intercourse) between two people
+i35768,n,disappointment,disappointment|dashing hopes,,,an act (or failure to act) that disappoints someone
+i62373,n,compassion,compassion|pity,,,the humane quality of understanding the suffering of others and wanting to do something about it
+i76358,n,guilt,guilt|guilty conscience|guilt feelings|guilt trip,,,remorse caused by feeling responsible for some offense
+i63898,n,embarrassment,overplus|plethora|superfluity|embarrassment,,,extreme excess
+i27137,v,shame,shame,,,surpass or beat by a wide margin
+i61414,n,sadness,gloominess|lugubriousness|sadness,,,the quality of excessive mournfulness and uncheerfulness
+i12761,s,shivering,shaky|shivering|trembling,,,vibrating slightly and irregularly; as e.g. with fear or cold or like the leaves of an aspen in a br
+i2012,s,smiling,beamish|smiling|twinkly,,,smiling with happiness or optimism
+i9922,s,frowning,frowning,,,showing displeasure or anger
+i2976,s,blushing,blushful|blushing|red-faced,,,having a red face from embarrassment or shame or agitation or emotional upset
+i30644,v,panic,panic,,,cause sudden fear in or fill with sudden panic
+i52628,n,curiosity,curio|curiosity|oddity|oddment|peculiarity,,,something unusual — perhaps worthy of collecting
+i1877,s,dubious,doubtful|dubious,,,fraught with uncertainty or doubt
+i27895,v,worry,worry,,,touch or rub constantly
+i35789,n,confusion,confusion|mix-up,,,a mistake that results from taking one thing to be another
+i935,s,expectant,big|enceinte|expectant|gravid|great,,,in an advanced stage of pregnancy
+i30859,v,hope,hope|trust|desire,,,expect and wish
+i76110,n,schadenfreude,Schadenfreude,,,delight in another person's misfortune
+i63461,n,valence,valence|valency,تقييم للشعور,,(biology) a relative capacity to unite or react or interact as with antigens or a biological substra
+i61430,n,enthusiasm,exuberance|enthusiasm|ebullience,,,overflowing with eager enjoyment or approval
+i27558,v,hunger,starve|hunger|famish,,,be hungry; go without food
+i32367,v,thirst,thirst,,,feel the need to drink
+i4134,s,ticklish,delicate|ticklish|touchy,,,difficult to handle; requiring great tact
+i110641,n,rapid eye movement sleep,paradoxical sleep|rapid eye movement sleep|REM sleep|rapid eye movement|REM,,,a recurring sleep state during which dreaming occurs; a state of rapidly shifting eye movements duri
+i116735,n,circadian rhythm,circadian rhythm,,,a daily cycle of activity observed in many living organisms

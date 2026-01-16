@@ -1,0 +1,16 @@
+{
+  "export_date": "20260112_053035",
+  "wordnet_id": "awn3",
+  "synsets": 14829,
+  "words": 24011,
+  "ili_coverage": 68.59531998111808,
+  "pos_distribution": {
+    "n": 11597,
+    "v": 2602,
+    "a": 518,
+    "r": 111,
+    "unknown": 1
+  },
+  "with_definitions": 14419,
+  "with_examples": 9574
+}

@@ -1,0 +1,20 @@
+Metric,Value
+Total Synsets,9567.0
+Total Words,12310.0
+Total Senses,12310.0
+Synsets with ILI,9539.0
+ILI Coverage %,99.7
+Synsets with Definition,9315.0
+Definition Coverage %,97.4
+Synsets with Examples,9254.0
+Example Coverage %,96.7
+Hypernym Relations,8904.0
+Hyponym Relations,8904.0
+Synsets with Hypernym,8696.0
+Taxonomy Coverage %,90.9
+Orphan Synsets,752.0
+Orphan %,7.9
+Lexical Gaps,236.0
+Average Taxonomy Depth,6.43
+Max Taxonomy Depth,14.0
+OEWN Coverage %,7.9

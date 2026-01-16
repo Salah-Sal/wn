@@ -1,0 +1,15 @@
+﻿Lemma,Issue_Type,Details
+=,Unusual_Character,Contains character '=' (category: Sm)
+HN,Unusual_Character,Contains character 'H' (category: Lu)
+I,Unusual_Character,Contains character 'I' (category: Lu)
+NSAID,Unusual_Character,Contains character 'N' (category: Lu)
+Pb,Unusual_Character,Contains character 'P' (category: Lu)
+S,Unusual_Character,Contains character 'S' (category: Lu)
+'',Empty_Lemma,Empty or whitespace-only lemma
+'',Empty_Lemma,Empty or whitespace-only lemma
+'',Empty_Lemma,Empty or whitespace-only lemma
+بِشكْلٍ ش�,Unusual_Character,Contains character '�' (category: So)
+بِشكْلٍ م�,Unusual_Character,Contains character '�' (category: So)
+eV,Unusual_Character,Contains character 'e' (category: Ll)
+emf,Unusual_Character,Contains character 'e' (category: Ll)
+TNT,Unusual_Character,Contains character 'T' (category: Lu)
